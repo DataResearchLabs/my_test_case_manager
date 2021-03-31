@@ -10,9 +10,9 @@ A simple flexible XL test case manager for small projects and UAT.  Good for exp
 
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"> </a>
 ### 1. Introduction 
-Do you need to organize and track a small to medium size testing project?
-Do you need to communicate your testing efforts to the project team or a manager?
-Do you need a simple tool to better organize and track your exploratory test results?
+* Do you need to organize and track a small to medium size testing project?
+* Do you need to communicate your testing efforts to the project team or a manager?
+* Do you need a simple tool to better organize and track your exploratory test results?
 If yes to any of the above, then consider "My Test Case Manager" (MTCM).  MTCM is a lean test tool designed to organize test cases and manage/communicate test results.  MTCM is a simple, minimalist design for software test engineers conducting functional or exploratory testing.  Business analysts can also use MTCM for conducting user acceptance testing (UAT).  You can write the test cases as you execute them, or plan and write them ahead of time.  Run results are tallied and graphed on subsequent worksheets.  You use the report and graphs to communicate status to your project team.  Show them how test cycles work, how test cases are built up over time, how regression testing works with each new build received, how risk is managed from build test to build test, etc.
 
 <a id="download" class="anchor" href="#download" aria-hidden="true"> </a>

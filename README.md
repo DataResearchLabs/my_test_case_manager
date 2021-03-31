@@ -52,10 +52,6 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 #### Opening the Test Case WorkSheet
 To open the test case worksheet, click the tab titled "Test Cases".<br>
 <img src="img/img_05_click_test_cases_worksheet.png" width="501"><br>
-You will see the sheet below appear.  Ignore the dark gray "dead space" shown with blue callouts #1 and #2.  Those were necessary for reasons discussed below.<br>
-Test cases will be written and results logged in the pale yellow cells of the grid at callout #3.<br>
-For now, ignore the "Test Results" section in callout #4.
-<img src="img/img_04_writing_test_cases.png" width="1205">
 <br>
 
 #### Creating a Section Header

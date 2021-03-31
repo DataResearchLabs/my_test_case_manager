@@ -5,9 +5,14 @@ A simple flexible XL test case manager for small projects and UAT.  Good for exp
 
 ## Table of Contents
  - <a href="#Introduction">1. Introduction</a>
- - <a href="#QuickStartGuide">2. Quick Start Guide</a>
+ - <a href="#Introduction">2. Download</a>
+ - <a href="#QuickStartGuide">3. Quick Start Guide</a>
 
 
-### Introduction 
-"My Test Case Manager" (MTCM hereafter) is a lean tool designed for organizing test cases and managing test run results.  MTCM is a simple, minimalist design for software test engineers conducting functional or exploratory testing.  Business analysts can also use MTCM for conducting user acceptance testing (UAT).  First you write the test cases, then you execute them.  Run results are tallied and graphed on subsequent worksheets.  
+### 1. Introduction 
+"My Test Case Manager" (MTCM hereafter) is a lean test tool designed for organizing test cases and managing test run results.  MTCM is a simple, minimalist design for software test engineers conducting functional or exploratory testing.  Business analysts can also use MTCM for conducting user acceptance testing (UAT).  First you write the test cases, then you execute them.  Run results are tallied and graphed on subsequent worksheets.  
 You use the report and graphs to communicate status to your project team.  Show them how test cycles work, how test cases are built up over time, how regression testing works with each new build received, how risk is managed from build test to build test, etc.
+
+### 2. Download
+Download the MTCM Excel spreadsheet from this repository's /download folder, or [download](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx)
+Download examples with sample data from [samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples)

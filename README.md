@@ -46,13 +46,14 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 2. Then, type in your company name, for the report output<br>
 3. Then, type in the project or team name<br>
 4. Then, t in your name (or multiple analysts if appropriate)<br>
-<br>
 ...and now your test project properties are setup.<br>
 <br>
 
 #### Writing Test Cases
-Next, click on the 
-
+Now it is time to start writing test cases.  Click the "Test Cases" worksheet (tab).<br>
+Ignore the dark gray "dead space" shown with blue callouts #1 and #2.<br>
+We will begin writing test cases in the pale yellow cells of the "Test Cases" grid at callout #3.  For now, ignore the "Test Results" section in callout #4.
+<img src="img/img_04_writing_test_cases.png" width="1205">
 <br>
 <br>
 <br>

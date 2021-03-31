@@ -39,9 +39,9 @@ The first time you open a copy of the .xlsx file in a new folder, Microsoft Offi
 <img src="img/img_03_warning_on_first_open.png" width="996">
 <br>
 
-#### Entering Project Properties
+#### Setup Project Properties
+Get started by opening the "my_test_case_manager.xlsm" file, then do the following actions where the numbers in the list below match to the numbered blue dots in the screenshot to the right.<br>
 <img align="right" src="img/img_02_enter_project_properties.png" width="524">
-Get started by opening the "my_test_case_manager.xlsm" file, then do the following actions where the numbers in the list below match to the blue unmbered dots in the screenshot to the right.<br>
 1. Click the Properties tab, if not already opened<br>
 2. Then, type in your company name, for the report output<br>
 3. Then, type in the project or team name<br>
@@ -50,8 +50,8 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 ...and now your test project properties are setup.<br>
 <br>
 
-
-
+#### Writing Test Cases
+Next, click on the 
 
 <br>
 <br>

@@ -33,7 +33,6 @@ To download examples of the tool in use with sample data from this repository's 
 * In general, you only ever enter data into the pale yellow text boxes<img src="img/img_01_cells_you_can_change.png" width="52">, nowhere else!
 * Avoid inserting or cutting rows and cells unless explicitly indicated to do so (i.e.: "Test Run Log" worksheet).
 * The dark background cell areas are unused
-<br>
 
 #### First Open / Security Notice
 The first time you open a copy of the .xlsx file in a new folder, Microsoft Office security is going to render the file read-only to protect you.  The screenshot below shows the "Protected View" message (#1).  Go ahead and click the "Enable Editing" button (#2) to open up the file for your use.  Also note that there is *no* VBA code behind this spreadhseet / lightweight "application", so we do not need to worry about enabling macros or code.
@@ -42,7 +41,7 @@ The first time you open a copy of the .xlsx file in a new folder, Microsoft Offi
 
 #### Entering Project Properties
 <img align="right" src="img/img_02_enter_project_properties.png" width="524">
-Get started by opening the "my_test_case_manager.xlsm" file, then <br>
+Get started by opening the "my_test_case_manager.xlsm" file, then do the following actions where the numbers in the list below match to the blue unmbered dots in the screenshot to the right.<br>
 1. Click the Properties tab, if not already opened<br>
 2. Then, type in your company name, for the report output<br>
 3. Then, type in the project or team name<br>
@@ -53,7 +52,12 @@ Get started by opening the "my_test_case_manager.xlsm" file, then <br>
 
 
 
+
 <br>
 <br>
+<br>
+<br>
+<br>
+
 ### Work these notes into the appropriate sections...
 The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.

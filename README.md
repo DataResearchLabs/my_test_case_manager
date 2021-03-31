@@ -10,8 +10,10 @@ A simple flexible XL test case manager for small projects and UAT.  Good for exp
 
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"> </a>
 ### 1. Introduction 
-"My Test Case Manager" (MTCM hereafter) is a lean test tool designed for organizing test cases and managing test run results.  MTCM is a simple, minimalist design for software test engineers conducting functional or exploratory testing.  Business analysts can also use MTCM for conducting user acceptance testing (UAT).  First you write the test cases, then you execute them.  Run results are tallied and graphed on subsequent worksheets.  
-You use the report and graphs to communicate status to your project team.  Show them how test cycles work, how test cases are built up over time, how regression testing works with each new build received, how risk is managed from build test to build test, etc.
+Do you need to organize and track a small to medium size testing project?
+Do you need to communicate your testing efforts to the project team or a manager?
+Do you need a simple tool to better organize and track your exploratory test results?
+If yes to any of the above, then consider "My Test Case Manager" (MTCM).  MTCM is a lean test tool designed to organize test cases and manage/communicate test results.  MTCM is a simple, minimalist design for software test engineers conducting functional or exploratory testing.  Business analysts can also use MTCM for conducting user acceptance testing (UAT).  You can write the test cases as you execute them, or plan and write them ahead of time.  Run results are tallied and graphed on subsequent worksheets.  You use the report and graphs to communicate status to your project team.  Show them how test cycles work, how test cases are built up over time, how regression testing works with each new build received, how risk is managed from build test to build test, etc.
 
 <a id="download" class="anchor" href="#download" aria-hidden="true"> </a>
 ### 2. Download
@@ -21,3 +23,11 @@ To download examples of the tool in use with sample data from this repository's 
 <a id="quickStartGuide" class="anchor" href="#quickStartGuide" aria-hidden="true"> </a>
 ### 3. Quick Start Guide
 Lorem ipsum...
+
+
+
+
+
+
+### Work these notes into the appropriate sections...
+The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.

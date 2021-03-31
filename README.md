@@ -26,7 +26,8 @@ To download examples of the tool in use with sample data from this repository's 
 ### 3. Quick Start Guide
 #### General Data Entry Rules
 In general, you only ever enter data into the pale yellow text boxes, no where else.
-<img align="left" src"img/img_01_cells_you_can_change.png">
+
+<img align="left" src="img/img_01_cells_you_can_change.png">
 
 
 

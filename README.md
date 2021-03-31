@@ -39,18 +39,17 @@ To download examples of the tool in use with sample data from this repository's 
 The first time you open a copy of the .xlsx file in a new folder, Microsoft Office security is going to render the file read-only to protect you.  The screenshot below shows the "Protected View" message (#1).  Go ahead and click the "Enable Editing" button (#2) to open up the file for your use.  Also note that there is *no* VBA code behind this spreadhseet / lightweight "application", so we do not need to worry about enabling macros or code.
 <img src="img/img_03_warning_on_first_open.png" width="996">
 <br>
-<br>
 
 #### Entering Project Properties
 <img align="right" src="img/img_02_enter_project_properties.png" width="524">
-Get started by opening the "my_test_case_manager.xlsm"<br>
-1. First click the Properties tab, if not already there<br>
-2. Type in your company name, for the report output<br>
-3. Type in the project or team name<br>
-4. Type in your name (or multiple analysts if appropriate)<br>
+Get started by opening the "my_test_case_manager.xlsm" file, then <br>
+1. Click the Properties tab, if not already opened<br>
+2. Then, type in your company name, for the report output<br>
+3. Then, type in the project or team name<br>
+4. Then, t in your name (or multiple analysts if appropriate)<br>
 <br>
+...and now your test project properties are setup.<br>
 <br>
-
 
 
 

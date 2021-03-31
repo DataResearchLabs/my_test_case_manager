@@ -25,7 +25,7 @@ If yes to any of the above, then consider using "My Test Case Manager" (MTCM).  
 To download the "My Test Case Manager" tool (Excel spreadsheet) from this repository's /download folder, [click here for download](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx), then click the download button.  Save the downloaded file in a directory of your choosing.  You probably even want to save this first copy ("my_test_case_manager.xlsx") as a template that you never alter, then paste a copy of the file into a new project folder and rename it accordingly (e.g.: "mtcm_project_X.xlsx").
 To download examples of the tool in use with sample data from this repository's /samples folder, [click here for samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples), then click the sample file you want, and finally click the download button.
 <br>
-
+<br>
 
 <a id="quickStartGuide" class="anchor" href="#quickStartGuide" aria-hidden="true"> </a>
 ### 3. Quick Start Guide
@@ -34,13 +34,13 @@ To download examples of the tool in use with sample data from this repository's 
 * Avoid inserting or cutting rows and cells unless explicitly indicated to do so (i.e.: "Test Run Log" worksheet).
 * The dark background cell areas are unused
 <br>
-
+<br>
 
 #### First Open / Security Notice
 The first time you open a copy of the .xlsx file in a new folder, Microsoft Office security is going to render the file read-only to protect you.  The screenshot below shows the "Protected View" message (#1).  Go ahead and click the "Enable Editing" button (#2) to open up the file for your use.  Also note that there is *no* VBA code behind this spreadhseet / lightweight "application", so we do not need to worry about enabling macros or code.
 <img align="left" src="img/img_03_warning_on_first_open.png" width="996">
 <br>
-
+<br>
 
 #### Entering Project Properties
 Get started by opening the "my_test_case_manager.xlsm"
@@ -53,9 +53,9 @@ Get started by opening the "my_test_case_manager.xlsm"
 
 
 
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 ### Work these notes into the appropriate sections...
 The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.

@@ -28,20 +28,27 @@ To download examples of the tool in use with sample data from this repository's 
 <a id="quickStartGuide" class="anchor" href="#quickStartGuide" aria-hidden="true"> </a>
 ### 3. Quick Start Guide
 #### General Data Entry Rules
-* In general, you only ever enter data into the pale yellow text boxes, nowhere else!
-  <img src="img/img_01_cells_you_can_change.png">
+* In general, you only ever enter data into the pale yellow text boxes, nowhere else!  <img src="img/img_01_cells_you_can_change.png" width="80%">
 * Avoid inserting or cutting rows and cells unless explicitly indicated to do so (i.e.: "Test Run Log" worksheet).
 * The dark background cell areas are unused
 
 
 #### First Open / Security Notice
 The first time you open a copy of the .xlsx file in a new folder, Microsoft Office security is going to render the file read-only to protect you.  The screenshot below shows the "Protected View" message (#1).  Go ahead and click the "Enable Editing" button (#2) to open up the file for your use.  Also note that there is *no* VBA code behind this spreadhseet / lightweight "application", so we do not need to worry about enabling macros or code.
-<img align="left" src="img/img_03_warning_on_first_open.png">
+<img align="left" src="img/img_03_warning_on_first_open.png"  width="80%">
 
 
 #### Entering Project Properties
-<img align="right" src="img/img_02_enter_project_properties.png">
 Get started by opening the "my_test_case_manager.xlsm"
+1. First click the Properties tab, if not already there
+2. Type in your company name, for the report output
+3. Type in the project or team name
+4. Type in your name (or multiple analysts if appropriate)
+<img align="right" src="img/img_02_enter_project_properties.png" width="80%">
+
+
+
+
 
 ### Work these notes into the appropriate sections...
 The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.

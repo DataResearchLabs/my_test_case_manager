@@ -15,8 +15,8 @@ You use the report and graphs to communicate status to your project team.  Show 
 
 <a id="download" class="anchor" href="#download" aria-hidden="true"> </a>
 ### 2. Download
-To download the "My Test Case Manager" Excel spreadsheet from this repository's /download folder, [click here for download](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx), then click the download button.
-To download examples of the tool with sample data from this repository's /samples folder, [click here for samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples), then click the sample file you want, and finally click the download button.
+To download the "My Test Case Manager" tool (Excel spreadsheet) from this repository's /download folder, [click here for download](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx), then click the download button.
+To download examples of the tool in use with sample data from this repository's /samples folder, [click here for samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples), then click the sample file you want, and finally click the download button.
 
 <a id="quickStartGuide" class="anchor" href="#quickStartGuide" aria-hidden="true"> </a>
 ### 3. Quick Start Guide

@@ -4,9 +4,9 @@
 A simple flexible XL test case manager for small projects and UAT.  Good for exploratory testing too.
 
 ## Table of Contents
- - <a href="#Introduction">1. Introduction</a>
- - <a href="#Introduction">2. Download</a>
- - <a href="#QuickStartGuide">3. Quick Start Guide</a>
+ - <a href="#1. Introduction">1. Introduction</a>
+ - <a href="#2. Download">2. Download</a>
+ - <a href="#3. QuickStartGuide">3. Quick Start Guide</a>
 
 
 ### 1. Introduction 

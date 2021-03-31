@@ -14,5 +14,6 @@ A simple flexible XL test case manager for small projects and UAT.  Good for exp
 You use the report and graphs to communicate status to your project team.  Show them how test cycles work, how test cases are built up over time, how regression testing works with each new build received, how risk is managed from build test to build test, etc.
 
 ### 2. Download
-Download the MTCM Excel spreadsheet from this repository's /download folder, or [download](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx)
-Download examples with sample data from [samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples)
+To download the "My Test Case Manager" Excel spreadsheet from this repository's /download folder [click here for download](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx), then click the download button.
+
+To download examples of the tool with sample data from this repository's /samples folder [click here for samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples), then click the sample file you want followed by download.

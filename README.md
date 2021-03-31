@@ -28,7 +28,8 @@ To download examples of the tool in use with sample data from this repository's 
 <a id="quickStartGuide" class="anchor" href="#quickStartGuide" aria-hidden="true"> </a>
 ### 3. Quick Start Guide
 #### General Data Entry Rules
-* In general, you only ever enter data into the pale yellow text boxes, nowhere else!  <img src="img/img_01_cells_you_can_change.png">
+* In general, you only ever enter data into the pale yellow text boxes, nowhere else!
+  <img src="img/img_01_cells_you_can_change.png">
 * Avoid inserting or cutting rows and cells unless explicitly indicated to do so (i.e.: "Test Run Log" worksheet).
 * The dark background cell areas are unused
 
@@ -39,9 +40,8 @@ The first time you open a copy of the .xlsx file in a new folder, Microsoft Offi
 
 
 #### Entering Project Properties
+<img align="right" src="img/img_02_enter_project_properties.png">
 Get started by opening the "my_test_case_manager.xlsm"
-<img align="left" src="img/img_02_enter_project_properties.png">
-
 
 ### Work these notes into the appropriate sections...
 The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.

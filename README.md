@@ -34,13 +34,13 @@ To download examples of the tool in use with sample data from this repository's 
 * Avoid inserting or cutting rows and cells unless explicitly indicated to do so (i.e.: "Test Run Log" worksheet).
 * The dark background cell areas are unused
 <br>
-<br>
+
 #### First Open / Security Notice
 The first time you open a copy of the .xlsx file in a new folder, Microsoft Office security is going to render the file read-only to protect you.  The screenshot below shows the "Protected View" message (#1).  Go ahead and click the "Enable Editing" button (#2) to open up the file for your use.  Also note that there is *no* VBA code behind this spreadhseet / lightweight "application", so we do not need to worry about enabling macros or code.
 <img src="img/img_03_warning_on_first_open.png" width="996">
 <br>
 <br>
-<br>
+
 #### Entering Project Properties
 <img align="right" src="img/img_02_enter_project_properties.png" width="524">
 Get started by opening the "my_test_case_manager.xlsm"<br>

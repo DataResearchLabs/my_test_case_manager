@@ -57,7 +57,7 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 ...and now your test project properties are setup.<br>
 <br>
 
-#### Opening the Test Case WorkSheet
+#### Opening the Test Cases WorkSheet
 To open the test case worksheet, click the tab titled "Test Cases".<br>
 <img src="img/img_05_click_test_cases_worksheet.png" width="501"><br>
 <br>
@@ -72,9 +72,14 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 <br>
 
 #### Writing Your First Test Case
-
-
+First, write in your test steps (callout #1 in screenshot below).  Click the cell, use Alt+Enter to force blank lines and make the row taller.  In the screenshot example below, a multi-line test case is written out.  Since the cell is truly just a single cell (no merging), the auto-size height works, the bolding and font color of individual words or lines all functions as expected using XL.  You can copy-paste a small screenshot for expected results, or paste in seeral lines of SQL to run, etc.  Excel allows one row to expand up to 29 visible lines of text (I tested); more lines can be present in the row, they just won't be all visible and at some point the cell gets truncated so be reasonable and split test details into multiple rows if needed.<br>
+Next, callout #2 shows where to set the Status drop down.  Go ahead and set it to "T" for "ToDo" if you are not actually executing the test case right now.  If you are executing the test case as you write it, then pick "P" if it passes, "F" if it Fails, etc.<br>
+Finally, set the execution time to the number of minutes it took you to write and/or execute this test case depending on what you want to track.  For me, I tend to write and execute the test cases exploratory style for the first test cycle / test run so I combine both times.  Then during regression on subsequent re-runs of the test, I know this Exec Time column value will be substantially less, but at least I accurately captured the  initial write + execute time of test run #1 as well as the execution only tmie of test run #2.  Now that you know how to write one test case, you can write many.
+<img src="img/img_06_write_first_test_case.png" width="831"><br>
 <br>
+
+
+
 <br>
 <br>
 <br>

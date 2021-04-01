@@ -87,9 +87,10 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 #### Excel Formatting
 Since the "Test Steps" cell is truly just a single cell (no merging) then the auto-size height works.  Also, the bolding and font color of individual words or lines within the cell as well as all other standard XL formatting will work as expected.  You can even copy-paste a small image or screenshot as expected results into a cell, or paste in several lines of SQL to copy-paste-run as part of your testing.<br>
 Note that when using Alt+Enter to increase row height, Excel allows one row to expand up to 29 visible lines of text (I tested); more lines can be present in the row, they just won't be all visible and at some point the cell gets truncated so be reasonable and split test details into multiple rows if needed.<br>
+Note that any formatting you apply to the Status column will be overriden by the conditional formatting (unless you choose the value "i" which has none).
 <br>
 
-#### Status Values
+#### Available Status Values
 There are six possible status values available in the status dropdown show in the image on the left below.  Each status value has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>
 <img align="left" src="img/img_08_status_dropdown.png" width="58">
 <img src="img/img_07_status_values.png" width="792"><br>
@@ -108,9 +109,16 @@ To correct the validation erros (make them disappear), simply fill in all the bl
 <img src="img/img_10_validation_errors.png" width="1216"><br>
 
 
-#### Current Test Case Metrics
+#### Current Test Results
+The Test Cases worksheet is broken down into two sections:<br>
+1. Rows 1-16 are for "Test Results" - a nice summary of counts and test time in a table with a graph.<br>
+2. Rows 17-319 are for "Test Cases" - where all the details go.<br>
+These metrics automatically update as you write and execute test cases below.  They summarize all the results on this worksheet.  If you copy-paste the worksheet to make a second or third instance, then each will have their own self-contained Test Results section.<br>
+I like to screenshot this section for status emails sometimes, to give a pretty summary of where the current Test Run / Test Cycle is at.  This is especially nice for when you are partially thru a test run and can show not only the actual time completed ("B"locked + "F"ailed + "Q"pass + "P"ass), but also the expected remaining time ("T"odo) because in theory you have the prior execution times still in place from your last run...or you've entered the expected time to execute in.<br>
+<img src="img/img_11_test_case_results.png" width="1216"><br>
 <br>
-<br>
+
+
 
 
 
@@ -121,3 +129,16 @@ To correct the validation erros (make them disappear), simply fill in all the bl
 
 ### Work these notes into the appropriate sections...
 The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.
+
+
+Advanced (Don't forget to write these up): 
+* "Jump Stops" using ctrl + arrow keys in columns A or F.
+* Sample SQL embeddd in a test case
+* Sample Screenshot expected results
+* Sample with multiple Test Case worksheet tabs (300, 600, 900 test cases)
+* Sample Multi-User Shared Workbook
+* Conditional Formatting Mess if you Copy-Paste + How to Fix
+* Other...
+
+* History from V1 thru V5 spanning multiple prior hobby sites (PBSys, WinTestGear, etc.)
+

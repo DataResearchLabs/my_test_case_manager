@@ -83,8 +83,10 @@ Finally, callout #3 shows where to set the execution time to the number of minut
 There are six possible status values available in the status dropdown as shown below:<br>
 <img align="left" src="img/img_08_status_dropdown.png" width="58">
 Each status value has conditional formatting applied to set it to an appropriate color.<br><br>
-In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>
-<img align="left" src="img/img_07_status_values.png" width="792"><br>
+In the sample screenshot below, each value is displayed with a brief description of how to use each.
+
+
+<img src="img/img_07_status_values.png" width="792"><br>
 <br>
 
 

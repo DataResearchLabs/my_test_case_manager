@@ -23,9 +23,11 @@ If yes to any of the above, then consider using "My Test Case Manager" (MTCM).  
 <a id="download" class="anchor" href="#download" aria-hidden="true"> </a>
 ### 2. Download
 To download the "My Test Case Manager" tool (Excel spreadsheet) from this repository's /download folder,
-1. [Click here for download](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx) 
+1. [Right-click here with Open in New Tab](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx) 
 2. Then click the download button
-3. Save the downloaded file in a directory of your choosing.
+3. Then click the '...' button at browser Open File popup
+4. Then click 'Show in Folder' from popup
+5. Then copy-past "my_test_case_manager.xlsx" file into a directory of your choosing
 
 You should probably save the first copy of "my_test_case_manager.xlsx" as a template that you never alter.  Instead, paste a copy of that file into new project folders and rename the file accordingly (e.g.: "mtcm_project_X.xlsx").
 

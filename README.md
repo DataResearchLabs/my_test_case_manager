@@ -104,6 +104,7 @@ Note that it is a bad idea to highlight and delete entire rows, although that sh
 
 #### Validation Errors
 In order for all the automated calculations, tables, charts, and reports to properly function, it is important that you fill in all three columns for each test case.  That means every row must have a value for ExecTm, Stat, and TestSteps columns -- no blanks.  If you do leave any columns blank (callout #1 below), the checksum counts will notice the mismatch and trigger  validation errors (callout #2) up at the top of the Test Cases worksheet as shown in the screenshot below.<br>
+To correct the validation erros (make them disappear), simply fill in all the blank cells for any partially filled out test case row.<br>
 <img src="img/img_10_validation_errors.png" width="1216"><br>
 
 

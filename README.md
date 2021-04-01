@@ -112,10 +112,11 @@ To correct the validation erros (make them disappear), simply fill in all the bl
 #### Current Test Results
 The Test Cases worksheet is broken down into two sections:<br>
 1. Rows 1-16 are for "Test Results" - a nice summary of counts and test time in a table with a graph.<br>
-2. Rows 17-319 are for "Test Cases" - where all the details go.<br>
+2. Rows 17-319 are for "Test Cases" - where all the details go.
+
 These metrics automatically update as you write and execute test cases below.  They summarize all the results on this worksheet.  If you copy-paste the worksheet to make a second or third instance, then each will have their own self-contained Test Results section.<br>
 I like to screenshot this section for status emails sometimes, to give a pretty summary of where the current Test Run / Test Cycle is at.  This is especially nice for when you are partially thru a test run and can show not only the actual time completed ("B"locked + "F"ailed + "Q"pass + "P"ass), but also the expected remaining time ("T"odo) because in theory you have the prior execution times still in place from your last run...or you've entered the expected time to execute in.<br>
-<img src="img/img_11_test_case_results.png" width="1216"><br>
+<img src="img/img_11_test_case_results.png" width="383"><br>
 <br>
 
 

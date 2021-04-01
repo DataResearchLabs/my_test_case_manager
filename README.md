@@ -97,8 +97,11 @@ There are six possible status values available in the status dropdown show in th
 
 
 #### Deleting Test Cases
+The simplest way to delete a test case is actually to just highlight the three yellow cells (ExecTm, Stat, and TestSteps columns) for a test case and press the delete key.  In the screenshot below, three test cases are highlighted and will be deleted as soon as either the Delete key or Backspace key is pressed on the keyboard.<br>
+Note that it is a bad idea to highlight and delete entire rows, although that should work without impacting automated calculations and graph results; however, it was not tested so steer clear of that.  Ditto for deleting the formula that calculates the Test Case # in column B.<br>
+See the advanced section for some easy Search & Replace tips to reset your test case status values for the next Test Run / Test Cycle.
 <br>
-<br>
+<img src="img/img_09_highlight_and_delete.png" width="792"><br>
 
 
 #### Validation Errors

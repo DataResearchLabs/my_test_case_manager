@@ -27,7 +27,7 @@ To download the "My Test Case Manager" tool (Excel spreadsheet) from this reposi
 2. Then click the download button
 3. Then click the '...' button at browser Open File popup
 4. Then click 'Show in Folder' from popup
-5. Then copy-past "my_test_case_manager.xlsx" file into a directory of your choosing
+5. Then copy-paste "my_test_case_manager.xlsx" file into a directory of your choosing
 
 You should probably save the first copy of "my_test_case_manager.xlsx" as a template that you never alter.  Instead, paste a copy of that file into new project folders and rename the file accordingly (e.g.: "mtcm_project_X.xlsx").
 
@@ -53,7 +53,7 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 1. Click the Properties tab, if not already opened<br>
 2. Then, type in your company name, for the report output<br>
 3. Then, type in the project or team name<br>
-4. Then, t in your name (or multiple analysts if appropriate)<br>
+4. Then, type in your name (or multiple analysts if appropriate)<br>
 ...and now your test project properties are setup.<br>
 <br>
 
@@ -63,8 +63,13 @@ To open the test case worksheet, click the tab titled "Test Cases".<br>
 <br>
 
 #### Creating a Section Header
-
-
+It is a good idea to organize your test cases under sections.  A simple way to make sections is to:<br>
+1. Enter "0min" for the "Execution Time" column textbox<br>
+2. Enter "i" for Information at the "Status" column dropdown<br>
+3. Enter your desired Section Header title at the "Test Steps" column text box<br>
+...and optionally, set the backcolor of all three cells in the row to your preferred section header color.  In the example screenshot below, we used light orange for the section header backcolor, but you can choose anything.
+<img src="img/img_04_create_section_header.png" width="831"><br>
+<br>
 
 #### Writing Your First Test Case
 

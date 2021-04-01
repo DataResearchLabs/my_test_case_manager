@@ -8,7 +8,13 @@ A simple flexible XL test case manager for small projects and UAT.  Good for exp
  - <a href="#introduction">1. Introduction</a>
  - <a href="#download">2. Download</a>
  - <a href="#gettingStarted">3. Getting Started</a>
- - <a href="#testCases">4. Test Cases</a>
+ - <a href="#testCases">4. "Test Cases" Worksheet</a>
+ - <a href="#testRunLog">5. "Test Run Log" Worksheet</a>
+ - <a href="#report">6. "Report" Worksheet</a>
+ - <a href="#about">7. "About" Worksheet</a>
+ - <a href="#advancedTopics">8. Advanced Topics</a>
+ - <a href="#exploratoryTesting">9. Exploratory Testing</a>
+ - <a href="#thankYou">10. Thank You</a>
 
 
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"> </a>
@@ -62,7 +68,7 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 
 
 <a id="testCases" class="anchor" href="#testCases" aria-hidden="true"> </a>
-### 4. Test Cases
+### 4. "Test Cases" Worksheet
 #### Opening "Test Cases" WorkSheet
 To open the test case worksheet, click the tab titled "Test Cases".<br>
 <img src="img/img_05_click_test_cases_worksheet.png" width="501"><br>
@@ -118,20 +124,31 @@ These metrics automatically update as you write and execute test cases below.  T
 I like to screenshot this section for status emails sometimes, to give a pretty summary of where the current Test Run / Test Cycle is at.  This is especially nice for when you are partially thru a test run and can show not only the actual time completed ("B"locked + "F"ailed + "Q"pass + "P"ass), but also the expected remaining time ("T"odo) because in theory you have the prior execution times still in place from your last run...or you've entered the expected time to execute in.<br>
 <img src="img/img_11_test_case_results.png" width="383"><br>
 <br>
-
-
-
-
-
-
-<br>
-<br>
 <br>
 
-### Work these notes into the appropriate sections...
-The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.
+
+<a id="testRunLog" class="anchor" href="#testRunLog" aria-hidden="true"> </a>
+### 5. "Test Run Log" Worksheet
+<br>
+<br>
 
 
+<a id="report" class="anchor" href="#report" aria-hidden="true"> </a>
+### 6. "Report" Worksheet
+<br>
+<br>
+
+
+<a id="about" class="anchor" href="#about" aria-hidden="true"> </a>
+### 7. "About" Worksheet
+<br>
+<br>
+
+
+<a id="advancedTopics" class="anchor" href="#advancedTopics" aria-hidden="true"> </a>
+### 8. Advanced Topics
+<br>
+<br>
 Advanced (Don't forget to write these up): 
 * "Jump Stops" using ctrl + arrow keys in columns A or F.
 * Sample SQL embeddd in a test case
@@ -141,5 +158,24 @@ Advanced (Don't forget to write these up):
 * Conditional Formatting Mess if you Copy-Paste + How to Fix
 * Other...
 
+The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.
+
+
+<a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>
+### 9. Exploratory Testing
+<br>
+<br>
+
+
+<a id="thankYou" class="anchor" href="#thankYou" aria-hidden="true"> </a>
+### 9. Thank You
+<br>
+<br>
 * History from V1 thru V5 spanning multiple prior hobby sites (PBSys, WinTestGear, etc.)
+
+
+
+
+
+
 

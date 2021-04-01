@@ -66,9 +66,9 @@ To open the test case worksheet, click the tab titled "Test Cases".<br>
 It is a good idea to organize your test cases under sections.  A simple way to make sections is to:<br>
 1. Enter "0min" for the "Execution Time" column textbox<br>
 2. Enter "i" for Information at the "Status" column dropdown<br>
-3. Enter your desired Section Header title at the "Test Steps" column text box<br>
-...and optionally, set the backcolor of all three cells in the row to your preferred section header color.  In the example screenshot below, we used light orange for the section header backcolor, but you can choose anything.
-<img src="img/img_04_create_section_header.png" width="831"><br>
+3. Enter your desired Section Header title at the "Test Steps" column text box.  Also consider making the text bold to standout.<br>
+Optionally, set the backcolor of all three cells in the row to your preferred section header color.  In the example screenshot below, light blue was sued for the section header backcolor, but you can choose anything.
+<img src="img/img_04_create_section_header.png" width="523"><br>
 <br>
 
 #### Writing Your First Test Case

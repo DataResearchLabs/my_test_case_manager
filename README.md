@@ -149,16 +149,16 @@ I like to screenshot this section for status emails sometimes, to give a pretty 
 ### 8. Advanced Topics
 <br>
 <br>
-Advanced (Don't forget to write these up): 
-* "Jump Stops" using ctrl + arrow keys in columns A or F.
-* Sample SQL embeddd in a test case
-* Sample Screenshot expected results
-* Sample with multiple Test Case worksheet tabs (300, 600, 900 test cases)
-* Sample Multi-User Shared Workbook
-* Conditional Formatting Mess if you Copy-Paste + How to Fix
-* Other...
-
-The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.
+Advanced (Don't forget to write these up):<br> 
+* "Jump Stops" using ctrl + arrow keys in columns A or F.<br>
+* Sample SQL embeddd in a test case<br>
+* Sample Screenshot expected results<br>
+* Sample with multiple Test Case worksheet tabs (300, 600, 900 test cases)<br>
+* Sample Multi-User Shared Workbook<br>
+* Conditional Formatting Mess if you Copy-Paste + How to Fix<br>
+* Other...<br>
+<br>
+The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.<br>
 
 
 <a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>
@@ -168,7 +168,7 @@ The tool is best used by individual contributors as a local standalone Excel fil
 
 
 <a id="thankYou" class="anchor" href="#thankYou" aria-hidden="true"> </a>
-### 9. Thank You
+### 10. Thank You
 <br>
 <br>
 * History from V1 thru V5 spanning multiple prior hobby sites (PBSys, WinTestGear, etc.)

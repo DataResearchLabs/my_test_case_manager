@@ -7,7 +7,8 @@ A simple flexible XL test case manager for small projects and UAT.  Good for exp
 ## Table of Contents
  - <a href="#introduction">1. Introduction</a>
  - <a href="#download">2. Download</a>
- - <a href="#quickStartGuide">3. Quick Start Guide</a>
+ - <a href="#gettingStarted">3. Getting Started</a>
+ - <a href="#testCases">4. Test Cases</a>
 
 
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"> </a>
@@ -36,10 +37,10 @@ To download examples of the tool in use with sample data from this repository's 
 <br>
 <br>
 
-<a id="quickStartGuide" class="anchor" href="#quickStartGuide" aria-hidden="true"> </a>
-### 3. Quick Start Guide
+<a id="gettingStarted" class="anchor" href="#gettingStarted" aria-hidden="true"> </a>
+### 3. Getting Started
 #### General Data Entry Rules
-* In general, you only ever enter data into the pale yellow text boxes<img src="img/img_01_cells_you_can_change.png" width="52">, nowhere else!
+* In general, you only ever edit the pale yellow text boxes<img src="img/img_01_cells_you_can_change.png" width="52">, nowhere else!
 * Avoid inserting or cutting rows and cells unless explicitly indicated to do so (i.e.: "Test Run Log" worksheet).
 * The dark background cell areas are unused
 
@@ -48,7 +49,7 @@ The first time you open a copy of the .xlsx file in a new folder, Microsoft Offi
 <img src="img/img_03_warning_on_first_open.png" width="996">
 <br>
 
-#### Setup Project Properties
+#### Setup "Project" Properties
 Get started by opening the "my_test_case_manager.xlsm" file, then do the following actions where the numbers in the list below match to the numbered blue dots in the screenshot to the right.<br>
 <img align="right" src="img/img_02_enter_project_properties.png" width="524">
 1. Click the Properties tab, if not already opened<br>
@@ -57,8 +58,12 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 4. Then, type in your name (or multiple analysts if appropriate)<br>
 ...and now your test project properties are setup.<br>
 <br>
+<br>
 
-#### Opening the Test Cases WorkSheet
+
+<a id="testCases" class="anchor" href="#testCases" aria-hidden="true"> </a>
+### 4. Test Cases
+#### Opening "Test Cases" WorkSheet
 To open the test case worksheet, click the tab titled "Test Cases".<br>
 <img src="img/img_05_click_test_cases_worksheet.png" width="501"><br>
 <br>

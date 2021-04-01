@@ -129,6 +129,22 @@ I like to screenshot this section for status emails sometimes, to give a pretty 
 
 <a id="testRunLog" class="anchor" href="#testRunLog" aria-hidden="true"> </a>
 ### 5. "Test Run Log" Worksheet
+#### "Test Run Log" Levelset
+To open the test run log worksheet, click the tab titled "Test Run Log" (callout #1 below).<br>
+This form is used at the end of every Test Run (Test Cycle) after you're done executing all the test cases from the prior worksheet.  You simply transcribe the automatically calculated totals from the Test Results table (in cells J5 thru J9 from the upper right section of the Test Cases worksheet) into the appropriate cells on this worksheet.  Likewise, you transcribe the defect counts from your defect system (typically a website like Jiri or any other bug tracking tool).<br>
+There are a few key points here that need to be emphasized:<br>
+1. You are manually entering these values when a test run / test cycle is completed.<br>
+2. These values drive the Report worksheet to the right.<br>
+3. You enter test case status counts taken from the "Test Cases" worksheet
+4. You enter defect counts taken from your Defect system (some other web application most likely)<br>
+   However, you could track failed test cases as defects manually in the sections below if necessary.<br>
+<br>
+The general process for entering Test Run (test cycle) row data is as follows:<br>
+1. First enter Test Run #1 results in row R1 that comes default (callout #2).  At this point, the report will **not** have a trend.<br>
+2. Next, enter Test Run #2 results in row R2 that comes default (callout #2).  At this point, the report **will** have a trend.<br>
+3. For the third and subsequent Test Run (regression), follow the instructions in blue text (callout #3) to insert a new test run.  It is important to copy and then insert paste the last line on top of itself, pushing itself down a row.  This maintains all the automated reports and charts, so the series automatically resize and you only have to change the values in the lowest row that was pushed down.  I will demo this in the YouTube training videos (showing is easier than describing).
+<img src="img/img_12_test_run_log_levelset.png" width="956"><br>
+<br>
 <br>
 <br>
 

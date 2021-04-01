@@ -2,6 +2,7 @@
 
 # My Test Case Manager
 A simple flexible XL test case manager for small projects and UAT.  Good for exploratory testing too.
+**Version = Excel for Office 365.**
 
 ## Table of Contents
  - <a href="#introduction">1. Introduction</a>
@@ -77,6 +78,12 @@ Next, callout #2 shows where to set the Status drop down.  Go ahead and set it t
 Finally, callout #3 shows where to set the execution time to the number of minutes it took you to write and/or execute this test case depending on what you want to track.  For me, I tend to write and execute the test cases exploratory style for the first test cycle / test run so I combine both times.  Then during regression on subsequent re-runs of the test, I know this Exec Time column value will be substantially less, but at least I accurately captured the  initial write + execute time of test run #1 as well as the execution only tmie of test run #2.  Now that you know how to write one test case, you can write many.<br>
 <img src="img/img_06_write_first_test_case.png" width="831"><br>
 <br>
+
+#### Status Values
+There are six possible status values available in the dropdown.  Each has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed in a "legend" of sorts with a brief description of how or why you would want to use each.<br>
+<img src="img/img_07_status_values.png" width="792"><br>
+<br>
+
 
 
 

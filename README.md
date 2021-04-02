@@ -188,7 +188,7 @@ The report header shows the company  and project names at the upper left section
 #### 6.3 Test Case Count Graphs
 <img align="right" src="img/img_14_report_test_case_counts.png" width="446"><br>
 The test case count graphs are located on the left half of the page, directly below the report header.<br>
-* There is a **snapshot graph** on top depicting the counts for the latest release (R6 in our example below).  
+* There is a **snapshot graph** on top depicting the test case counts for the latest release (R6 in our example below).  
 * Below that is a **trend graph** showing test case results over time.
   
 In the snapshot graph to the right, the dark green bar tells me that 26 test cases were executed and passed on this final R6 Test Cycle.  It also tells me that 104 test cases were Qualified Passes, which typically means they passed on a prior Test Cycle, but due to time constraints we did not regression test them again on the latest test cycle.  At a glance, I can see our risk exposure in R6 is one test case executed per 4 we skipped based on a prior test cycle pass.
@@ -199,7 +199,12 @@ I can also see in the trend graph that the number of blocked and failed test cas
 
 
 #### 6.4 Defect Count Graphs
+<img align="right" src="img/img_15_report_defect_counts.png" width="446"><br>
+The defects graphs are located on the right half of the page, directly below the reoprt header.<br>
+* There is a **snapshot graph** on top depicting the defect counts for the latest release (R6 in our example below).  
+* Below that is a **trend graph** showing defect results over time.
 
+In the snapshot graph to the right, I can see that all but one defect has been either closed (fixed) or deferred.  The one that remains open should be futher analyzed (if this R6 build is the final before released) to determine whether it should be reset to "Defer" or if it is actually a lower priority "Open, Allow" defect (which it is).  The trend graph tells me that defects started off relatively high in R1, then tapered off as the project stabilized.
 
 
 #### 6.5 Test Case Execution Time Graph

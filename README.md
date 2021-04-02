@@ -153,13 +153,13 @@ The general process for entering Test Run (test cycle) row data is as follows:<b
 #### 5.3 Entering Test Run Values
 It is important that you properly fill out all of the columns for each Test Run / Test Cycle row.  Only enter values into the pale yellow cells (leave the calculated silver cells alone).<br>
 Here are the column definitions and suggestions about how you should use them:<br>
-* **Run #:** This is the Test Run or Test Cycle Number.  Use "R1", "R2" style formatting.  A Test Run or Test Cycle is as complete a pass thru executing the test cases as you can possibly do for a given build or release or at a given point in time.  Use sound judgment in determining when to start and stop a Test Run or Test Cycle.<br>
-* **Test Run Description:** The name you give a Test Run (or Test Cycle) is important.  It helps tell the story of how and what you tested and what issues you ran into.<br>  Management and others on the development team often believe testing is simple and linear. *"There's 60 test cases, they _should_ take 1 minute a piece, so why aren't you done in 60 minutes?"* <br>
+1. **Run #:** This is the Test Run or Test Cycle Number.  Use "R1", "R2" style formatting.  A Test Run or Test Cycle is as complete a pass thru executing the test cases as you can possibly do for a given build or release or at a given point in time.  Use sound judgment in determining when to start and stop a Test Run or Test Cycle.<br>
+2. **Test Run Description:** The name you give a Test Run (or Test Cycle) is important.  It helps tell the story of how and what you tested and what issues you ran into.<br>  Management and others on the development team often believe testing is simple and linear. *"There's 60 test cases, they _should_ take 1 minute a piece, so why aren't you done in 60 minutes?"* <br>
 By properly naming and organizing your test cycles, you can help educate your team on how there are multiple test runs, the scope grows as does your understanding and available tests to run.  Example names might be "Sprint 05", or "Release 2.3", or "Week 14", or "UAT for Project X", etc.<br>
-* **Date:** Use the date the test run was completed.<br>
-* **Execution Time (hr):** Enter the total execution time as automatically tallied back in the Test Cases worksheet.  If you copy-pasted multiple Test Case worksheets, then use a formula here to sum those values together.<br>
-* **Test Cases:** Enter the ToDo, Block, Fail, Qpass, and Pass counts as automatically tallied back in the Test Cases worksheet.  If you copy-pasted multiple Test Case worksheets, then use a formulate here to sum those values together.<br>
-* **Defects:** It is up to you to either track here or fetch from your defect system the following counts:<br>
+3. **Date:** Use the date the test run was completed.<br>
+4. **Execution Time (hr):** Enter the total execution time as automatically tallied back in the Test Cases worksheet.  If you copy-pasted multiple Test Case worksheets, then use a formula here to sum those values together.<br>
+5. **Test Cases:** Enter the ToDo, Block, Fail, Qpass, and Pass counts as automatically tallied back in the Test Cases worksheet.  If you copy-pasted multiple Test Case worksheets, then use a formulate here to sum those values together.<br>
+6. **Defects:** It is up to you to either track here or fetch from your defect system the following counts:<br>
   - **Open, ShowStoppers:**  This is the count of high priority/severity issues that will block release<br>
   - **Open, Allow:** This is the count of low-medium priority/severity issues that can ship/deploy<br>
   - **Defer:** This is the count of deferred defects where a decision was made to ignore for now<br>

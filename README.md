@@ -204,9 +204,10 @@ The defects graphs are located on the right half of the page, directly below the
 * There is a **snapshot graph** on top depicting the defect counts for the latest release (R6 in our example below).  
 * Below that is a **trend graph** showing defect results over time.
 
-In the snapshot graph to the right, I can see that all but one defect has been either closed (fixed) or deferred.  The one that remains open should be futher analyzed (if this R6 build is the final before released) to determine whether it should be reset to "Defer" or if it is actually a lower priority "Open, Allow" defect (which it is).  The trend graph tells me that defects started off relatively high in R1, then tapered off as the project stabilized.
-
-
+In the snapshot graph to the right, I can see that all but one defect has been either closed (fixed) or deferred.  The one that remains open should be futher analyzed (if this R6 build is the final before released) to determine whether it should be reset to "Defer" or if it is actually a lower priority "Open, Allow" defect (which it is).  The trend graph tells me that defects started off relatively high in R1, then tapered off as the project stabilized.<br>
+<br>
+<br>
+<br>
 #### 6.5 Test Case Execution Time Graph
 <img align="left" src="img/img_16_report_exec_time.png" width="446"><br>
 The execution time trend graph is located on the left, below the test case count graphs.  This handy graph tells me that the time it took to execute test cases for the given Test Run (or Test Cycle) increased steadily from R1 (Run 1) to R2 to R3 as I built more and more test cases while concurrently regression testing the entire suite (no Qpasses).  However, notice the time savings starting in R4 where the actual test case writing tapered off and the qualified passes (skipped executing of test cases) started occurring.  By R6, most of the prior test runs' test cases were **not** being regression tested, we simply executed a the few new test cases plus a handful of important existing cases to save time.  That increases risk (because those skipped / Qpassed tests might now be broken), but decreased time.  We can readily estimate how much time it would take for a full regression cycle at R6 by referencing the total time in R3 (full regression plus some extra test case creation time) and R4.  Or for a more precise estimate, we could pull the Qpass Execution Time value from the "Test Cases" worksheet (top right chart).

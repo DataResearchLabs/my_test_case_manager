@@ -170,28 +170,39 @@ By properly naming and organizing your test cycles, you can help educate your te
 <a id="report" class="anchor" href="#report" aria-hidden="true"> </a>
 ### 6. "Report" Worksheet
 #### 6.1 Introduction
+The "Report" tab is very important.  You should use screenshots of these graphs to communicate yuor testing status, or story, to the project team and to management.<br>
+It is nice to be able to depict that testing is not a single pass, single dimensional event; but that there are multiple releases that need to be tested.<br>
+It is nice to depict the impact to schedule that blocked test cases have had when they are finally tested and yield high defect rates.<br>
+It is nice to show the risk that qualified passes on regression tests to meet a deadline have to the final release.<br>
+It is nice to show the actual execution time in hours it takes to test each test cycle (release, sprint, group of builds, etc.).<br>
+It is nice to show how the actual execution time tapers off once test creation is done and you are simply regression testing (execution) only.<br>
+It is nice to plan the final release around stability, where there have been NO show stopper defects in the last two releases, and mininmal (or no) "allowed" (low priorit) defects.<br>
+It is nice to to keep a list of defects organized in three buckets (Currently Open, Closed-Since Last Report, Closed-Older) so that you can copy-paste them into a weekly status report email.<br>
+
+
+#### 6.2 Report Header
+The report header shows the company  and project names at the upper left section of the report.  These are the same values entered in the Properties tab.  The right section of the report headers indicates which Test Run / Test Cycle (e.g.: "R6") that is currently being displayed.  The tester's name (also from the Properties tab) is also displayed in this section.  The total test case count and total defect count is also tallied and displayed in the right side of the report header.
+<img src="img/img_13_report_header.png" width="847"><br>
+
+
+#### 6.3 Test Case Count Graphs
 
 
 
-#### 6.2 Test Case Counts
+#### 6.4 Defect Count Graphs
 
 
 
-#### 6.3 Defect Counts
-
-
-
-
-#### 6.4 Test Case Execution Time
+#### 6.5 Test Case Execution Time Graph
 
 
 
 
-#### 6.5 Releasability - High Severity Defect Status
+#### 6.6 Releasability Graph
 
 
 
-#### 6.6 Defect Details - For Status Reports
+#### 6.7 Defect Details - For Status Reports
 
 
 

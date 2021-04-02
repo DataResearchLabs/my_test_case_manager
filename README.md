@@ -228,16 +228,30 @@ The defect lists at the bottom half of the report are optional.  These lists can
 ### 7. "About" Worksheet
 <img align="right" src="img/img_19_about_screen.png" width="489"><br>
 The "About" worksheet accomplishes a few goals:
-1. Informs the user of the "application" name and version are
-2. Informs the user where to watch training videos about the tool
-3. Informs the user where to find the tool on GitHub
+1. Informs the user of the "application" name and version.
+2. Informs the user where to watch training videos about the tool.
+3. Informs the user where to find the tool on GitHub.
 4. Indicates that the tool and all documentation are Creative Commons license...which means I grant you full and free usage.  I hope it helps you in your company and makes you more productive.  I am happy for you if you extend and modify or alter the tool.  Do what you need to do...that's what the About worksheet indicates.  One caveat, please do visit my YouTube site and subscribe :) at www.dataresearchlabs.com. <br>
 
 
 <a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>
 ### 8. Exploratory Testing
+This Excel template's freedom is enjoyable.  It is easy to track wandering paths through an application in the simple "Test Cases" doing exploratory testing.  James Whitacre of Google and Microsoft wrote the outstanding book ["Exploratory Software Testing"](https://www.amazon.com/Exploratory-Software-Testing-Tricks-Techniques/dp/0321636414) back in 2009.  I purchased and read it and highly recommend that you do too.  I've summarized some of my favorite tours from his book and added in a few of my own.  It really helps you to find bugs when you get in character and put on these various "tour hats" to simultaneously write and execute test cases.<br>
 <br>
+The list below includes the "Tour Name" in bold followed by a dash and then a brief description of the tour.  You basically pick a tour that looks appealing and appropriate, then jump in and start walking through the application under testing exercising from the perspective of the given tourist.  It really is surprising how many test case ideas it generates, and how many defects the approach can uncover when you think beyond the basic acceptance criteria and functional requirements given to you in your user stories.<br>
 <br>
+If you rarely get time to do exploratory testing, and you suffer from buggy releases...then try making the case to your project team that you should be given an extra test cycle of "n" hours to conduct exploratory testing.  See how well it works.  If good, expand on it.<br>
+<br>
+* **The "Acceptance Test" Tour** - Tests driven by user story acceptance criteria.  Everybody should always naturally do this, even without a specific tour plan.
+* **The "Happy Path" Tour** - Walk through the application exactly as it is intended to be used, or how you would expect it to be used absent adequate documentation.
+* **The "Wandering Happy Path" Tour** - Walk through the standard use cases, but wander a bit to connect them up.
+* **The 'Garbage Collector's" Tour** - Go back and hit all the edge cases identified during prior testing and tours, review all the misc. emails, etc.  Final pass before sign-off.
+* **The "Money" Tour** - Tests driven from a Sales point-of-view (example - follow the steps for a sales demo of your application).
+* **The "Landmark" Tour** - Tests driven from a Landmark hopping (feature to feature) point-of-view.
+* **The "Intellectual" Tour** - Tests driven from asking difficult or complex questions of the software.
+* **The "FedEx" Tour** - Tests driven by following data through the system (end-to-end), just like a package thru FedEx tracking.
+* **The "After Hours" Tour** - Tests driven by "after hours" features like archiving data, backing up files, running maintenance jobs, etc.
+* **The "Bad Neighborhood" Tour** - Tests driven by
 
 
 

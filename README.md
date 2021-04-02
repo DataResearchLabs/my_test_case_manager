@@ -12,8 +12,8 @@ A simple flexible XL test case manager for small projects and UAT.  Good for exp
  - <a href="#testRunLog">5. "Test Run Log" Worksheet</a>
  - <a href="#report">6. "Report" Worksheet</a>
  - <a href="#about">7. "About" Worksheet</a>
- - <a href="#advancedTopics">8. Advanced Topics</a>
- - <a href="#exploratoryTesting">9. Exploratory Testing</a>
+ - <a href="#exploratoryTesting">8. Exploratory Testing</a>
+ - <a href="#advancedTopics">9. Advanced Tips & Tricks</a>
  - <a href="#thankYou">10. Thank You</a>
 
 
@@ -226,16 +226,31 @@ The defect lists at the bottom half of the report are optional.  These lists can
 
 <a id="about" class="anchor" href="#about" aria-hidden="true"> </a>
 ### 7. "About" Worksheet
+<img align="right" src="img/img_19_about_screen.png" width="489"><br>
+The "About" worksheet accomplishes a few goals:
+1. Informs the user of the "application" name and version are
+2. Informs the user where to watch training videos about the tool
+3. Informs the user where to find the tool on GitHub
+4. Indicates that the tool and all documentation are Creative Commons license...which means I grant you full and free usage.  I hope it helps you in your company and makes you more productive.  I am happy for you if you extend and modify or alter the tool.  Do what you need to do...that's what the About worksheet indicates.  One caveat, please do visit my YouTube site and subscribe :) at www.dataresearchlabs.com. <br>
+
+
+<a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>
+### 8. Exploratory Testing
 <br>
 <br>
+
+
 
 
 <a id="advancedTopics" class="anchor" href="#advancedTopics" aria-hidden="true"> </a>
-### 8. Advanced Tips & Tricks
+### 9. Advanced Tips & Tricks
+#### "Jump Stops" using ctrl + arrow keys in columns A or F.
+
 <br>
 <br>
-Advanced (Don't forget to write these up):<br> 
-* "Jump Stops" using ctrl + arrow keys in columns A or F.<br>
+
+
+
 * Sample SQL embeddd in a test case<br>
 * Sample Screenshot expected results<br>
 * Sample with multiple Test Case worksheet tabs (300, 600, 900 test cases)<br>
@@ -244,12 +259,6 @@ Advanced (Don't forget to write these up):<br>
 * Other...<br>
 <br>
 The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.<br>
-
-
-<a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>
-### 9. Exploratory Testing
-<br>
-<br>
 
 
 <a id="thankYou" class="anchor" href="#thankYou" aria-hidden="true"> </a>

@@ -171,13 +171,13 @@ By properly naming and organizing your test cycles, you can help educate your te
 ### 6. "Report" Worksheet
 #### 6.1 Introduction
 The "Report" tab is very important.  You should use screenshots of these graphs to communicate yuor testing status, or story, to the project team and to management.<br>
-It is nice to be able to depict that testing is not a single pass, single dimensional event; but that there are multiple releases that need to be tested.<br>
-It is nice to depict the impact to schedule that blocked test cases have had when they are finally tested and yield high defect rates.<br>
-It is nice to show the risk that qualified passes on regression tests to meet a deadline have to the final release.<br>
-It is nice to show the actual execution time in hours it takes to test each test cycle (release, sprint, group of builds, etc.).<br>
-It is nice to show how the actual execution time tapers off once test creation is done and you are simply regression testing (execution) only.<br>
-It is nice to plan the final release around stability, where there have been NO show stopper defects in the last two releases, and mininmal (or no) "allowed" (low priorit) defects.<br>
-It is nice to to keep a list of defects organized in three buckets (Currently Open, Closed-Since Last Report, Closed-Older) so that you can copy-paste them into a weekly status report email.<br>
+* It is nice to be able to depict that testing is not a single pass, single dimensional event; but that there are multiple releases that need to be tested.<br>
+* It is nice to depict the impact to schedule that blocked test cases have had when they are finally tested and yield high defect rates.<br>
+* It is nice to show the risk that qualified passes on regression tests to meet a deadline have to the final release.<br>
+* It is nice to show the actual execution time in hours it takes to test each test cycle (release, sprint, group of builds, etc.).<br>
+* It is nice to show how the actual execution time tapers off once test creation is done and you are simply regression testing (execution) only.<br>
+* It is nice to plan the final release around stability, where there have been NO show stopper defects in the last two releases, and mininmal (or no) "allowed" (low priorit) defects.<br>
+* It is nice to to keep a list of defects organized in three buckets (Currently Open, Closed-Since Last Report, Closed-Older) so that you can copy-paste them into a weekly status report email.<br>
 
 
 #### 6.2 Report Header
@@ -186,7 +186,12 @@ The report header shows the company  and project names at the upper left section
 
 
 #### 6.3 Test Case Count Graphs
-
+The test case count graphs are located on the left half of the page, directly below the report header.<br>
+* There is a **snapshot graph** on top depicting the counts for the latest release (R6 in our example below).  
+* Below that is a **trend graph** showing test case results over time.  
+In the snapshot graph below, The dark green tells me that 26 test cases were executed and passed on this final R6 Test Cycle.  It also tells me that 104 test cases were Qualified Passes, which typically means they passed on a prior Test Cycle, but due to time constraints we did not regression test them again on the latest test cycle.  At a glance, I can see our risk exposure that for every one test case we executed and passed in R6, there were 4 that we skipped based on a prior test cycle pass.  If the project team and management believe quality is important, then we can ask to do a full regression test by executing the 104 QPasses.  Furthermore, we can tell them exactly how long it will take by pulling the ExecTm value off of the most recent "Test Results" graph back on the "Test Cases" worksheet.  Makes for better decision making all around.<br>
+I can also see in the trend graph that the number of blocked and failed test cases started off high, then tapered off as the project stabilized.  I can also see that from R4 thru R6, we increasingly relied upon qualified passes to meet deadlines (rather than executing full regression coverage).
+<img align="right" src="img/img_14_report_test_case_counts.png" width="847"><br>
 
 
 #### 6.4 Defect Count Graphs

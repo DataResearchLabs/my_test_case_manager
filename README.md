@@ -215,15 +215,13 @@ The execution time trend graph is located on the left, below the test case count
 
 #### 6.6 Releasability Graph
 <img align="right" src="img/img_17_report_releasability.png" width="446"><br>
-The defects - releasability graph is located on the right, below the defect count graphs.  This graph
+The defects - releasability graph is located on the right, below the defect count graphs.  This graph is very useful in situations where you are pressured to release but are not yet quite ready.  You can show by test run (test cycle) number how the Open Showstoppers were present earlier but then tapered off (good) and how all that remains is lower priority defects that should either be deferred, or accepted as Open, Allowable.  The graph could also be used to show a negative trend, if for example the bright red open showstoppers were trending up towards the most recent release, that would indicate a project that is destabilizing and you might want to put in another full regression test run / test cycle requiring 0 defects and 0 test case fails.<br>
+*Suggestion:* At the beginning of a project, establish agreement that for a release to occur, all test cases must = "Pass" (and optionally allow "Qpass" where the risk is accpetable); and 0 show stopper defects can be found in the final TWO test cycles (this will ensure you get adequate test time because if a new show stopper is found, you just got another test cycle as a buffer or hedge).
 
 
-#### 6.7 Defect Details - For Status Reports
-
-
-
-<br>
-<br>
+#### 6.7 Defect List
+The defect lists at the bottom half of the report are optional.  These lists can be a useful way to track defects on smaller projects so that you can report "summary" level defects in say a weekly status email.  You could list the currently open defect names plus priority.  Below that you could copy-paste the section of defects closed since last week to show progress.  Not sure it is worth the effort to track the closed defects since project start, but you could do that too.  The basic flow is to copy-paste defects into the top section (currently open), then migrate them down to closed since last report, then finally move them down to the bottom section.
+<img src="img/img_18_report_defect_list.png" width="847"><br>
 
 
 <a id="about" class="anchor" href="#about" aria-hidden="true"> </a>

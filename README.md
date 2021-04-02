@@ -236,7 +236,7 @@ The "About" worksheet accomplishes a few goals:
 
 <a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>
 ### 8. Exploratory Testing
-James Whitacre of Google and Microsoft fame wrote the outstanding book ["Exploratory Software Testing"](https://www.amazon.com/Exploratory-Software-Testing-Tricks-Techniques/dp/0321636414) back in 2009.  I purchased it, read it, and implemented many ideas from it over the years.  I highly recommend that you purchase and read the book too.
+James Whitacre of Google and Microsoft fame wrote the outstanding book ["Exploratory Software Testing"](https://www.amazon.com/Exploratory-Software-Testing-Tricks-Techniques/dp/0321636414) back in 2009.  I purchased it, read it, and implemented many ideas from it over the years.  I highly recommend that you purchase and read the book too (and no, I receive no benefit from this endorsement, it just is a really great book filled with great ideas0.
 
 
 In the spirit of Whitacre's exploratory testing, I enjoy applying his tours through this Excel template with its freedom to wander through an application.  I've summarized some of my favorite tours from his book and added in a few of my own.  Exploratory testing tours really helps you to find bugs.  Getting into character by putting on various "tour hats" really gets you into a creative, bug finding mindset.
@@ -246,16 +246,34 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 
 
 * **The "Acceptance Test" Tour** - Tests driven by user story acceptance criteria.  Everybody should always naturally do this, even without a specific tour plan.
-* **The "Happy Path" Tour** - Walk through the application exactly as it is intended to be used, or how you would expect it to be used absent adequate documentation.
-* **The "Wandering Happy Path" Tour** - Walk through the standard use cases, but wander a bit to connect them up.
-* **The 'Garbage Collector's" Tour** - Go back and hit all the edge cases identified during prior testing and tours, review all the misc. emails, etc.  Final pass before sign-off.
+* **The "Happy Path" Tour** - Tests driven by walking through the application exactly as it is intended to be used, or how you would expect it to be used absent adequate documentation.
+* **The "Wandering Happy Path" Tour** - Tests driven by walking through the standard use cases, but also wandering a bit to connect them up.
+* **The 'Garbage Collector's" Tour** - Test driven by picking up all the trash; go back and test all the low priority skipped edge cases, the archived emails with miscellaneous notes, etc.  Final pass before sign-off.
 * **The "Money" Tour** - Tests driven from a Sales point-of-view (example - follow the steps for a sales demo of your application).
 * **The "Landmark" Tour** - Tests driven from a Landmark hopping (feature to feature) point-of-view.
 * **The "Intellectual" Tour** - Tests driven from asking difficult or complex questions of the software.
 * **The "FedEx" Tour** - Tests driven by following data through the system (end-to-end), just like a package thru FedEx tracking.
 * **The "After Hours" Tour** - Tests driven by "after hours" features like archiving data, backing up files, running maintenance jobs, etc.
 * **The "Bad Neighborhood" Tour** - Tests driven by focusing on areas where bugs exist (because bugs tend to cluster, so find the cluster and dig in).
-* 
+* **The "Museum" Tour** - Tests driven by focusing on legacy code.
+* **The "Regression" Tour** - Tests driven by regression (execute all the test cases to check if any existing feature got broken anew).
+* **The "Supporting Actor" Tour** - Tests that focus on the secondary features that are proximate to a primary feature
+* **The "Back Alley" Tour** - Tests focussed on the least used features, or code not yet covered (if you have code coverage tracking tools)
+* **The "All Nighter’s" Tour** - Tests focussed on running the app for as long as it can go (like going to just one more club for one more drink; how long can the app go before collapsing?)
+* **The "Collector’s" Tour** - Tests that focus on checking every box (like visiting every state, or hitting every pub); getting one of every output until you’ve covered the collection sought
+* **The "Supermodel" Tour** - Tests that focus strictly on the superficial (only skin deep) – interface only, not functionality nor interaction (does it look good, render properly, refresh fast enough, etc.)
+* **The "Cancelled Show" Tour** - Tests that start then stop because “rained out” (e.g.: hit every cancel button combination, shift-F4 or X to close an app, start, then stop, then re-start)
+* **The "Couch Potato" Tour** - Tests that do as little as possible, accepting all default values through the app (especially blanks and minimal input where possible)
+* **The "Saboteur" Tour** - Tests that try to undermine the app everywhere and in everyway possible (e.g.: ask app to read a file that you then corrupt, or read a file on the network but pull the ethernet plug, alter file permissions to deny access, overfill a disk, etc.)
+* **The "Opposites" Tour** - Tests where enter the least likely input every chance you get (e.g.: print -12 pages, 9048 items in shopping cart, etc.)
+* **The "Crime Spree" Tour** - Tests where enter known illegal values, try to trigger errors and do actions that break the software
+* **The "Wrong Turn"Tour** -Tests where do legal actions in the wrong order to try and trigger a bug
+* **The "Obsessive-Compulsive" Tour** - Tests that repeat the same thing over and over (like copy-paste, copy-paste, over and over; or enter data on screen, then return and enter again)or repeat every step of another tour twice, or three times
+* **The "Tour-Crasher" Tour** - Link test scenarios together, hopping from one to the next to try and trigger odd integration issues
+
+
+
+
 
 
 

@@ -236,12 +236,15 @@ The "About" worksheet accomplishes a few goals:
 
 <a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>
 ### 8. Exploratory Testing
-This Excel template's freedom is enjoyable.  It is easy to track wandering paths through an application in the simple "Test Cases" doing exploratory testing.  James Whitacre of Google and Microsoft wrote the outstanding book ["Exploratory Software Testing"](https://www.amazon.com/Exploratory-Software-Testing-Tricks-Techniques/dp/0321636414) back in 2009.  I purchased and read it and highly recommend that you do too.  I've summarized some of my favorite tours from his book and added in a few of my own.  It really helps you to find bugs when you get in character and put on these various "tour hats" to simultaneously write and execute test cases.<br>
-<br>
-The list below includes the "Tour Name" in bold followed by a dash and then a brief description of the tour.  You basically pick a tour that looks appealing and appropriate, then jump in and start walking through the application under testing exercising from the perspective of the given tourist.  It really is surprising how many test case ideas it generates, and how many defects the approach can uncover when you think beyond the basic acceptance criteria and functional requirements given to you in your user stories.<br>
-<br>
-If you rarely get time to do exploratory testing, and you suffer from buggy releases...then try making the case to your project team that you should be given an extra test cycle of "n" hours to conduct exploratory testing.  See how well it works.  If good, expand on it.<br>
-<br>
+James Whitacre of Google and Microsoft fame wrote the outstanding book ["Exploratory Software Testing"](https://www.amazon.com/Exploratory-Software-Testing-Tricks-Techniques/dp/0321636414) back in 2009.  I purchased it, read it, and implemented many ideas from it over the years.  I highly recommend that you purchase and read the book too.
+
+
+In the spirit of Whitacre's exploratory testing, I enjoy applying his tours through this Excel template with its freedom to wander through an application.  I've summarized some of my favorite tours from his book and added in a few of my own.  Exploratory testing tours really helps you to find bugs.  Getting into character by putting on various "tour hats" really gets you into a creative, bug finding mindset.
+
+
+The list below includes the "Tour Name" in bold followed by a dash and then a brief description of the tour.  You basically pick a tour, then jump in and start walking through the application under test, exercising from the perspective of the given tourist.  It really is surprising how many test case ideas it generates, and how many defects the approach can uncover when you think beyond the basic acceptance criteria and functional requirements given to you in your user stories.
+
+
 * **The "Acceptance Test" Tour** - Tests driven by user story acceptance criteria.  Everybody should always naturally do this, even without a specific tour plan.
 * **The "Happy Path" Tour** - Walk through the application exactly as it is intended to be used, or how you would expect it to be used absent adequate documentation.
 * **The "Wandering Happy Path" Tour** - Walk through the standard use cases, but wander a bit to connect them up.
@@ -251,7 +254,8 @@ If you rarely get time to do exploratory testing, and you suffer from buggy rele
 * **The "Intellectual" Tour** - Tests driven from asking difficult or complex questions of the software.
 * **The "FedEx" Tour** - Tests driven by following data through the system (end-to-end), just like a package thru FedEx tracking.
 * **The "After Hours" Tour** - Tests driven by "after hours" features like archiving data, backing up files, running maintenance jobs, etc.
-* **The "Bad Neighborhood" Tour** - Tests driven by
+* **The "Bad Neighborhood" Tour** - Tests driven by focusing on areas where bugs exist (because bugs tend to cluster, so find the cluster and dig in).
+* 
 
 
 

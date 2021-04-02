@@ -141,6 +141,8 @@ There are a few key points here that need to be emphasized:
 4. You enter defect counts taken from your Defect system (some other web application most likely)<br>
    However, you could track failed test cases as defects manually in the sections below if necessary.<br>
 
+
+#### Inserting Test Run Rows
 The general process for entering Test Run (test cycle) row data is as follows:<br>
 1. First, enter **Test Run #1** results in row R1 that comes default (callout #2).  At this point, the report will **not** have a trend.<br>
 2. Next, enter **Test Run #2** results in row R2 that comes default (callout #2).  At this point, the report **will** have a trend.<br>
@@ -148,6 +150,7 @@ The general process for entering Test Run (test cycle) row data is as follows:<b
 <img src="img/img_12_test_run_log_levelset.png" width="956"><br>
 
 
+#### Entering Test Run Values
 It is important that you properly fill out all of the columns for each Test Run / Test Cycle row.  Only enter values into the pale yellow cells (leave the calculated silver cells alone).<br>
 Here are the column definitions and suggestions about how you should use them:<br>
 * **Run #:** This is the Test Run or Test Cycle Number.  Use "R1", "R2" style formatting.  A Test Run or Test Cycle is as complete a pass thru executing the test cases as you can possibly do for a given build or release or at a given point in time.  Use sound judgment in determining when to start and stop a Test Run or Test Cycle.<br>
@@ -166,6 +169,32 @@ By properly naming and organizing your test cycles, you can help educate your te
 
 <a id="report" class="anchor" href="#report" aria-hidden="true"> </a>
 ### 6. "Report" Worksheet
+#### Introduction
+
+
+
+#### Test Case Counts
+
+
+
+#### Defect Counts
+
+
+
+
+#### Test Case Execution Time
+
+
+
+
+#### Releasability - High Severity Defect Status
+
+
+
+#### Defect Details - For Status Reports
+
+
+
 <br>
 <br>
 

@@ -296,7 +296,7 @@ If you have a test case that could benefit from showing an image or clip from a 
 
 #### 9.4 Adding More Than 300 Test Cases 
 The default "Test Cases" worksheet comes with 300 test case rows.  This is fine for small projects, but what if you have larger projects and need more than 300 test cases.  There are two approaches to add new test cases:
-1. **Copy-Paste More Rows:**  The first option would be to simply Copy one empty test case row (between 19 and 318), then highlight row 318 and drag down 100-, 300- or 500- rows, then right-click and select "Insert Copied Cells".  
+1. **Copy-Paste More Rows:**  The first option would be to simply copy one empty test case row (between 19 and 318), then highlight row 318 and drag down 100-, 300- or 500- rows, then right-click and select "Insert Copied Cells".  
 2. **Use Multiple Worksheets:** The second option is to Copy the "Test Cases" worksheet, making a second set of 300 test cases.  To do that, double-click the "Test Cases" tab and rename it to something cleaner (like "TC1" or whatever).  Next, right-click the "TC1" tab, click "Move or Copy" from the popup menu, check "Create a copy", and select the worksheet before which you want the copy placed, and click Ok.  Finally, double-click the "TC1 (2)" new worksheet and rename it (probably to "TC2".<br>
 Note that if you add one or more worksheets (nice and clean approach), you will have to be careful when tallying Test Run results on the "Test Run Log" worksheet to include ALL counts across ALL test case worksheets.  Just use a formula like this "=23+34+12" if you for example had 23 passes on TC1, 34 Passes on TC2 and 12 Passes on TC3.
 
@@ -305,12 +305,15 @@ In the example screenshot below, this instance of the spreadsheet has three Test
 
 
 #### 9.5 Using With Multiple Users 
-The tool is best used by individual contributors as a local standalone Excel file.  The "My" in "My Test Case Manager" is meant to emphasize this tool as a multiplier for individaul contributors.
+The spreadsheet tool (MTCM) is best used by individual contributors as a local standalone Excel file.  The "My" in "My Test Case Manager" is meant to emphasize this tool's use as a force-multiplier for individaul contributors.  It is meant to make you more efficient without having to put in a purchase order request or run through all the red tape with IT to install an application (this is just a code-less spreadsheet).
 
-However, this spreadsheet can be effectively shared by multipled team members at the same time.  I used a similar spreadsheet 12 years ago at a large aerospace company in which a team of 4 shared and concurrently used it all day long.  Some suggestions as follows:
+However, this simple spreadsheet tool can be effectively shared by multipled team members at the same time.  Proof: I used a similar spreadsheet 12 years ago at a large aerospace company in which a team of 4 shared and concurrently used it all day long.  Also more recently, folks at a prior job saved out several Excel files to SharePoint and we all shared them from there.  
+
+Some shared use suggestions are as follows:
 1. **Use Multiple Worksheets:** one per tester.  This virtualy eliminates the risk conflicts (changing same cells at sametime)
-2. **Use "Share" Button**:  Office 365 has a "Share" button in the upper right corner that will walk you through the process of sharing the Excel template up on your company's OneDrive.  Disclaimer: I have not done this, but have seen and used XL files that others shared and it works fine.  Back in 2008 at the aerospace company, we just put the single XL file out on a network drive share and put the file in shared mode -- not sure the current Office 365 XL supports this.
-
+2. **Use "Share" Button**:  Office 365 has a "Share" button in the upper right corner that will walk you through the process of sharing the Excel template up on your company's OneDrive.<br>
+Disclaimer: I have not done this myself yet, but have seen and used nwer Office 365 XL files shared by others.<br>
+Disclaimer: Back in 2009 at a large aerospace company, we had a team of four sharing a test case spreadsheet by simply copying the XL file out to a network share and turning on the share mode -- not sure Office 365 allows this any more, but that was an easy option back in the day.
 
 
 #### 9.6 Fix Conditional Formatting Mess

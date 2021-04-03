@@ -294,22 +294,29 @@ If you have a test case that involves running a SQL command, then it is a good i
 If you have a test case that could benefit from showing an image or clip from a screenshot as an expected ersult, then it is a good idea to embed the image right into the test case.  An example is shown to the right.  Just enter a test case as you normally would, BUT press Alt+Enter several times to make the test case row a taller, giving ample space to paste-in the image you have copied into the clipboard.<br>
 
 
-#### 9.4 Using Multiple Worksheets 
+#### 9.4 Adding More Than 300 Test Cases 
 The default "Test Cases" worksheet comes with 300 test case rows.  This is fine for small projects, but what if you have larger projects and need more than 300 test cases.  There are two approaches to add new test cases:
-1. The first option would be to simply Copy one empty test case row (between 19 and 318), then highlight row 318 and drag down 100-, 300- or 500- rows, then right-click and select "Insert Copied Cells".  
-2. The second option is to Copy the "Test Cases" worksheet, making a second set of 300 test cases.  To do that, double-click the "Test Cases" tab and rename it to something cleaner (like "TC1" or whatever).  Next, right-click the "TC1" tab, click "Move or Copy" from the popup menu, check "Create a copy", and select the worksheet before which you want the copy placed, and click Ok.  Finally, double-click the "TC1 (2)" new worksheet and rename it (probably to "TC2".<br>
-Note that if you add one or more worksheets (nice and clean approach), you will have to be careful when tallying Test Run results on the "Test Run Log" worksheet to include ALL counts across ALL test case worksheets.  Just use a formula like this "=23+34+12" if you for example had 23 passes on TC1, 34 Passes on TC2 and 12 Passes on TC3.<br>
+1. **Copy-Paste More Rows:**  The first option would be to simply Copy one empty test case row (between 19 and 318), then highlight row 318 and drag down 100-, 300- or 500- rows, then right-click and select "Insert Copied Cells".  
+2. **Use Multiple Worksheets:** The second option is to Copy the "Test Cases" worksheet, making a second set of 300 test cases.  To do that, double-click the "Test Cases" tab and rename it to something cleaner (like "TC1" or whatever).  Next, right-click the "TC1" tab, click "Move or Copy" from the popup menu, check "Create a copy", and select the worksheet before which you want the copy placed, and click Ok.  Finally, double-click the "TC1 (2)" new worksheet and rename it (probably to "TC2".<br>
+Note that if you add one or more worksheets (nice and clean approach), you will have to be careful when tallying Test Run results on the "Test Run Log" worksheet to include ALL counts across ALL test case worksheets.  Just use a formula like this "=23+34+12" if you for example had 23 passes on TC1, 34 Passes on TC2 and 12 Passes on TC3.
+
 In the example screenshot below, this instance of the spreadsheet has three Test Case tabs (TC1, TC2, and TC3), each with 300 test cases for a total of 900 test cases.<br>
 <img src="img/img_23_sample_many_worksheets.png" width="501">
 
 
-#### 9.5 Using Shared Workbook
-The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.<br>
+#### 9.5 Using With Multiple Users 
+The tool is best used by individual contributors as a local standalone Excel file.  The "My" in "My Test Case Manager" is meant to emphasize this tool as a multiplier for individaul contributors.
+
+However, this spreadsheet can be effectively shared by multipled team members at the same time.  I used a similar spreadsheet 12 years ago at a large aerospace company in which a team of 4 shared and concurrently used it all day long.  Some suggestions as follows:
+1. **Use Multiple Worksheets:** one per tester.  This virtualy eliminates the risk conflicts (changing same cells at sametime)
+2. **Use "Share" Button**:  Office 365 has a "Share" button in the upper right corner that will walk you through the process of sharing the Excel template up on your company's OneDrive.  Disclaimer: I have not done this, but have seen and used XL files that others shared and it works fine.  Back in 2008 at the aerospace company, we just put the single XL file out on a network drive share and put the file in shared mode -- not sure the current Office 365 XL supports this.
 
 
 
-* Conditional Formatting Mess if you Copy-Paste + How to Fix<br>
-* Other...<br>
+#### 9.6 Fix Conditional Formatting Mess
+xxxxx
+
+
 
 
 <a id="thankYou" class="anchor" href="#thankYou" aria-hidden="true"> </a>

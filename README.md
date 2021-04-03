@@ -187,10 +187,10 @@ The report header shows the company  and project names at the upper left section
 
 #### 6.3 Test Case Count Graphs
 <img align="right" src="img/img_14_report_test_case_counts.png" width="446">
-The test case count graphs are located on the left half of the page, directly below the report header.
-* There is a **snapshot graph** on top depicting the test case counts for the latest release (R6 in our example below).
-* Below that is a **trend graph** showing test case results over time.
-
+The test case count graphs are located on the left half of the page, directly below the report header.<br>
+1. There is a snapshot graph on top depicting the test case counts for the latest release (R6 in our example below).<br>
+2. Below that is a trend graph showing test case results over time.<br>
+<br>
 In the snapshot graph to the right, the dark green bar tells me that 26 test cases were executed and passed on this final R6 Test Cycle.  It also tells me that 104 test cases were Qualified Passes, which typically means they passed on a prior Test Cycle, but due to time constraints we did not regression test them again on the latest test cycle.  At a glance, I can see our risk exposure in R6 is one test case executed per 4 we skipped based on a prior test cycle pass.<br>
 <br>
 If the project team and management believe quality is important, then we can ask to do a full regression test by executing the 104 QPasses.  Furthermore, we can tell them exactly how long it will take by pulling the ExecTm value off of the most recent "Test Results" graph back on the "Test Cases" worksheet.  Makes for better decision making all around.<br>
@@ -201,8 +201,8 @@ I can also see in the trend graph that the number of blocked and failed test cas
 #### 6.4 Defect Count Graphs
 <img align="right" src="img/img_15_report_defect_counts.png" width="446">
 The defects graphs are located on the right half of the page, directly below the reoprt header.<br>
-* There is a **snapshot graph** on top depicting the defect counts for the latest release (R6 in our example below).<br>
-* Below that is a **trend graph** showing defect results over time.<br>
+1. There is a snapshot graph on top depicting the defect counts for the latest release (R6 in our example below).<br>
+2. Below that is a trend graph showing defect results over time.<br>
 <br>
 In the snapshot graph to the right, I can see that all but one defect has been either closed (fixed) or deferred.  The one that remains open should be futher analyzed (if this R6 build is the final before released) to determine whether it should be reset to "Defer" or if it is actually a lower priority "Open, Allow" defect (which it is).  The trend graph tells me that defects started off relatively high in R1, then tapered off as the project stabilized.<br>
 <br>
@@ -214,13 +214,13 @@ In the snapshot graph to the right, I can see that all but one defect has been e
 
 #### 6.5 Test Case Execution Time Graph
 <img align="right" src="img/img_16_report_exec_time.png" width="446">
-The execution time trend graph is located on the left, below the test case count graphs.  This handy graph tells me that the time it took to execute test cases for the given Test Run (or Test Cycle) increased steadily from R1 (Run 1) to R2 to R3 as I built more and more test cases while concurrently regression testing the entire suite (no Qpasses).  However, notice the time savings starting in R4 where the actual test case writing tapered off and the qualified passes (skipped executing of test cases) started occurring.  By R6, most of the prior test runs' test cases were **not** being regression tested, we simply executed a the few new test cases plus a handful of important existing cases to save time.  That increases risk (because those skipped / Qpassed tests might now be broken), but decreased time.  We can readily estimate how much time it would take for a full regression cycle at R6 by referencing the total time in R3 (full regression plus some extra test case creation time) and R4.  Or for a more precise estimate, we could pull the Qpass Execution Time value from the "Test Cases" worksheet (top right chart).
+The execution time trend graph is located on the left, below the test case count graphs.  This handy graph tells me that the time it took to execute test cases for the given Test Run (or Test Cycle) increased steadily from R1 (Run 1) to R2 to R3 as I built more and more test cases while concurrently regression testing the entire suite (no Qpasses).  However, notice the time savings starting in R4 where the actual test case writing tapered off and the qualified passes (skipped executing of test cases) started occurring.  By R6, most of the prior test runs' test cases were _NOT_ being regression tested, we simply executed a the few new test cases plus a handful of important existing cases to save time.  That increases risk (because those skipped / Qpassed tests might now be broken), but decreased time.  We can readily estimate how much time it would take for a full regression cycle at R6 by referencing the total time in R3 (full regression plus some extra test case creation time) and R4.  Or for a more precise estimate, we could pull the Qpass Execution Time value from the "Test Cases" worksheet (top right chart).
 
 
 #### 6.6 Releasability Graph
 <img align="right" src="img/img_17_report_releasability.png" width="446">
 The defects - releasability graph is located on the right, below the defect count graphs.  This graph is very useful in situations where you are pressured to release but are not yet quite ready.  You can show by test run (test cycle) number how the Open Showstoppers were present earlier but then tapered off (good) and how all that remains is lower priority defects that should either be deferred, or accepted as Open, Allowable.  The graph could also be used to show a negative trend, if for example the bright red open showstoppers were trending up towards the most recent release, that would indicate a project that is destabilizing and you might want to put in another full regression test run / test cycle requiring 0 defects and 0 test case fails.<br>
-*Suggestion:* At the beginning of a project, establish agreement that for a release to occur, all test cases must = "Pass" (and optionally allow "Qpass" where the risk is accpetable); and 0 show stopper defects can be found in the final TWO test cycles (this will ensure you get adequate test time because if a new show stopper is found, you just got another test cycle as a buffer or hedge).
+_Suggestion:_ At the beginning of a project, establish agreement that for a release to occur, all test cases must = "Pass" (and optionally allow "Qpass" where the risk is accpetable); and 0 show stopper defects can be found in the final TWO test cycles (this will ensure you get adequate test time because if a new show stopper is found, you just got another test cycle as a buffer or hedge).
 
 
 #### 6.7 Defect List

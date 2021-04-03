@@ -236,14 +236,15 @@ The "About" worksheet accomplishes a few goals:
 
 <a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>
 ### 8. Exploratory Testing
+#### 8.1 Introduction
 James Whitacre of Google and Microsoft fame wrote the outstanding book ["Exploratory Software Testing"](https://www.amazon.com/Exploratory-Software-Testing-Tricks-Techniques/dp/0321636414) back in 2009.  I purchased it, read it, and implemented many ideas from it over the years.  I highly recommend that you purchase and read the book too (and no, I receive no benefit from this endorsement, it just is a really great book filled with great ideas0.
 
 
 In the spirit of Whitacre's exploratory testing, I enjoy applying his tours through this Excel template with its freedom to wander through an application.  I've summarized some of my favorite tours from his book and added in a few of my own.  Exploratory testing tours really helps you to find bugs.  Getting into character by putting on various "tour hats" really gets you into a creative, bug finding mindset.
 
 
+#### 8.2 Test Tour List
 The list below includes the "Tour Name" in bold followed by a dash and then a brief description of the tour.  You basically pick a tour, then jump in and start walking through the application under test, exercising from the perspective of the given tourist.  It really is surprising how many test case ideas it generates, and how many defects the approach can uncover when you think beyond the basic acceptance criteria and functional requirements given to you in your user stories.
-
 
 * **The "Acceptance Test" Tour** - Tests driven by user story acceptance criteria.  Everybody should always naturally do this, even without a specific tour plan.
 * **The "Happy Path" Tour** - Tests driven by walking through the application exactly as it is intended to be used, or how you would expect it to be used absent adequate documentation.
@@ -274,17 +275,17 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 
 <a id="advancedTopics" class="anchor" href="#advancedTopics" aria-hidden="true"> </a>
 ### 9. Advanced Tips & Tricks
-#### Using "Jump Stops" 
-<img align="right" src="img/img_20_jump_stops.png" width="284"><br>
+#### 9.1 Using "Jump Stops" 
+<img align="right" src="img/img_20_jump_stops.png" width="284">
 "Jump Stops" are just a name given for a usage trick.  In Excel, you can use the Ctrl+Up and Ctrl+Down keys to jump to the next cell up or down that has data.  Columns "A"and "F" are thin, always empty border spaces.  If you place single characters (like an "x") into important roww along either column, then you could use Ctrl+Up and Ctrl+Down to quickly jumpt thru your 300-ish test cases.  I like to use the "▪" character to mark my jump points, but "x" or similar is fine too.  I also like to put a mark at the first row (17) and the last row (319) so that I don't jump past them.   Then I use Column "A" for tagging section headers, so I can quickly jump to each section or block of test cases.  I use Column "F" for marking test cases that are either failing or blocked so I can quickly jump to the troublespots.<br>
 
 
-#### Sample SQL Test Case
-<img align="right" src="img/img_21_sample_test_case_sql.png" width="539"><br>
+#### 9.2 Sample SQL Test Case
+<img align="right" src="img/img_21_sample_test_case_sql.png" width="539">
 If you have a test case that involves running a SQL command, then it is a good idea to embed the SQL statement right into the spreadsheet.  The example to the right depicts best practice where the test case details are on the upper row, and the SQL in a separate row below that.  Keeping the SQL separate and in its own row makes it really easy to click the cell, press Ctrl+C to copy the SQL command and then paste and run in your database management IDE.  If you were to place the SQL in the same test case cell as the desription and repro text, then you'd have the disadvantage of having to click carefully into the cell and highlight just the SQL each time.  Also note that we don't want to double count the execution time so we set the lower SQL case to 0 minutes, and we don't want to double count the pass or fail so the SQL row is set to status = "i" for informational.  Optionally, the SQL text font color was set to blue (or whatever color you prefer to standout when working thru test cases).<br>
 
 
-#### Sample Embedded Image Test Case
+#### 9.3 Sample Embedded Image Test Case
 
 
 * Sample with multiple Test Case worksheet tabs (300, 600, 900 test cases)<br>

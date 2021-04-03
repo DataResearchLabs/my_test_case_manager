@@ -262,7 +262,7 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 * **The "All Nighter’s" Tour** - Tests focussed on running the app for as long as it can go (like going to just one more club for one more drink; how long can the app go before collapsing?)
 * **The "Collector’s" Tour** - Tests that focus on checking every box (like visiting every state, or hitting every pub); getting one of every output until you’ve covered the collection sought
 * **The "Supermodel" Tour** - Tests that focus strictly on the superficial (only skin deep) – interface only, not functionality nor interaction (does it look good, render properly, refresh fast enough, etc.)
-* **The "Cancelled Show" Tour** - Tests that start then stop because “rained out” (e.g.: hit every cancel button combination, shift-F4 or X to close an app, start, then stop, then re-start)
+* **The "Cancelled Show" Tour** - Tests that start then stop because “rained out” (e.g.: hit every cancel button combination, Shift+F4 or X to close an app, start, then stop, then re-start)
 * **The "Couch Potato" Tour** - Tests that do as little as possible, accepting all default values through the app (especially blanks and minimal input where possible)
 * **The "Saboteur" Tour** - Tests that try to undermine the app everywhere and in everyway possible (e.g.: ask app to read a file that you then corrupt, or read a file on the network but pull the ethernet plug, alter file permissions to deny access, overfill a disk, etc.)
 * **The "Opposites" Tour** - Tests where enter the least likely input every chance you get (e.g.: print -12 pages, 9048 items in shopping cart, etc.)
@@ -276,16 +276,17 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 ### 9. Advanced Tips & Tricks
 #### Using "Jump Stops" 
 <img align="right" src="img/img_20_jump_stops.png" width="284"><br>
-"Jump Stops" are just a name given to an idea.  In Excel, you can use the Ctrl+Up and Ctrl+Down keys to jump to the next cell up or down that has data.  Columns "A"and "F" are thin, always empty border spaces.  If you place single characters (like an "x") into important roww along either column, then you could use Ctrl+Up and Ctrl+Down to quickly jumpt thru your 300-ish test cases.  I like to use the "▪" character to mark my jump points, but "x" or similar is fine too.  I also like to put a mark at the first row (17) and the last row (319) so that I don't jump past them.   Then I use Column "A" for tagging section headers, so I can quickly jump to each section or block of test cases.  I use Column "F" for marking test cases that are either failing or blocked so I can quickly jump to the troublespots.<br>
+"Jump Stops" are just a name given for a usage trick.  In Excel, you can use the Ctrl+Up and Ctrl+Down keys to jump to the next cell up or down that has data.  Columns "A"and "F" are thin, always empty border spaces.  If you place single characters (like an "x") into important roww along either column, then you could use Ctrl+Up and Ctrl+Down to quickly jumpt thru your 300-ish test cases.  I like to use the "▪" character to mark my jump points, but "x" or similar is fine too.  I also like to put a mark at the first row (17) and the last row (319) so that I don't jump past them.   Then I use Column "A" for tagging section headers, so I can quickly jump to each section or block of test cases.  I use Column "F" for marking test cases that are either failing or blocked so I can quickly jump to the troublespots.<br>
 
 
 #### Sample SQL Test Case
+<img align="right" src="img/img_21_sample_test_case_sql.png" width="539"><br>
+If you have a test case that involves running a SQL command, then it is a good idea to embed the SQL statement right into the spreadsheet.  The example to the right depicts best practice where the test case details are on the upper row, and the SQL in a separate row below that.  Keeping the SQL separate and in its own row makes it really easy to click the cell, press Ctrl+C to copy the SQL command and then paste and run in your database management IDE.  If you were to place the SQL in the same test case cell as the desription and repro text, then you'd have the disadvantage of having to click carefully into the cell and highlight just the SQL each time.  Also note that we don't want to double count the execution time so we set the lower SQL case to 0 minutes, and we don't want to double count the pass or fail so the SQL row is set to status = "i" for informational.  Optionally, the SQL text font color was set to blue (or whatever color you prefer to standout when working thru test cases).<br>
 
 
+#### Sample Embedded Image Test Case
 
 
-
-* Sample Screenshot expected results<br>
 * Sample with multiple Test Case worksheet tabs (300, 600, 900 test cases)<br>
 * Sample Multi-User Shared Workbook<br>
 * Conditional Formatting Mess if you Copy-Paste + How to Fix<br>

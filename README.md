@@ -195,7 +195,8 @@ In the snapshot graph to the right, the dark green bar tells me that 26 test cas
 
 If the project team and management believe quality is important, then we can ask to do a full regression test by executing the 104 QPasses.  Furthermore, we can tell them exactly how long it will take by pulling the ExecTm value off of the most recent "Test Results" graph back on the "Test Cases" worksheet.  Makes for better decision making all around.
 
-I can also see in the trend graph that the number of blocked and failed test cases started off high, then tapered off as the project stabilized.  I can also see that from R4 thru R6, we increasingly relied upon qualified passes to meet deadlines (rather than executing full regression coverage).
+I can also see in the trend graph that the number of blocked and failed test cases started off high, then tapered off as the project stabilized.  I can also see that from R4 thru R6, we increasingly relied upon qualified passes to meet deadlines (rather than executing full regression coverage).<br>
+<br>
 
 
 #### 6.4 Defect Count Graphs
@@ -226,7 +227,7 @@ The defect lists at the bottom half of the report are optional.  These lists can
 
 <a id="about" class="anchor" href="#about" aria-hidden="true"> </a>
 ### 7. "About" Worksheet
-<img align="right" src="img/img_19_about_screen.png" width="489"
+<img align="right" src="img/img_19_about_screen.png" width="489">
 The "About" worksheet accomplishes a few goals:
 1. Informs the user of the "application" name and version.
 2. Informs the user where to watch training videos about the tool.

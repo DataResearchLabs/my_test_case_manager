@@ -120,9 +120,9 @@ The Test Cases worksheet is broken down into two sections:<br>
 1. Rows 1-16 are for "Test Results" - a nice summary of counts and test time in a table with a graph.<br>
 2. Rows 17-319 are for "Test Cases" - where all the details go.
 
+<img align="right" src="img/img_11_test_case_results.png" width="383">
 These metrics automatically update as you write and execute test cases below.  They summarize all the results on this worksheet.  If you copy-paste the worksheet to make a second or third instance, then each will have their own self-contained Test Results section.<br>
 I like to screenshot this section for status emails sometimes, to give a pretty summary of where the current Test Run / Test Cycle is at.  This is especially nice for when you are partially thru a test run and can show not only the actual time completed ("B"locked + "F"ailed + "Q"pass + "P"ass), but also the expected remaining time ("T"odo) because in theory you have the prior execution times still in place from your last run...or you've entered the expected time to execute in.<br>
-<img src="img/img_11_test_case_results.png" width="383"><br>
 <br>
 <br>
 
@@ -186,7 +186,7 @@ The report header shows the company  and project names at the upper left section
 
 
 #### 6.3 Test Case Count Graphs
-<img align="right" src="img/img_14_report_test_case_counts.png" width="446"><br>
+<img align="right" src="img/img_14_report_test_case_counts.png" width="446">
 The test case count graphs are located on the left half of the page, directly below the report header.<br>
 * There is a **snapshot graph** on top depicting the test case counts for the latest release (R6 in our example below).  
 * Below that is a **trend graph** showing test case results over time.
@@ -199,7 +199,7 @@ I can also see in the trend graph that the number of blocked and failed test cas
 
 
 #### 6.4 Defect Count Graphs
-<img align="right" src="img/img_15_report_defect_counts.png" width="446"><br>
+<img align="right" src="img/img_15_report_defect_counts.png" width="446">
 The defects graphs are located on the right half of the page, directly below the reoprt header.<br>
 * There is a **snapshot graph** on top depicting the defect counts for the latest release (R6 in our example below).  
 * Below that is a **trend graph** showing defect results over time.
@@ -209,12 +209,12 @@ In the snapshot graph to the right, I can see that all but one defect has been e
 <br>
 <br>
 #### 6.5 Test Case Execution Time Graph
-<img align="right" src="img/img_16_report_exec_time.png" width="446"><br>
+<img align="right" src="img/img_16_report_exec_time.png" width="446">
 The execution time trend graph is located on the left, below the test case count graphs.  This handy graph tells me that the time it took to execute test cases for the given Test Run (or Test Cycle) increased steadily from R1 (Run 1) to R2 to R3 as I built more and more test cases while concurrently regression testing the entire suite (no Qpasses).  However, notice the time savings starting in R4 where the actual test case writing tapered off and the qualified passes (skipped executing of test cases) started occurring.  By R6, most of the prior test runs' test cases were **not** being regression tested, we simply executed a the few new test cases plus a handful of important existing cases to save time.  That increases risk (because those skipped / Qpassed tests might now be broken), but decreased time.  We can readily estimate how much time it would take for a full regression cycle at R6 by referencing the total time in R3 (full regression plus some extra test case creation time) and R4.  Or for a more precise estimate, we could pull the Qpass Execution Time value from the "Test Cases" worksheet (top right chart).
 
 
 #### 6.6 Releasability Graph
-<img align="right" src="img/img_17_report_releasability.png" width="446"><br>
+<img align="right" src="img/img_17_report_releasability.png" width="446">
 The defects - releasability graph is located on the right, below the defect count graphs.  This graph is very useful in situations where you are pressured to release but are not yet quite ready.  You can show by test run (test cycle) number how the Open Showstoppers were present earlier but then tapered off (good) and how all that remains is lower priority defects that should either be deferred, or accepted as Open, Allowable.  The graph could also be used to show a negative trend, if for example the bright red open showstoppers were trending up towards the most recent release, that would indicate a project that is destabilizing and you might want to put in another full regression test run / test cycle requiring 0 defects and 0 test case fails.<br>
 *Suggestion:* At the beginning of a project, establish agreement that for a release to occur, all test cases must = "Pass" (and optionally allow "Qpass" where the risk is accpetable); and 0 show stopper defects can be found in the final TWO test cycles (this will ensure you get adequate test time because if a new show stopper is found, you just got another test cycle as a buffer or hedge).
 
@@ -226,7 +226,7 @@ The defect lists at the bottom half of the report are optional.  These lists can
 
 <a id="about" class="anchor" href="#about" aria-hidden="true"> </a>
 ### 7. "About" Worksheet
-<img align="right" src="img/img_19_about_screen.png" width="489"><br>
+<img align="right" src="img/img_19_about_screen.png" width="489"
 The "About" worksheet accomplishes a few goals:
 1. Informs the user of the "application" name and version.
 2. Informs the user where to watch training videos about the tool.

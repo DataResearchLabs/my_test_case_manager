@@ -27,10 +27,18 @@ Version = Excel for Office 365.<br>
 
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"> </a>
 ### 1. Introduction 
-* Do you need to organize and track a small to medium size testing project?
-* Do you need to communicate your testing efforts to the project team or a manager?
-* Do you need a simple tool to better organize and track your exploratory test results?
-
+**Do you need...** 
+* ...to organize and track a small to medium size testing project?
+* ...to communicate your testing status to the project team or a manager?
+* ...a simple tool to better organize and track your exploratory test results?
+* ...a lean tool to better organize and track your UAT test cases and results?
+* ...a simple tool to manage up: providing metrics to make better decisions?
+**Can you easily answer...**
+* ...with an estimate of how much test time another test cycle will take?
+* ...how much time a full regression cycle will take?
+* ...how much time remains in the current test cycle?
+* ...what the pass/fail/block trend is over the past 5 test cycles?  
+* ...how much time would be saved vs. risk increased doing Qualified Passes (skip testing because case passed in most recent 2 test cycles)?
 
 If yes to any of the above, then consider using "My Test Case Manager" (MTCM).  MTCM is a lean test tool designed to organize test cases and manage/communicate test results.  MTCM is a simple, minimalist design for software test engineers conducting functional or exploratory testing.  Business analysts can also use MTCM for conducting user acceptance testing (UAT).  You can write the test cases as you execute them, or plan and write them ahead of time.  Run results are tallied and graphed on subsequent worksheets.  You use the report and graphs to communicate status to your project team.  Show them how test cycles work, how test cases are built up over time, how regression testing works with each new build received, how risk is managed from build test to build test, etc.
 <br>

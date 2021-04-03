@@ -8,8 +8,8 @@
 
 **What**: A lean, flexible XL test case manager for small to midsize projects.<br>
 **When**: Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
-**Who**: Use it as an individual.  Use it as a team shared over a network.<br>
-**Why**: Organize test cases.  Achieve "test cycle flow state".  Manage up and out (communicate) better with succinct status visuals.  
+**Who**: Use it standalone as an individual contributor.  Use it as a team shared over a network.<br>
+**Why**: Organize test cases.  Achieve "test cycle flow state".  Manage up and out (communicate) better with insightful status visuals.  
 **How**: No code.  Minimal formulas.  Lots of thought and organization.  Easy for you to adopt and evolve.<br>
 **Creative Commons License**: Free to use.  Free to alter.  Free to distribute.  Am happy if this tool helps you.<br>
 <br>
@@ -28,7 +28,7 @@
  - <a href="#about">7. "About" Worksheet</a>
  - <a href="#exploratoryTesting">8. Exploratory Testing</a>
  - <a href="#advancedTopics">9. Advanced Tips & Tricks</a>
- - <a href="#thankYou">10. Thank You</a>
+ - <a href="#wrapup">10. Wrap Up</a>
 
 
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"> </a>
@@ -361,8 +361,23 @@ To fix the problem, simply highlight all cells in Column "D" except one (importa
 
 
 
-<a id="thankYou" class="anchor" href="#thankYou" aria-hidden="true"> </a>
-### 10. Thank You
+<a id="wrapup" class="anchor" href="#wrapup" aria-hidden="true"> </a>
+### 10. Wrap Up
+#### 10.1 Thank You
+Thank you very much for reading all the way down to the end of the documentation.  Time is valuable and ever more scarce in today's busy world.  Few people make it this far.  If you did, I hope that means you found value in this tool / spreadsheet / "software".  I hope it makes you and/or your team more productive.  I am happy if you adopt the spreadsheet then change and evolve it to meet your needs.  I am happy if you fork this repository and build your own.  I am happy and would roll-in to the master branch any chanes you might make from which other may benefit. Thank you for your use and support.<br>
+
+
+#### 10.2 YouTube Training & Resources
+If you like this tool, please visit and subscribe to my YouTube site at http://www.dataresearchlabs.com and check out video training for this "product" as well as other related tools and training.<br>
+
+
+#### 10.3 MTCM History
+"My Test Case Manager" arrived at version 5.x because I've been chipping away at it for decades.<br>
+
+* **Ver 1.x** - At some point in 1998 I built my first Test Case Manager, veresion 1.x in Access.  I've last track of it now 23 years later.
+* **Ver 2.x** - In early 2000, I started my first freeware hobby site "www.pb-sys.com" for Pierce Business Systems.  Test Case Manager 2.11 was last deployed in October 3, 2000.  I went all in on that tool, supporting multiple languages, adding a language expansion feature so others could build translation files, lots of reoprts, lots of user definable features, etc.  You can [check it out here on the wayback machine](https://web.archive.org/web/20000611181859/http://www.pb-sys.com/).  The bottom line though was that like most heavy overhead test case management systems, you could never achieve flow state while conducting exploratory testing -- the holy grail of 20x productivity.  Plus it was Microsoft Access (file based not server based) and client-server apps were on the way out with heavier web apps moving in.
+* **Ver 2.x** - In 
+
 <br>
 <br>
 * History from V1 thru V5 spanning multiple prior hobby sites (PBSys, WinTestGear, etc.)

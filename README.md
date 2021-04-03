@@ -290,14 +290,23 @@ If you have a test case that involves running a SQL command, then it is a good i
 
 
 #### 9.3 Sample Embedded Image Test Case
+<img align="right" src="img/img_22_sample_test_case_img.png" width="473">
+If you have a test case that could benefit from showing an image or clip from a screenshot as an expected ersult, then it is a good idea to embed the image right into the test case.  An example is shown to the right.  Just enter a test case as you normally would, BUT press Alt+Enter several times to make the test case row a taller, giving ample space to paste-in the image you have copied into the clipboard.<br>
 
 
-* Sample with multiple Test Case worksheet tabs (300, 600, 900 test cases)<br>
+#### 9.4 Use Multiple Worksheets 
+The default "Test Cases" worksheet comes with 300 test case rows.  This is fine for small projects, but what if you have larger projects (or multiple people sharing the same workbook on a network file share--see below).
+
+
+
 * Sample Multi-User Shared Workbook<br>
-* Conditional Formatting Mess if you Copy-Paste + How to Fix<br>
-* Other...<br>
 <br>
 The tool is best used by individual contributors as a local standalone Excel file.  However, I've used it years ago on a test team as a shared file on a network drive or SharePoint...just suggest that you split out each person's work to separate worksheets to minimize collisions.<br>
+
+
+
+* Conditional Formatting Mess if you Copy-Paste + How to Fix<br>
+* Other...<br>
 
 
 <a id="thankYou" class="anchor" href="#thankYou" aria-hidden="true"> </a>

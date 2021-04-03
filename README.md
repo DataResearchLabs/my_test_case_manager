@@ -270,24 +270,21 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 * **The "Wrong Turn"Tour** -Tests where do legal actions in the wrong order to try and trigger a bug
 * **The "Obsessive-Compulsive" Tour** - Tests that repeat the same thing over and over (like copy-paste, copy-paste, over and over; or enter data on screen, then return and enter again)or repeat every step of another tour twice, or three times
 * **The "Tour-Crasher" Tour** - Link test scenarios together, hopping from one to the next to try and trigger odd integration issues
-
-
-
-
-
-
-
+<br>
 
 <a id="advancedTopics" class="anchor" href="#advancedTopics" aria-hidden="true"> </a>
 ### 9. Advanced Tips & Tricks
-#### "Jump Stops" using ctrl + arrow keys in columns A or F.
-
-<br>
-<br>
-
+#### Using "Jump Stops" 
+<img align="right" src="img/img_20_jump_stops.png" width="284"><br>
+"Jump Stops" are just a name given to an idea.  In Excel, you can use the Ctrl+Up and Ctrl+Down keys to jump to the next cell up or down that has data.  Columns "A"and "F" are thin, always empty border spaces.  If you place single characters (like an "x") into important roww along either column, then you could use Ctrl+Up and Ctrl+Down to quickly jumpt thru your 300-ish test cases.  I like to use the "▪" character to mark my jump points, but "x" or similar is fine too.  I also like to put a mark at the first row (17) and the last row (319) so that I don't jump past them.   Then I use Column "A" for tagging section headers, so I can quickly jump to each section or block of test cases.  I use Column "F" for marking test cases that are either failing or blocked so I can quickly jump to the troublespots.<br>
 
 
-* Sample SQL embeddd in a test case<br>
+#### Sample SQL Test Case
+
+
+
+
+
 * Sample Screenshot expected results<br>
 * Sample with multiple Test Case worksheet tabs (300, 600, 900 test cases)<br>
 * Sample Multi-User Shared Workbook<br>

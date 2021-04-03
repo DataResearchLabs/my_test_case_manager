@@ -148,7 +148,7 @@ Ditto for deleting the formula that calculates the Test Case # in column B.<br>
 
 
 #### 4.9 Resetting Test Case Status in Bulk
-<img src="img/img_26_find_and_replace_status.png" width="792"><br>
+<img align="right" src="img/img_26_find_and_replace_status.png" width="548"><br>
 The design of My Test Case Manager is lean and simple.  As such, only one test case run result state is maintained in the "Test Cases" worksheet(s) -- the current state.  (Note: You could copy "Test Cases" worksheets and name the tabs as versions to track state yourself if you so desired.)<br><br>
 This then raises the question, "How do I reset the test case status from Pass or Fail or Block or QPass back to Todo at the start of each new test cycle?"<br<br>
 The answer is to use Excel's "Find and Replace" feature (Ctrl+H) to replace cells having an exact match on case and the entire contents.  In the screenshot to the right, item #1 is the find what set to "P" with item 2 replace with set to a "T".  Note that you have to click the Options button (item 3) so that you can see and check item #4 Match case and item #5 Match entire cell contents.  Then click Replace All to rest the passes to todo's.  Repeat for "F" to "T", "B" to "T", and "Q" to "T".  Leave the i's alone as they are just informational.  I optionally change all the "P"asses to "Q"ualifiedPasses and leave the "F"ails and "B"locks as a reminder of prior cycle high priority cases.  Then I can pick and choose which "Q"pass cases to regress (flipping to "P"ass typically); and then focussing remaining limited time on the "F"s and "B"s.<br>

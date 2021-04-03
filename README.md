@@ -2,7 +2,7 @@
 
 # My Test Case Manager
 A lean, flexible XL test case manager for small to midsize projects.<br>
-Good for traditional IT functional testsing, UAT testing, or exploratory testing.<br>
+Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
 Free to use.  Free to alter.  Free to distribute.  Creative Commons license.<br>
 Use it as an individual.  Use it shared by a team over a network (xref 9.4 & 9.5 below).<br>
 Version = Excel for Office 365.<br>

@@ -2,10 +2,11 @@
 
 # My Test Case Manager
 A simple flexible XL test case manager for small projects and UAT.  Good for exploratory testing too.<br>
-<br>
 **Version = Excel for Office 365.**<br>
 <br>
-<img src="img/img_25_best_screenshots.png" width="634" border="1">
+<kbd>
+  <img src="img/img_25_best_screenshots.png" width="634">
+</kbd>
 
 
 ## Table of Contents

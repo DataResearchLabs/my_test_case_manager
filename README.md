@@ -8,7 +8,7 @@
 
 **What**: A lean, flexible XL test case manager for small to midsize projects.<br>
 **When**: Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
-**Who**: Use it as an individual.  Use it shared by a team over a network (xref 9.4 & 9.5 below).<br>
+**Who**: Use it as an individual.  Use it as a team shared over a network.<br>
 **Why**: Organize test cases.  Achieve "test cycle flow state".  Manage up and out (communicate) better with succinct status visuals.  
 **How**: No code.  Minimal formulas.  Lots of thought and organization.  Easy for you to adopt and evolve.<br>
 **Creative Commons License**: Free to use.  Free to alter.  Free to distribute.<br>

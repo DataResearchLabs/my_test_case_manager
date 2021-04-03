@@ -124,19 +124,13 @@ There are six possible status values available in the status dropdown show in th
 <br>
 
 
-#### 4.6 Deleting Test Cases
-The simplest way to delete a test case is actually to just highlight the three yellow cells (ExecTm, Stat, and TestSteps columns) for a test case and press the delete key.  In the screenshot below, three test cases are highlighted and will be deleted as soon as either the Delete key or Backspace key is pressed on the keyboard.<br>
-Note that it is a bad idea to highlight and delete entire rows, although that should work without impacting automated calculations and graph results; however, it was not tested so steer clear of that.  Ditto for deleting the formula that calculates the Test Case # in column B.<br>
-<img src="img/img_09_highlight_and_delete.png" width="792"><br>
-
-
-#### 4.7 Validation Errors
+#### 4.6 Validation Errors
 In order for all the automated calculations, tables, charts, and reports to properly function, it is important that you fill in all three columns for each test case.  That means every row must have a value for ExecTm, Stat, and TestSteps columns -- no blanks.  If you do leave any columns blank (callout #1 below), the checksum counts will notice the mismatch and trigger  validation errors (callout #2) up at the top of the Test Cases worksheet as shown in the screenshot below.<br>
 To correct the validation erros (make them disappear), simply fill in all the blank cells for any partially filled out test case row.<br>
 <img src="img/img_10_validation_errors.png" width="1216"><br>
 
 
-#### 4.8 Current Test Results
+#### 4.7 Current Test Results
 The Test Cases worksheet is broken down into two sections:<br>
 1. Rows 1-16 are for "Test Results" - a nice summary of counts and test time in a table with a graph.<br>
 2. Rows 17-319 are for "Test Cases" - where all the details go.
@@ -144,6 +138,20 @@ The Test Cases worksheet is broken down into two sections:<br>
 <img align="right" src="img/img_11_test_case_results.png" width="383">
 These metrics automatically update as you write and execute test cases below.  They summarize all the results on this worksheet.  If you copy-paste the worksheet to make a second or third instance, then each will have their own self-contained Test Results section.<br>
 I like to screenshot this section for status emails sometimes, to give a pretty summary of where the current Test Run / Test Cycle is at.  This is especially nice for when you are partially thru a test run and can show not only the actual time completed ("B"locked + "F"ailed + "Q"pass + "P"ass), but also the expected remaining time ("T"odo) because in theory you have the prior execution times still in place from your last run...or you've entered the expected time to execute in.<br>
+
+
+#### 4.8 Deleting Test Cases
+The simplest way to delete a test case is actually to just highlight the three yellow cells (ExecTm, Stat, and TestSteps columns) for a test case and press the delete key.  In the screenshot below, three test cases are highlighted and will be deleted as soon as either the Delete key or Backspace key is pressed on the keyboard.<br>
+Note that it is a bit more complicated to highlight and delete entire rows.  Although it works without impacting automated calculations and graph results, you would lose overal test cases (dropping from 300 to 300 minus the one ore more rows you deleted).  You could always copy an empty row and paste insert it back in to recover, but that process is more complex than simply highlighting and deleting cells in the there columns we edit.<br>
+Ditto for deleting the formula that calculates the Test Case # in column B.<br>
+<img src="img/img_09_highlight_and_delete.png" width="792"><br>
+
+
+#### 4.9 Resetting Test Case Status in Bulk
+<img src="img/img_26_find_and_replace_status.png" width="792"><br>
+The design of My Test Case Manager is lean and simple.  As such, only one test case run result state is maintained in the "Test Cases" worksheet(s) -- the current state.  (Note: You could copy "Test Cases" worksheets and name the tabs as versions to track state yourself if you so desired.)<br><br>
+This then raises the question, "How do I reset the test case status from Pass or Fail or Block or QPass back to Todo at the start of each new test cycle?"<br<br>
+The answer is to use Excel's "Find and Replace" feature (Ctrl+H) to replace cells having an exact match on case and the entire contents.  In the screenshot to the right, item #1 is the find what set to "P" with item 2 replace with set to a "T".  Note that you have to click the Options button (item 3) so that you can see and check item #4 Match case and item #5 Match entire cell contents.  Then click Replace All to rest the passes to todo's.  Repeat for "F" to "T", "B" to "T", and "Q" to "T".  Leave the i's alone as they are just informational.  I optionally change all the "P"asses to "Q"ualifiedPasses and leave the "F"ails and "B"locks as a reminder of prior cycle high priority cases.  Then I can pick and choose which "Q"pass cases to regress (flipping to "P"ass typically); and then focussing remaining limited time on the "F"s and "B"s.<br>
 <br>
 <br>
 
@@ -320,6 +328,7 @@ The default "Test Cases" worksheet comes with 300 test case rows.  This is fine 
 1. **Copy-Paste More Rows:**  The first option would be to simply copy one empty test case row (between 19 and 318), then highlight row 318 and drag down 100-, 300- or 500- rows, then right-click and select "Insert Copied Cells".  
 2. **Use Multiple Worksheets:** The second option is to Copy the "Test Cases" worksheet, making a second set of 300 test cases.  To do that, double-click the "Test Cases" tab and rename it to something cleaner (like "TC1" or whatever).  Next, right-click the "TC1" tab, click "Move or Copy" from the popup menu, check "Create a copy", and select the worksheet before which you want the copy placed, and click Ok.  Finally, double-click the "TC1 (2)" new worksheet and rename it (probably to "TC2".<br>
 Note that if you add one or more worksheets (nice and clean approach), you will have to be careful when tallying Test Run results on the "Test Run Log" worksheet to include ALL counts across ALL test case worksheets.  Just use a formula like this "=23+34+12" if you for example had 23 passes on TC1, 34 Passes on TC2 and 12 Passes on TC3.
+Download example "mtcm_sample_2.xlsx" from https://github.com/DataResearchLabs/my_test_case_manager/blob/main/samples/ to see how multiple test case worksheets (tabs) can be implemented.  Note that you could even automate the most recent test run counts to be formulas on the "Test Run Log" sheet (but you'd want to copy paste the formulas over to values each time you started a new test run to capture what they were before they started changing).
 
 In the example screenshot below, this instance of the spreadsheet has three Test Case tabs (TC1, TC2, and TC3), each with 300 test cases for a total of 900 test cases.<br>
 <img src="img/img_23_sample_many_worksheets.png" width="501">

@@ -7,8 +7,8 @@
 
 **What:** A lean, flexible XL test case manager for small to midsize projects.<br>
 **When:** Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
-**Creative Commons License:** Free to use.  Free to alter.  Free to distribute.<br>
 **Who:** Use it as an individual.  Use it shared by a team over a network (xref 9.4 & 9.5 below).<br>
+**Creative Commons License:** Free to use.  Free to alter.  Free to distribute.<br>
 <br>
 <kbd>
   <img src="img/img_25_best_screenshots.png" width="634">

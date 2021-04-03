@@ -6,15 +6,16 @@
 [![Latest Release](https://img.shields.io/badge/Latest_Release-5.01.44289-blue)](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/download)
 [![YouTube](https://img.shields.io/badge/YouTube-DataResearchLabs-brightgreen)](http://www.DataResearchLabs.com)
 
-| | |
-|:--------|:----------|
-|**What**|A lean, flexible XL test case manager for small to midsize projects|
-|**When**|Good for traditional IT functional testing, UAT testing, or exploratory testing.|
-|**Who** |Use it standalone as an individual contributor.  Use it as a team shared over a network.|
-|**Why** | Organize test cases.  Achieve "test cycle flow state".<br>Manage up and out (communicate) better with insightful status visuals.| 
-|**How** | No code.  Minimal formulas.  Lots of thought and organization.  Easy for you to adopt and evolve.|
-|**License**| Creative Commons.  Free to use.  Free to alter.  Free to distribute.  Am happy if this tool helps you.|
-| | |
+
+* **What**: A lean, flexible XL test case manager for small to midsize projects<br>
+* **When**: Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
+* **Who**: Use it standalone as an individual contributor.  Use it as a team shared over a network.<br>
+* **Why**: Organize test cases.  Achieve "test cycle flow state".<br>
+           Manage up and out (communicate) better with insightful status visuals.<br>
+* **How**: No code.  Minimal formulas.  Lots of thought and organization.  Easy for you to adopt and evolve.<br>
+* **License**: Creative Commons.  Free to use.  Free to alter.  Free to distribute.  Am happy if this tool helps you.<br>
+
+
 <kbd>
   <img src="img/img_25_best_screenshots.png" width="634">
 </kbd>

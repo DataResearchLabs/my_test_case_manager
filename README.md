@@ -32,9 +32,9 @@ Version = Excel for Office 365.<br>
 * ...to communicate your testing status to the project team or a manager?
 * ...a simple tool to better organize and track your exploratory test results?
 * ...a lean tool to better organize and track your UAT test cases and results?
-* ...a simple tool to manage up: providing metrics to make better decisions?
-<br>
-<br>
+* ...a simple tool to manage up: providing metrics to make better decisions?<br>
+
+
 **Can you easily answer...**
 * ...with an estimate of how much test time another test cycle will take?
 * ...how much time a full regression cycle will take?

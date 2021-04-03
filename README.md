@@ -6,6 +6,8 @@
 [![Latest Release](https://img.shields.io/badge/Latest_Release-5.01.44289-blue)](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/download)
 [![YouTube](https://img.shields.io/badge/YouTube-DataResearchLabs-brightgreen)](http://www.DataResearchLabs.com)
 
+|Attribute|Description|
+|:-------:|:---------:|
 |**What**|A lean, flexible XL test case manager for small to midsize projects|
 |**When**|Good for traditional IT functional testing, UAT testing, or exploratory testing.|
 |**Who** |Use it standalone as an individual contributor.  Use it as a team shared over a network.|

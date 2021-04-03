@@ -1,8 +1,11 @@
 <img align="left" src="https://avatars.githubusercontent.com/u/76134639?s=200&v=4" width="64px">
 
 # My Test Case Manager
-A simple flexible XL test case manager for small projects and UAT.  Good for exploratory testing too.<br>
-**Version = Excel for Office 365.**<br>
+A lean, flexible XL test case manager for small to midsize projects.<br>
+Good for traditional IT functional testsing, UAT testing, or exploratory testing.<br>
+Free to use.  Free to alter.  Free to distribute.  Creative Commons license.<br>
+Use it as an individual.  Use it shared by a team over a network (xref 9.4 & 9.5 below).<br>
+Version = Excel for Office 365.<br>
 <br>
 <kbd>
   <img src="img/img_25_best_screenshots.png" width="634">

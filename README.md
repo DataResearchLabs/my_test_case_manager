@@ -11,7 +11,7 @@
 * **When**: Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
 * **Who**: Use it standalone as an individual contributor.  Use it as a team shared over a network.<br>
 * **Why**: Organize test cases.  Achieve "test cycle flow state".<br>
-           Manage up and out (communicate) better with insightful status visuals.<br>
+          Manage up and out (communicate) better with insightful status visuals.<br>
 * **How**: No code.  Minimal formulas.  Lots of thought and organization.  Easy for you to adopt and evolve.<br>
 * **License**: Creative Commons.  Free to use.  Free to alter.  Free to distribute.  Am happy if this tool helps you.<br>
 

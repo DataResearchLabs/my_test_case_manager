@@ -3,7 +3,8 @@
 # My Test Case Manager
 [![License: CC](https://img.shields.io/badge/License-CC-yellow.svg)](LICENSE "CC License DataResearchLabs")
 ![current_build Office_360](https://img.shields.io/badge/current_build-Office_360-red.svg)
-[![Latest Release](5.01.44289)](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/download)
+[![Latest Release](https://img.shields.io/github/release/Access-projects/Access-examples.svg?label=5.01.44289)](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/download)
+
 A lean, flexible XL test case manager for small to midsize projects.<br>
 Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
 Free to use.  Free to alter.  Free to distribute.  Creative Commons license.<br>

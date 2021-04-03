@@ -11,7 +11,7 @@
 **Who**: Use it standalone as an individual contributor.  Use it as a team shared over a network.<br>
 **Why**: Organize test cases.  Achieve "test cycle flow state".  Manage up and out (communicate) better with insightful status visuals.  
 **How**: No code.  Minimal formulas.  Lots of thought and organization.  Easy for you to adopt and evolve.<br>
-**Creative Commons License**: Free to use.  Free to alter.  Free to distribute.  Am happy if this tool helps you.<br>
+**License**: Creative Commons.  Free to use.  Free to alter.  Free to distribute.  Am happy if this tool helps you.<br>
 <br>
 <kbd>
   <img src="img/img_25_best_screenshots.png" width="634">

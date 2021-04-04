@@ -361,7 +361,12 @@ If you have a test case that could benefit from showing an image or clip from a 
 
 
 #### 9.4 Adding More Than 300 Test Cases 
-The default "Test Cases" worksheet comes with 300 test case rows.  This is fine for small projects, but what if you have larger projects and need more than 300 test cases.  There are two approaches to add new test cases:
+The standard template "my_test_case_manager.xlsx" comes default with a single "Test Cases" worksheet comes with 300 test case rows.  This is fine for small projects, but what if you have larger projects and need more than 300 test cases.  The simplest answer is to download the "my_test_case_manager_large.xlsx" which comes default with eight test case worksheets each having 625 test cases for a total of 5,000 test cases.  You really shouldn't go past that, it becomes too cumbersome.  It would probably be a better idea to break your tests down into separate test case files with one to two thousand test cases in each.  But hey, if you really want 50,000 test cases in spreadsheets, then go for it...just put 10 different copies of the large template in use.<br>
+<img src="img/img_28_large_template_8tabs.png" width="828">
+<br>
+<br>
+
+If you still want to start with the standard 300 template and expand from there, then there are two approaches to add new test cases.
 1. **Copy-Paste More Rows:**  The first option would be to simply copy one empty test case row (between 19 and 318), then highlight row 318 and drag down 100-, 300- or 500- rows, then right-click and select "Insert Copied Cells".  
 2. **Use Multiple Worksheets:** The second option is to Copy the "Test Cases" worksheet, making a second set of 300 test cases.  To do that, double-click the "Test Cases" tab and rename it to something cleaner (like "TC1" or whatever).  Next, right-click the "TC1" tab, click "Move or Copy" from the popup menu, check "Create a copy", and select the worksheet before which you want the copy placed, and click Ok.  Finally, double-click the "TC1 (2)" new worksheet and rename it (probably to "TC2".<br>
 Note that if you add one or more worksheets (nice and clean approach), you will have to be careful when tallying Test Run results on the "Test Run Log" worksheet to include ALL counts across ALL test case worksheets.  Just use a formula like this "=23+34+12" if you for example had 23 passes on TC1, 34 Passes on TC2 and 12 Passes on TC3.

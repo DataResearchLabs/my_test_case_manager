@@ -9,7 +9,7 @@
 
 * **What**: A lean, flexible XL test case manager for small to midsize projects<br>
 * **When**: Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
-* **Who**: Use it standalone as an individual contributor.  Use it as a team shared over a network.<br>
+* **Who**: Use it standalone as an individual contributor.  Use it as a team <a href="#multiUser">shared over a network.</a><br>
 * **Why**: Organize test cases.  Achieve "test cycle flow state".  Manage up and out (communicate) better with insightful status visuals.<br>
 * **How**: No code.  Minimal formulas.  Lots of thought and organization.  Easy for you to adopt and evolve.<br>
 * **License**: Creative Commons.  Free to use.  Free to alter.  Free to distribute.  Am happy if this tool helps you.<br>
@@ -36,19 +36,19 @@
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"> </a>
 ### 1. Introduction 
 **Do you need...** 
-* ...to organize and track a small to medium size testing project?
-* ...to communicate your testing status to the project team or a manager?
-* ...a simple tool to better organize and track your exploratory test results?
-* ...a lean tool to better organize and track your UAT test cases and results?
-* ...a simple tool to manage up: providing metrics to make better decisions?<br>
+* to organize and track a small to medium size testing project?
+* to communicate your testing status to the project team or a manager?
+* a simple tool to better organize and track your exploratory test results?
+* a lean tool to better organize and track your UAT test cases and results?
+* a simple tool to manage up: providing metrics to make better decisions?<br>
 
 
 **Can you answer...**
-* ...with an estimate of how much test time another test cycle will take?
-* ...how much time a full regression cycle will take?
-* ...how much time remains in the current test cycle?
-* ...what the pass/fail/block trend is over the past 5 test cycles?  
-* ...how much time would be saved vs. risk increased doing Qualified Passes (skip testing because case passed in most recent 2 test cycles)?
+* with an estimate of how much test time another test cycle will take?
+* how much time a full regression cycle will take?
+* how much time remains in the current test cycle?
+* what the pass/fail/block trend is over the past 5 test cycles?  
+* how much time would be saved vs. risk increased doing Qualified Passes (skip testing because case passed in most recent 2 test cycles)?
 
 If **yes** to any of the "Do you need"s or **no** to any of the "can you answer"s, then consider using "My Test Case Manager" (MTCM).  MTCM is a lean test tool designed to organize test cases and manage/communicate test results.  MTCM is a simple, minimalist design for software test engineers conducting functional or exploratory testing.  Business analysts can also use MTCM for conducting user acceptance testing (UAT).  You can write the test cases as you execute them, or plan and write them ahead of time.  Run results are tallied and graphed on subsequent worksheets.  You use the report and graphs to communicate status to your project team.  Show them how test cycles work, how test cases are built up over time, how regression testing works with each new build received, how risk is managed from build test to build test, etc.
 <br>
@@ -339,6 +339,7 @@ In the example screenshot below, this instance of the spreadsheet has three Test
 <img src="img/img_23_sample_many_worksheets.png" width="501">
 
 
+<a id="multiUser" class="anchor" href="#multiUser" aria-hidden="true"> </a>
 #### 9.5 Using With Multiple Users 
 The spreadsheet tool (MTCM) is best used by individual contributors as a local standalone Excel file.  The "My" in "My Test Case Manager" is meant to emphasize this tool's use as a force-multiplier for individaul contributors.  It is meant to make you more efficient without having to put in a purchase order request or run through all the red tape with IT to install an application (this is just a code-less spreadsheet).
 

@@ -61,9 +61,9 @@ To download the "My Test Case Manager" tool (Excel spreadsheet) from this reposi
 2. Then click the download button
 3. Then click the '...' button at browser Open File popup
 4. Then click 'Show in Folder' from popup
-5. Then copy-paste the appropriate XLSX file into a directory of your choosing.
-   a. "my_test_case_manager.xlsx" file = 300 test cases (1 test case worksheet w/300 rows)
-   b. "my_test_case_manager_large.xlsx" file = 5,000 test cases (8 test case worksheets w/625 rows each) 
+5. Then copy-paste the appropriate XLSX file into a directory of your choosing.<br>
+   a. "my_test_case_manager.xlsx" file = 300 test cases (1 test case worksheet w/300 rows)<br>
+   b. "my_test_case_manager_large.xlsx" file = 5,000 test cases (8 test case worksheets w/625 rows each)<br>
 
 You should probably save the first copy of "my_test_case_manager.xlsx" as a template that you never alter.  Instead, paste a copy of that file into new project folders and rename the file accordingly (e.g.: "mtcm_project_X.xlsx").
 

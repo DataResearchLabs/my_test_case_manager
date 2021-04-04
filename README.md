@@ -58,7 +58,7 @@ If **yes** to any of the "Do you need"s or **no** to any of the "can you answer"
 ### 2. Download
 #### 2.1 Decision
 Decide whether you want to start with the standard template or the large template:
-|Template File Name             |Test Case Count|Number TC Worksheets|TC's per Worksheet|
+|Template File Name             |Test<br>Case<br>Count|Number<br>TC<br>Worksheets|TC's<br>per<br>Worksheet|
 |:------------------------------|----:|---------:|---------|
 |my_test_case_manager.xlsx      |  300|         1|      300|
 |my_test_case_manager_large.xlsx|5,000|         8|      625|

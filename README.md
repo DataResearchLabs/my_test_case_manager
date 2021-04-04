@@ -370,10 +370,7 @@ If you still want to start with the standard 300 template and expand from there,
 1. **Copy-Paste More Rows:**  The first option would be to simply copy one empty test case row (between 19 and 318), then highlight row 318 and drag down 100-, 300- or 500- rows, then right-click and select "Insert Copied Cells".  
 2. **Use Multiple Worksheets:** The second option is to Copy the "Test Cases" worksheet, making a second set of 300 test cases.  To do that, double-click the "Test Cases" tab and rename it to something cleaner (like "TC1" or whatever).  Next, right-click the "TC1" tab, click "Move or Copy" from the popup menu, check "Create a copy", and select the worksheet before which you want the copy placed, and click Ok.  Finally, double-click the "TC1 (2)" new worksheet and rename it (probably to "TC2".<br>
 Note that if you add one or more worksheets (nice and clean approach), you will have to be careful when tallying Test Run results on the "Test Run Log" worksheet to include ALL counts across ALL test case worksheets.  Just use a formula like this "=23+34+12" if you for example had 23 passes on TC1, 34 Passes on TC2 and 12 Passes on TC3.
-Download example "mtcm_sample_2.xlsx" from https://github.com/DataResearchLabs/my_test_case_manager/blob/main/samples/ to see how multiple test case worksheets (tabs) can be implemented.  Note that you could even automate the most recent test run counts to be formulas on the "Test Run Log" sheet (but you'd want to copy paste the formulas over to values each time you started a new test run to capture what they were before they started changing).
-
-In the example screenshot below, this instance of the spreadsheet has three Test Case tabs (TC1, TC2, and TC3), each with 300 test cases for a total of 900 test cases.<br>
-<img src="img/img_23_sample_many_worksheets.png" width="501">
+Download example "mtcm_sample_2.xlsx" from https://github.com/DataResearchLabs/my_test_case_manager/blob/main/samples/ to see how multiple test case worksheets (tabs) can be implemented.<br>
 
 
 <a id="multiUser" class="anchor" href="#multiUser" aria-hidden="true"> </a>

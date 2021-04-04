@@ -18,11 +18,14 @@
 <kbd>
   <img src="img/img_25_best_screenshots.png" width="634">
 </kbd>
-
-
-**If you like this tool, click the "Star" in GitHub and visit or subscribe to the YouTube channel www.DataResearchLabs.com!**
-
-
+<br>
+<br>
+<br>
+**If you like this tool, be sure to click the "Star" button above in GitHub.<br>
+Also, be sure to visit or subscribe to uot YouTube channel www.DataResearchLabs.com!**<br>
+<br>
+<br>
+<br>
 ## Table of Contents
  - <a href="#introduction">1. Introduction</a>
  - <a href="#download">2. Download</a>

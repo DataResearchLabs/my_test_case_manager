@@ -377,11 +377,12 @@ Download example "mtcm_sample_2.xlsx" from https://github.com/DataResearchLabs/m
 #### 9.5 Using With Multiple Users 
 The spreadsheet tool (MTCM) is best used by individual contributors as a local standalone Excel file.  The "My" in "My Test Case Manager" is meant to emphasize this tool's use as a force-multiplier for individaul contributors.  It is meant to make you more efficient without having to put in a purchase order request or run through all the red tape with IT to install an application (this is just a code-less spreadsheet).
 
-However, this simple spreadsheet tool can be effectively shared by multipled team members at the same time.  Proof: I used a similar spreadsheet 12 years ago at a large aerospace company in which a team of 4 shared and concurrently used it all day long.  Also more recently, folks at a prior job saved out several Excel files to SharePoint and we all shared them from there.  
+However, this simple spreadsheet tool can be effectively shared by multipled team members at the same time.  Proof: I used a similar spreadsheet 12 years ago at a large aerospace company in which a team of 4 shared and concurrently used it all day long.  Also at a more recent job, folks saved out several Excel files to SharePoint and we all concurrently worked the files just fine.  
 
 Some shared use suggestions are as follows:
-1. **Use Multiple Worksheets:** one per tester.  This virtualy eliminates the risk conflicts (changing same cells at sametime)
-2. **Use "Share" Button**:  Office 365 has a "Share" button in the upper right corner that will walk you through the process of sharing the Excel template up on your company's OneDrive.<br>
+1. **Use Multiple Worksheets:** one per tester.  This virtualy eliminates the risk conflicts (changing same cells at sametime).
+2. **Use Large Template:** Use the "my_test_case_manager_large.xlsx" file.  It starts off configured with 5,000 test cases and eight separate test case worksheets.
+3. **Use "Share" Button**:  Office 365 has a "Share" button in the upper right corner that will walk you through the process of sharing the Excel template up on your company's OneDrive.<br>
 Disclaimer: I have not done this myself yet, but have seen and used nwer Office 365 XL files shared by others.<br>
 Disclaimer: Back in 2009 at a large aerospace company, we had a team of four sharing a test case spreadsheet by simply copying the XL file out to a network share and turning on the share mode -- not sure Office 365 allows this any more, but that was an easy option back in the day.
 

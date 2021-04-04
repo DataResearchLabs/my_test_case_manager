@@ -212,6 +212,10 @@ The general process for entering Test Run (test cycle) row data is as follows:<b
 <img src="img/img_12_test_run_log_levelset.png" width="956"><br>
 
 
+The steps above apply to the single "Test Case" worksheet standard template "my_test_case_manager.xlsx".  **If** you are using the larger template "my_test_case_manager_large.xlsx", then there is an additional section added in to the "Test Run Log" worksheet that will save you time.  In the screenshot below, calluot #1 shows where the new auto calculated values are located.  These calculated values include today's date plus rollup totals for the execution time and test case counts per status across all eight TC1-TC8 worksheets.  You simply copy the values in blue box at callout #1, then paste AS VALUES ONLY into the last row of orange cells in the lower table **after** creating a new row to paste into following the standard blue box instructions.  Sure, we could have used VBA programming via a button to just do this automatically, BUT that would then have added extra security considerations and steps for everybody (maybe in the future we will have a template with code behind a button, but not for now).
+<img src="img/img_27_copy_paste_rollup_calc_totals.png" width="1140"><br>
+
+
 #### 5.3 Entering Test Run Values
 It is important that you properly fill out all of the columns for each Test Run / Test Cycle row.  Only enter values into the pale yellow cells (leave the calculated silver cells alone).<br>
 Here are the column definitions and suggestions about how you should use them:<br>

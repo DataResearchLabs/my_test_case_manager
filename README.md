@@ -56,20 +56,37 @@ If **yes** to any of the "Do you need"s or **no** to any of the "can you answer"
 
 <a id="download" class="anchor" href="#download" aria-hidden="true"> </a>
 ### 2. Download
+#### 2.1 Decision
+Decide whether you want to start with the standard template or the large template:
+|                               |Test |Number    |TC's     |
+|                               |Case |TC        |Per      |
+|Template File Name             |Count|Worksheets|Worksheet|
+|:------------------------------|----:|---------:|---------|
+|my_test_case_manager.xlsx      |  300|         1|      300|
+|my_test_case_manager_large.xlsx|5,000|         8|      625|
+
+
+#### 2.2 Download
 To download the "My Test Case Manager" tool (Excel spreadsheet) from this repository's /download folder,
 1. [Right-click here with Open in New Tab](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx) 
 2. Then click the download button
 3. Then click the '...' button at browser Open File popup
 4. Then click 'Show in Folder' from popup
-5. Then copy-paste the appropriate XLSX file into a directory of your choosing.<br>
-   a. "my_test_case_manager.xlsx" file = 300 test cases (1 test case worksheet w/300 rows)<br>
-   b. "my_test_case_manager_large.xlsx" file = 5,000 test cases (8 test case worksheets w/625 rows each)<br>
+5. Then copy the appropriate XLSX file: standard template "my_test_case_manager.xlsx" or large template "my_test_case_manager_large.xlsx"<br>
 
-You should probably save the first copy of "my_test_case_manager.xlsx" as a template that you never alter.  Instead, paste a copy of that file into new project folders and rename the file accordingly (e.g.: "mtcm_project_X.xlsx").
 
+#### 2.3 Deploy
+1. Identify or create a "parent" or "$" folder somewhere on your computer that is the parent to house all the test case data files
+2. Create a "$\original_template" folder somewhere on your computer.  Paste the original copy (or both) that you downloaded there. Never alter these files.
+3. Create a "$\projectX1" folder somewhere on your computer (or network if you are going to use it in shared mode as a team).
+5. Paste a copy of the template into the new "$\projectX1" folder
+6. Rename the template XLSX file accordingly (e.g.: "mtcm_projectX1.xlsx" or some equivalent).
+
+
+#### 2.4 Sample MTCM XLSC Files
 To download examples of the tool in use with sample data from this repository's /samples folder, [click here for samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples), then click the sample file you want, and finally click the download button.
-<br>
-<br>
+
+
 
 <a id="gettingStarted" class="anchor" href="#gettingStarted" aria-hidden="true"> </a>
 ### 3. Getting Started

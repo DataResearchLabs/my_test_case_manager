@@ -403,6 +403,14 @@ Unfortunately, there is a donwside to the conditional formatting.  When you star
 There are times when you have (a) large SQL statements, (b) large screenshots of expected results, (c) large precondition test data sets, etc. which just will not fit in the test case worksheet.  In those instances, just go ahead and insert a new worksheet off to the right and label it something like "Dtl_1" for detail sheet #1.  Then insert the SQL or image or test data into this worksheet.  Sometimes I hide the gridlines and put multiple blocks of SQL code in here, separating with title rows as shown in the screenshot below.  Other times I put large SQL statements in separate detail sheets.  Sometimes I put large test data sets int their own detail sheets and then use formulas to make [insert into scripts](https://www.youtube.com/watch?v=iX3BlFlaYy0).  Sometimes I use a detail sheet to track performance of SQL test runs.  You can put whatever supporting materials into detail sheets that you need to.
 
 
+To add a link that jumps a user to the Detail Page, follow these steps:
+1. Right-click the cell
+2. Click "Link"  >  "Insert Link"
+3. At the popup, click Link To = "Place in This Document" 
+4. Either type in a cell reference, or select the Worksheet from the ilst of Cell References
+5. Click Ok.
+
+
 <a id="wrapup" class="anchor" href="#wrapup" aria-hidden="true"> </a>
 ### 10. Wrap Up
 #### 10.1 Thank You

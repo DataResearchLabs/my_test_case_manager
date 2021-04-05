@@ -408,6 +408,9 @@ To add a link that jumps a user to the Detail Page, follow these steps:
 3. At the popup, click Link To = "Place in This Document" 
 4. Either type in a cell reference, or select the Worksheet from the ilst of Cell References
 5. Click Ok.
+<br>
+<br>
+<br>
 
 
 <a id="wrapup" class="anchor" href="#wrapup" aria-hidden="true"> </a>

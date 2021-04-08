@@ -12,7 +12,7 @@
 * **Who**: Use it standalone as an individual contributor.  Use it as a team <a href="#multiUser">shared over a network.</a><br>
 * **Why**: Write test cases from a "flow state".  Better communicate and influence with insightful status visuals.<br>
 * **How**: No code.  Minimal formulas.  Just simple, low-tech, organized worksheets.  Easy for you to adopt and evolve.<br>
-* **License**: Creative Commons.  Free to use.  Free to copy.  Free to alter.  Free to distribute.  Am you find this tool useful.<br>
+* **License**: Creative Commons.  Free to use.  Free to copy.  Free to alter.  Free to distribute.  Am happy you find this tool useful.<br>
 
 
 <kbd>

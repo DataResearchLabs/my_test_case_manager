@@ -1,6 +1,6 @@
-<img align="left" src="https://avatars.githubusercontent.com/u/76134639?s=200&v=4" width="64px">
+<img align="left" src="https://github.com/DataResearchLabs/my_test_case_manager/blob/main/img/application_icon.png" width="64px">
 
-# My Test Case Manager (MTCM)
+# My Test Case Manager (MTCM) <img src="https://avatars.githubusercontent.com/u/76134639?s=200&v=4" width="64px">
 [![License: CC](https://img.shields.io/badge/License-CC-red)](LICENSE "Creative Commons License by DataResearchLabs")
 ![current_build Office_360](https://img.shields.io/badge/Excel_Version-Office_360-yellow)
 [![Latest Release](https://img.shields.io/badge/Latest_Release-5.01.44289-blue)](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/download)

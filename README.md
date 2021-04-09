@@ -1,4 +1,3 @@
-<img align="left" src="https://avatars.githubusercontent.com/u/76134639?s=200&v=4" width="64px">
 <img align="left" src="https://github.com/DataResearchLabs/my_test_case_manager/blob/main/img/application_icon.png" width="64px">
 
 # My Test Case Manager (MTCM) 

@@ -145,10 +145,15 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 <br>
 
 #### 4.4 Excel Formatting
-Since the "Test Steps" cell is truly just a single cell (no merging) then the auto-size height works.  Also, the bolding and font color of individual words or lines within the cell as well as all other standard XL formatting will work as expected.  You can even copy-paste a small image or screenshot as expected results into a cell, or paste in several lines of SQL to copy-paste-run as part of your testing.<br>
-Note that when using Alt+Enter to increase row height, Excel allows one row to expand up to 29 visible lines of text (I tested); more lines can be present in the row, they just won't be all visible and at some point the cell gets truncated so be reasonable and split test details into multiple rows if needed.<br>
-Note that any formatting you apply to the Status column will be overriden by the conditional formatting (unless you choose the value "i" which has none).
+1. **AutoSize**: Since the "Test Steps" cell is truly just a single cell (no merging) then the auto-size height works.<br>
+2. **Formatting**: All standard XL formatting such as bolding and font color of individual words within the cell will work as expected.<br>
+3. **Images**: You can even copy-paste a small image or screenshot as expected results into a cell.<br>
+4. **Code Snippets**: Or paste in several lines of SQL to copy-paste-run as part of your testing.<br>
+5. **Row Height Limit**:  Note that when using Alt+Enter to increase row height, Excel allows one row to expand up to 29 visible lines of text (I tested); more lines can be present in the row, they just won't be all visible and at some point the cell gets truncated<br>
+6. **Tip 1**: Suggest splitting test details into multiple rows if needed.<br>
+7. **Tip 2**: Note that any formatting you apply to the Status column will be overriden by the conditional formatting (unless you choose the value "i" which has none).
 <br>
+
 
 #### 4.5 Available Status Values
 There are six possible status values available in the status dropdown show in the image on the left below.  Each status value has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>

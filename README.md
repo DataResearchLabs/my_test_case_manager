@@ -302,7 +302,7 @@ The "About" worksheet accomplishes a few goals:<br>
 2. Informs the user where to watch training videos about the tool.<br>
 3. Informs the user where to find the tool on GitHub.<br>
 4. Indicates that the tool and all documentation are Creative Commons license...which means I grant you full and free usage.<br><br>
-I hope it helps you in your company and makes you more productive.  I am happy for you if you extend and modify or alter the tool.  Do what you need to do...that's what the About worksheet indicates.  One caveat, please do visit my YouTube site and subscribe :) at www.dataresearchlabs.com. <br>
+I hope it helps you in your company and makes you more productive.  I am happy for you if you extend and modify or alter the tool.  Do what you need to do...that's what the About worksheet indicates.  One caveat, please do click the GitHub star button for this project, and visit my YouTube site and subscribe :) at www.dataresearchlabs.com. <br>
 
 
 <a id="exploratoryTesting" class="anchor" href="#exploratoryTesting" aria-hidden="true"> </a>

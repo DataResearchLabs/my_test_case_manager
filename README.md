@@ -69,7 +69,7 @@ If **yes** to any of the "Do you need"s or **no** to any of the "can you answer"
 ### 2. Download
 #### 2.1 Decision
 Decide whether you want to start with the standard template or the large template:
-|Template File Name             |Test<br>Case<br>Count|Number<br>Test Case<br>Worksheets|Test Casess<br>per<br>Worksheet|
+|<br><br>Template File Name     |Test<br>Case<br>Count|Number<br>Test Case<br>Worksheets|Test Casess<br>per<br>Worksheet|
 |:------------------------------|----:|---------:|--------:|
 |my_test_case_manager.xlsx      |  300|         1|      300|
 |my_test_case_manager_large.xlsx|5,000|         8|      625|

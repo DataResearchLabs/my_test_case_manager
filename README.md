@@ -151,7 +151,7 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 4. **Code Snippets**: Or paste in several lines of SQL to copy-paste-run as part of your testing.<br>
 5. **Row Height Limit**:  Note that when using Alt+Enter to increase row height, Excel allows one row to expand up to 29 visible lines of text (I tested); more lines can be present in the row, they just won't be all visible and at some point the cell gets truncated<br>
 6. **Tip 1**: Suggest splitting test details into multiple rows if needed.<br>
-7. **Tip 2**: Note that any formatting you apply to the Status column will be overriden by the conditional formatting (unless you choose the value "i" which has none).
+7. **Tip 2**: Note that any formatting you apply to the Status column will be overridden by the conditional formatting (unless you choose the value "i" which has none).
 <br>
 
 
@@ -179,9 +179,9 @@ I like to screenshot this section for status emails sometimes, to give a pretty 
 
 
 #### 4.8 Deleting Test Cases
-The simplest way to delete a test case is actually to just highlight the three yellow cells (ExecTm, Stat, and TestSteps columns) for a test case and press the delete key.  In the screenshot below, three test cases are highlighted and will be deleted as soon as either the Delete key or Backspace key is pressed on the keyboard.<br>
-Note that it is a bit more complicated to highlight and delete entire rows.  Although it works without impacting automated calculations and graph results, you would lose overal test cases (dropping from 300 to 300 minus the one ore more rows you deleted).  You could always copy an empty row and paste insert it back in to recover, but that process is more complex than simply highlighting and deleting cells in the there columns we edit.<br>
-Ditto for deleting the formula that calculates the Test Case # in column B.<br>
+1. **Right Way**: The simplest way to delete a test case is actually to just highlight the three yellow cells (ExecTm, Stat, and TestSteps columns) for a test case and press the delete key.  In the screenshot below, three test cases are highlighted and will be deleted as soon as either the Delete key or Backspace key is pressed on the keyboard.<br>
+2. **Wrong Way**: Note that it is a bit more complicated to highlight and delete entire rows.  Although it works without impacting automated calculations and graph results, you would lose overall test cases (dropping from 300 to 300 minus the one ore more rows you deleted).  You could always copy an empty row and paste insert it back in to recover, but that process is more complex than simply highlighting and deleting cells in the there columns we edit.<br>
+3. **Test Case Number Column**: Do not change or delete the formula that calculates the Test Case # in column B.<br>
 <img src="img/img_09_highlight_and_delete.png" width="792"><br>
 
 

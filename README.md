@@ -133,7 +133,7 @@ It is a good idea to organize your test cases under sections.  A simple way to m
 1. Enter "0min" for the "Execution Time" column textbox<br>
 2. Enter "i" for Information at the "Status" column dropdown<br>
 3. Enter your desired Section Header title at the "Test Steps" column text box.  Also consider making the text bold to standout.<br>
-Optionally, set the backcolor of all three cells in the row to your preferred section header color.  In the example screenshot below, light blue was used for the section header backcolor, but you can choose anything (suggest trying a darker back color with white font to make the heading really pop).
+Optionally, set the backcolor of all three cells in the row to your preferred section header color.  In the example screenshot below, light blue was used for the section header backcolor, but you can choose anything (suggest trying a darker back color with white font to make the heading really pop).<br>
 <img src="img/img_04_create_section_header.png" width="523"><br>
 <br>
 

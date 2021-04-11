@@ -233,7 +233,7 @@ Here are the column definitions and suggestions about how you should use them:<b
 By properly naming and organizing your test cycles, you can help educate your team on how there are multiple test runs, the scope grows as does your understanding and available tests to run.  Example names might be "Sprint 05", or "Release 2.3", or "Week 14", or "UAT for Project X", etc.<br>
 3. **Date:** Use the date the test run was completed.<br>
 4. **Execution Time (hr):** Enter the total execution time as automatically tallied back in the Test Cases worksheet.  If you copy-pasted multiple Test Case worksheets, then use a formula here to sum those values together.<br>
-5. **Test Cases:** Enter the ToDo, Block, Fail, Qpass, and Pass counts as automatically tallied back in the Test Cases worksheet.  If you copy-pasted multiple Test Case worksheets, then use a formulate here to sum those values together.<br>
+5. **Test Cases:** Enter the ToDo, Block, Fail, Qpass, and Pass counts as automatically tallied back in the Test Cases worksheet.  If you copy-pasted multiple Test Case worksheets, then use a formula here to sum those values together.<br>
 6. **Defects:** It is up to you to either track here or fetch from your defect system the following counts:
    * **Open, ShowStoppers:**  This is the count of high priority/severity issues that will block release
    * **Open, Allow:** This is the count of low-medium priority/severity issues that can ship/deploy

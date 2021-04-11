@@ -212,7 +212,7 @@ There are a few key points here that need to be emphasized:
    However, you could track failed test cases as defects manually in the sections below if necessary.<br>
 
 
-#### 5.2 Inserting Test Run Rows
+#### 5.2 Inserting Test Run Rows From Single Test Case Worksheet
 The general process for entering Test Run (test cycle) row data is as follows:<br>
 1. First, enter **Test Run #1** results in row R1 that comes default (callout #2).  At this point, the report will **not** have a trend.<br>
 2. Next, enter **Test Run #2** results in row R2 that comes default (callout #2).  At this point, the report **will** have a trend.<br>
@@ -220,11 +220,12 @@ The general process for entering Test Run (test cycle) row data is as follows:<b
 <img src="img/img_12_test_run_log_levelset.png" width="956"><br>
 
 
+#### 5.3 Inserting Test Run Rows From Multiple Test Case Worksheet
 The steps above apply to the single "Test Case" worksheet standard template "my_test_case_manager.xlsx".  **If** you are using the larger template "my_test_case_manager_large.xlsx", then there is an additional section added in to the "Test Run Log" worksheet that will save you time.  In the screenshot below, calluot #1 shows where the new auto calculated values are located.  These calculated values include today's date plus rollup totals for the execution time and test case counts per status across all eight TC1-TC8 worksheets.  You simply copy the values in blue box at callout #1, then paste AS VALUES ONLY into the last row of orange cells in the lower table **after** creating a new row to paste into following the standard blue box instructions.  Sure, we could have used VBA programming via a button to just do this automatically, BUT that would then have added extra security considerations and steps for everybody (maybe in the future we will have a template with code behind a button, but not for now).
 <img src="img/img_27_copy_paste_rollup_calc_totals.png" width="1140"><br>
 
 
-#### 5.3 Entering Test Run Values
+#### 5.4 Entering Test Run Values
 It is important that you properly fill out all of the columns for each Test Run / Test Cycle row.  Only enter values into the pale yellow cells (leave the calculated silver cells alone).<br>
 Here are the column definitions and suggestions about how you should use them:<br>
 1. **Run #:** This is the Test Run or Test Cycle Number.  Use "R1", "R2" style formatting.  A Test Run or Test Cycle is as complete a pass thru executing the test cases as you can possibly do for a given build or release or at a given point in time.  Use sound judgment in determining when to start and stop a Test Run or Test Cycle.<br>

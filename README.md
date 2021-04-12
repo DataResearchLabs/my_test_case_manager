@@ -246,7 +246,7 @@ By properly naming and organizing your test cycles, you can help educate your te
 ### 6. "Report" Worksheet
 #### 6.1 Introduction
 The "Report" tab is very important.  You should use screenshots of these graphs to communicate your testing status, or story, to the project team and to management.<br>
-* It is nice to be able to depict that testing is not a single pass, single dimensional event; but that there are multiple releases that need to be tested.<br>
+* It is nice to be able to depict that testing is not a single pass, single dimensional event; but that there are multiple builds to be tested across several cycles.<br>
 * It is nice to depict the impact to schedule that blocked test cases have had when they are finally tested and yield high defect rates.<br>
 * It is nice to show the risk that qualified passes on regression tests to meet a deadline have to the final release.<br>
 * It is nice to show the actual execution time in hours it takes to test each test cycle (release, sprint, group of builds, etc.).<br>

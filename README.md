@@ -306,10 +306,10 @@ The defect lists at the bottom half of the report are optional.  These lists can
 <a id="about" class="anchor" href="#about" aria-hidden="true"> </a>
 ### 7. "About" Worksheet
 <img align="right" src="img/img_19_about_screen.png" width="489">
-The "About" worksheet accomplishes a few goals; it informs the user...<br>
-1. Of the "application" name and version.<br>
-2. Where to watch training videos about the tool.<br>
-3. Where to find the tool on GitHub.<br>
+The "About" worksheet accomplishes a few goals. It informs the user...<br>
+1. The "application" name and version.<br>
+2. Where to watch training videos.<br>
+3. Where to find the online docs.<br>
 4. That the tool and all documentation are Creative Commons Zero license...effectively Public Domain which means I grant you full and free usage.<br><br>
 I hope it helps you in your company and makes you more productive.  I am happy for you if you extend and modify or alter the tool.  Do what you need to do...that's what the About worksheet indicates.  One caveat, please do click the GitHub star button for this project, and visit my YouTube site and subscribe at www.dataresearchlabs.com. <br>
 

@@ -3,7 +3,7 @@
 # My Test Case Manager (MTCM) 
 [![License: CC0](https://img.shields.io/badge/License-CC0-red)](LICENSE "Creative Commons Zero License by DataResearchLabs (effectively = Public Domain")
 ![current_build Office_360](https://img.shields.io/badge/Excel_Version-Office_360-yellow)
-[![Latest Release](https://img.shields.io/badge/Latest_Release-5.01.44296-blue)](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/download)
+[![Latest Release](https://img.shields.io/badge/Latest_Release-5.01.44299-blue)](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/download)
 [![YouTube](https://img.shields.io/badge/YouTube-DataResearchLabs-brightgreen)](http://www.DataResearchLabs.com)
 
 

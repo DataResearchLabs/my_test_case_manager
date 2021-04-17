@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.51 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Data Research Labs</Company_Name>
+		<Address_1 />
+		<Address_2 />
+		<City_Town>Seattle</City_Town>
+		<State_Province>WA</State_Province>
+		<Zip_Postal_Code>98155</Zip_Postal_Code>
+		<Country>United States of America</Country>
+		<Company_WebSite_URL>http://www.dataresearchlabs.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Matt</Author_First_Name>
+			<Author_Last_Name>Pierce</Author_Last_Name>
+			<Author_Email>mpierce.email@yahoo.com</Author_Email>
+			<Contact_First_Name>Matt</Contact_First_Name>
+			<Contact_Last_Name>Pierce</Contact_Last_Name>
+			<Contact_Email>mpierce.email@yahoo.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>mpierce.email@yahoo.com</Sales_Email>
+			<Support_Email>mpierce.email@yahoo.com</Support_Email>
+			<General_Email>mpierce.email@yahoo.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>My Test Case Manager</Program_Name>
+		<Program_Version>5.01.44299</Program_Version>
+		<Program_Release_Month>04</Program_Release_Month>
+		<Program_Release_Day>13</Program_Release_Day>
+		<Program_Release_Year>2021</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>No Install Support</Program_Install_Support>
+		<Program_OS_Support>WinOther</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Development Tools</Program_Specific_Category>
+		<Program_Category_Class>Development::Management &amp; Distribution</Program_Category_Class>
+		<Program_System_Requirements>Windows.  Microsoft Excel 365.</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>422963</File_Size_Bytes>
+			<File_Size_K>413</File_Size_K>
+			<File_Size_MB>0.40</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On />
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords />
+			<Char_Desc_45>A lean, flexible XL test case manager.</Char_Desc_45>
+			<Char_Desc_80>A lean, flexible XL test case manager for small to midsize projects.</Char_Desc_80>
+			<Char_Desc_250>A lean, flexible XL test case manager for small to midsize projects.  Good for traditional IT functional testing, UAT testing, or exploratory testing.  Use it standalone as an individual contributor. Use it as a team shared over a network.</Char_Desc_250>
+			<Char_Desc_450>A lean, flexible XL test case manager for small to midsize projects.  Good for traditional IT functional testing, UAT testing, or exploratory testing.  Use it standalone as an individual contributor. Use it as a team shared over a network.  No code. Minimal formulas. Just simple, low-tech, organized worksheets. Easy for you to adopt and evolve. Write test cases from a "flow state". Better communication and influence with insightful status visuals</Char_Desc_450>
+			<Char_Desc_2000>A lean, flexible XL test case manager for small to midsize projects.  Good for traditional IT functional testing, UAT testing, or exploratory testing.  Use it standalone as an individual contributor. Use it as a team shared over a network.  No code. Minimal formulas. Just simple, low-tech, organized worksheets. Easy for you to adopt and evolve. Write test cases from a "flow state". Better communication and influence with insightful status visuals.  Creative Commons. Free to use. Free to copy. Free to alter. Free to distribute. Am happy you find this tool useful.
+
+Do you need...
+- to organize and track a small to medium size testing project?
+- to communicate your testing status to the project team or a manager?
+- a simple tool to better organize and track your exploratory test results?
+- a lean tool to better organize and track your UAT test cases and results?
+- a simple tool to manage up: providing metrics to make better decisions?
+
+Can you answer...
+- with an estimate of how much test time another test cycle will take?
+- how much time a full regression cycle will take?
+- how much time remains in the current test cycle?
+- what the pass/fail/block trend is over the past 5 test cycles?
+- how much time would be saved vs. risk increased doing Qualified Passes (skip testing because case passed in most recent 2 test cycles)?
+
+If yes to any of the "Do you need"s or no to any of the "can you answer"s, then consider using "My Test Case Manager" (MTCM). MTCM is a lean test tool designed to organize test cases and manage/communicate test results. MTCM is a simple, minimalist design for software test engineers conducting functional or exploratory testing. Business analysts can also use MTCM for conducting user acceptance testing (UAT). You can write the test cases as you execute them, or plan and write them ahead of time. Run results are tallied and graphed on subsequent worksheets. You use the report and graphs to communicate status to your project team. </Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>https://github.com/DataResearchLabs/my_test_case_manager</Application_Info_URL>
+			<Application_Order_URL />
+			<Application_Screenshot_URL>https://github.com/DataResearchLabs/my_test_case_manager/blob/main/img/img_25_best_screenshots.png</Application_Screenshot_URL>
+			<Application_Icon_URL>https://github.com/DataResearchLabs/my_test_case_manager/blob/main/img/application_icon.png</Application_Icon_URL>
+			<Application_XML_File_URL />
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>https://github.com/DataResearchLabs/my_test_case_manager/raw/main/download/my_test_case_manager_large.xlsx</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>CC0 - Creative Commons Zero.  Effectively Public Domain.</Distribution_Permissions>
+		<EULA>CC0 - Creative Commons Zero.  Effectively Public Domain.</EULA>
+	</Permissions>
+</XML_DIZ_INFO>

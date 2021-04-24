@@ -2,7 +2,7 @@
 
 # My Test Case Manager (MTCM) 
 [![License: CC0](https://img.shields.io/badge/License-CC0-red)](LICENSE "Creative Commons Zero License by DataResearchLabs (effectively = Public Domain")
-![current_build Office_360](https://img.shields.io/badge/Excel_Version-Office_360-yellow)
+![current_build Office_365](https://img.shields.io/badge/Excel_Version-Office_365-yellow)
 [![Latest Release](https://img.shields.io/badge/Latest_Release-5.01.44308-blue)](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/download)
 [![YouTube](https://img.shields.io/badge/YouTube-DataResearchLabs-brightgreen)](http://www.DataResearchLabs.com)
 
@@ -12,7 +12,7 @@
 * **Who**: Use it standalone as an individual contributor.  Use it as a team <a href="#multiUser">shared over a network.</a><br>
 * **Why**: Write test cases from a "flow state".  Better communication and influence with insightful status visuals.<br>
 * **How**: No code.  Minimal formulas.  Just simple, low-tech, organized worksheets.  Easy for you to adopt and evolve.<br>
-* **License**: Creative Commons.  Free to use.  Free to copy.  Free to alter.  Free to distribute.  Am happy you find this tool useful.<br>
+* **License**: Creative Commons Zero, effectively public domain.  Free to use.  Free to copy.  Free to alter.  Free to distribute.  Am happy you find this tool useful.<br>
 * **Requires** Microsoft Excel 365.  Yep, it is just a spreadsheet, no code.  Watch [this video](https://youtu.be/uqlpZOOVbPA) explaining the leaning de-evolution from complex coded solution down to simple spreadsheet.
 * **["My Test Case Manager" Training Video Playlist](https://www.youtube.com/playlist?list=PLVHoUDdbskUSZQsl0iexHwRGb8Z7_EjlS)**<br>
 * **[Basic Microsoft Excel Tutorial Playlist](https://www.youtube.com/playlist?list=PLVHoUDdbskUQXl0S6nS2QUMB69rrf1zcF)**<br>

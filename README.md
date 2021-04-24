@@ -12,7 +12,8 @@
 * **Who**: Use it standalone as an individual contributor.  Use it as a team <a href="#multiUser">shared over a network.</a><br>
 * **Why**: Write test cases from a "flow state".  Better communication and influence with insightful status visuals.<br>
 * **How**: No code.  Minimal formulas.  Just simple, low-tech, organized worksheets.  Easy for you to adopt and evolve.<br>
-* **License**: Creative Commons Zero, effectively public domain.  Free to use.  Free to copy.  Free to alter.  Free to distribute.  Am happy you find this tool useful.<br>
+* **License**: Creative Commons Zero, effectively public domain.  Free to use.  Free to copy.  Free to alter.  Free to distribute.<br>
+Am happy if you find this tool useful and send folks to my [YouTube site](http://www.dataresearchlabs.com/) for training and additional tools.<br>
 * **Requires** Microsoft Excel 365.  Yep, it is just a spreadsheet, no code.  Watch [this video](https://youtu.be/uqlpZOOVbPA) explaining the leaning de-evolution from complex coded solution down to simple spreadsheet.
 * **["My Test Case Manager" Training Video Playlist](https://www.youtube.com/playlist?list=PLVHoUDdbskUSZQsl0iexHwRGb8Z7_EjlS)**<br>
 * **[Basic Microsoft Excel Tutorial Playlist](https://www.youtube.com/playlist?list=PLVHoUDdbskUQXl0S6nS2QUMB69rrf1zcF)**<br>

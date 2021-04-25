@@ -7,7 +7,7 @@
 [![YouTube](https://img.shields.io/badge/YouTube-DataResearchLabs-brightgreen)](http://www.DataResearchLabs.com)
 
 
-* **What**: A lean, flexible XL test case manager for small to midsize projects<br>
+* **What**: A lean, flexible, open-source XL test case manager for small to midsize projects<br>
 * **When**: Good for traditional IT functional testing, UAT testing, or exploratory testing.<br>
 * **Who**: Use it standalone as an individual contributor.  Use it as a team <a href="#multiUser">shared over a network.</a><br>
 * **Why**: Write test cases from a "flow state".  Better communication and influence with insightful status visuals.<br>

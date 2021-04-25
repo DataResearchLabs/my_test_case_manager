@@ -38,7 +38,7 @@ Am happy if you find this tool useful and visit my [YouTube site](http://www.dat
 
 ## Table of Contents
  - <a href="#introduction">1. Introduction</a>
- - <a href="#download">2. Download</a>
+ - <a href="#installation">2. Installation</a>
  - <a href="#gettingStarted">3. Getting Started</a>
  - <a href="#testCases">4. "Test Cases" Worksheet</a>
  - <a href="#testRunLog">5. "Test Run Log" Worksheet</a>
@@ -70,8 +70,8 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 <br>
 <br>
 
-<a id="download" class="anchor" href="#download" aria-hidden="true"> </a>
-### 2. Download
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"> </a>
+### 2. Installation
 #### 2.1 Decision
 Decide whether you want to start with the standard template or the large template:
 |<br><br>Template File Name     |Test<br>Case<br>Count|Number<br>Test Case<br>Worksheets|Test Casess<br>per<br>Worksheet|

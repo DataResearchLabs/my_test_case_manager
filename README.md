@@ -90,7 +90,7 @@ To download the "My Test Case Manager" tool (Excel spreadsheet) from this reposi
 
 
 #### 2.3 Deploy
-1. Identify or create a "parent" or "$" folder somewhere on your computer that is the parent to house all the test case data files
+1. Identify or create a "parent" folder (referred to as "$" henceforth) somewhere on your computer that is the "root" to house all the test case data files.  For example: "c:\tools\my_test_case_maanger" could be your root folder
 2. Create a "$\original_template" folder somewhere on your computer.  Paste the original copy (or both) that you downloaded there. Never alter these files.
 3. Create a "$\projectX1" folder somewhere on your computer (or network if you are going to use it in shared mode as a team).
 5. Paste a copy of the template into the new "$\projectX1" folder

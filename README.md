@@ -429,7 +429,7 @@ To add a link that jumps a user to the Detail Page, follow these steps:
 <a id="wrapup" class="anchor" href="#wrapup" aria-hidden="true"> </a>
 ### 10. Wrap Up
 #### 10.1 Thank You
-Thank you very much for reading all the way down to the end of the documentation.  Time is valuable and ever more scarce in today's busy world.  Few people make it this far.  If you did, I hope that means you found value in this tool / spreadsheet / "software".  I hope it makes you and/or your team more productive.  I am happy if you adopt the spreadsheet then change and evolve it to meet your needs.  I am happy if you fork this repository and build your own.  I am happy and would roll-in to the master branch any chanes you might make from which other may benefit. Thank you for your use and support.<br>
+Thank you very much for reading all the way down to the end of the documentation.  Time is valuable and ever more scarce in today's busy world.  Few people make it this far.  If you did, I hope that means you found value in this tool / spreadsheet / "software".  I hope it makes you and/or your team more productive.  I am happy if you adopt the spreadsheet then change and evolve it to meet your needs.  I am happy if you fork this repository and build your own.  I am happy and would roll-in to the master branch any changes you might make from which others may benefit. Thank you for your use and support.<br>
 
 
 #### 10.2 YouTube Training & Resources

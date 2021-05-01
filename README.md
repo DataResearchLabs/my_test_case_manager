@@ -285,7 +285,15 @@ By properly naming and organizing your test cycles, you can help educate your te
 
 <a id="report" class="anchor" href="#report" aria-hidden="true"> </a>
 ### 6. "Report" Worksheet
-#### 6.1 Introduction
+#### 6.1 Watch This Section as a Video
+To watch the "Report Interpertation Guide Tutorial" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/3prFTVsvGQo">
+<img src="img/img_36_thumbnail_rpt_interp_guide.png">
+</a>
+<br>
+
+
+#### 6.2 Introduction
 The "Report" tab is very important.  You should use screenshots of these graphs to communicate your testing status, or story, to the project team and to management.<br>
 * It is nice to be able to depict that testing is not a single pass, single dimensional event; but that there are multiple builds to be tested across several cycles.<br>
 * It is nice to depict the impact to schedule that blocked test cases have had when they are finally tested and yield high defect rates.<br>
@@ -296,12 +304,12 @@ The "Report" tab is very important.  You should use screenshots of these graphs 
 * It is nice to keep a list of defects organized in three buckets (Currently Open, Closed-Since Last Report, Closed-Older) so that you can copy-paste them into a weekly status report email.<br>
 
 
-#### 6.2 Report Header
+#### 6.3 Report Header
 The report header shows the company and project names at the upper left section of the report.  These are the same values entered in the Properties tab.  The right section of the report headers indicates which Test Run / Test Cycle (e.g.: "R6") that is currently being displayed.  The tester's name (also from the Properties tab) is also displayed in this section.  The total test case count and total defect count is also tallied and displayed in the right side of the report header.
 <img src="img/img_13_report_header.png" width="847"><br>
 
 
-#### 6.3 Test Case Count Graphs
+#### 6.4 Test Case Count Graphs
 <img align="right" src="img/img_14_report_test_case_counts.png" width="446">
 The test case count graphs are located on the left half of the page, directly below the report header.<br>
 1. There is a snapshot graph on top depicting the test case counts for the latest release (R6 in our example below).<br>
@@ -314,7 +322,7 @@ If the project team and management believe quality is important, then we can ask
 I can also see in the trend graph that the number of blocked and failed test cases started off high, then tapered off as the project stabilized.  I can also see that from R4 thru R6, we increasingly relied upon qualified passes to meet deadlines (rather than executing full regression coverage).<br>
 
 
-#### 6.4 Defect Count Graphs
+#### 6.5 Defect Count Graphs
 <img align="right" src="img/img_15_report_defect_counts.png" width="446">
 The defects graphs are located on the right half of the page, directly below the report header.<br>
 1. There is a snapshot graph on top depicting the defect counts for the latest release (R6 in our example below).<br>
@@ -328,18 +336,18 @@ In the snapshot graph to the right, I can see that all but one defect has been e
 <br>
 
 
-#### 6.5 Test Case Execution Time Graph
+#### 6.6 Test Case Execution Time Graph
 <img align="right" src="img/img_16_report_exec_time.png" width="446">
 The execution time trend graph is located on the left, below the test case count graphs.  This handy graph tells me that the time it took to execute test cases for the given Test Run (or Test Cycle) increased steadily from R1 (Run 1) to R2 to R3 as I built more and more test cases while concurrently regression testing the entire suite (no Qpasses).  However, notice the time savings starting in R4 where the actual test case writing tapered off and the qualified passes (skipped executing of test cases) started occurring.  By R6, most of the prior test runs' test cases were _NOT_ being regression tested, we simply executed a the few new test cases plus a handful of important existing cases to save time.  That increases risk (because those skipped / Qpassed tests might now be broken), but decreased time.  We can readily estimate how much time it would take for a full regression cycle at R6 by referencing the total time in R3 (full regression plus some extra test case creation time) and R4.  Or for a more precise estimate, we could pull the Qpass Execution Time value from the "Test Cases" worksheet (top right chart).
 
 
-#### 6.6 Releasability Graph
+#### 6.7 Releasability Graph
 <img align="right" src="img/img_17_report_releasability.png" width="446">
 The defects - releasability graph is located on the right, below the defect count graphs.  This graph is very useful in situations where you are pressured to release but are not yet quite ready.  You can show by test run (test cycle) number how the Open Showstoppers were present earlier but then tapered off (good) and how all that remains is lower priority defects that should either be deferred, or accepted as Open, Allowable.  The graph could also be used to show a negative trend, if for example the bright red open showstoppers were trending up towards the most recent release, that would indicate a project that is destabilizing and you might want to put in another full regression test run / test cycle requiring 0 defects and 0 test case fails.<br>
 _Suggestion:_ At the beginning of a project, establish agreement that for a release to occur, all test cases must = "Pass" (and optionally allow "Qpass" where the risk is acceptable); and 0 show stopper defects can be found in the final TWO test cycles (this will ensure you get adequate test time because if a new show stopper is found, you just got another test cycle as a buffer or hedge).
 
 
-#### 6.7 Defect List
+#### 6.8 Defect List
 The defect lists at the bottom half of the report are optional.  These lists can be a useful way to track defects on smaller projects so that you can report "summary" level defects in say a weekly status email.  You could list the currently open defect names plus priority.  Below that you could copy-paste the section of defects closed since last week to show progress.  Not sure it is worth the effort to track the closed defects since project start, but you could do that too.  The basic flow is to copy-paste defects into the top section (currently open), then migrate them down to closed since last report, then finally move them down to the bottom section.
 <img src="img/img_18_report_defect_list.png" width="847"><br>
 

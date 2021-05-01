@@ -414,6 +414,12 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 #### 9.1 Using "Jump Stops" 
 <img align="right" src="img/img_20_jump_stops.png" width="284">
 "Jump Stops" are just a name given for a usage trick.  In Excel, you can use the Ctrl+Up and Ctrl+Down keys to jump to the next cell up or down that has data.  Columns "A" and "F" are thin, always empty border spaces.  If you place single characters (like an "x") into important row along either column, then you could use Ctrl+Up and Ctrl+Down to quickly jump thru your 300-ish test cases.  I like to use the "▪" character to mark my jump points, but "x" or similar is fine too.  Tip: You can really have fun and use the Wingdings or Webdings fonts to come up with clever jump stops like a bomb icon for defects, or a skull and cross bones icon, etc.  I also like to put a mark at the first row (17) and the last row (319) so that I don't jump past them.   Then I use Column "A" for tagging section headers, so I can quickly jump to each section or block of test cases.  I use Column "F" for marking test cases that are either failing or blocked so I can quickly jump to the trouble spots.<br>
+<br>
+To watch the "Jump Stops Tutorial" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/1wOlBL2LsDs">
+<img src="img/img_38_thumbnail_jump_stops.png">
+</a>
+<br>
 
 
 #### 9.2 Sample SQL Test Case

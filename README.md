@@ -420,11 +420,19 @@ To watch the "Jump Stops Tutorial" below, right-click it and select "open link i
 <img src="img/img_38_thumbnail_jump_stops.png">
 </a>
 <br>
+<br>
 
 
 #### 9.2 Sample SQL Test Case
 <img align="right" src="img/img_21_sample_test_case_sql.png" width="539">
 If you have a test case that involves running a SQL command, then it is a good idea to embed the SQL statement right into the spreadsheet.  The example to the right depicts best practice where the test case details are on the upper row, and the SQL in a separate row below that.  Keeping the SQL separate and in its own row makes it really easy to click the cell, press Ctrl+C to copy the SQL command and then paste and run in your database management IDE.  If you were to place the SQL in the same test case cell as the description and repro text, then you'd have the disadvantage of having to click carefully into the cell and highlight just the SQL each time.  Also note that we don't want to double count the execution time so we set the lower SQL case to 0 minutes, and we don't want to double count the pass or fail so the SQL row is set to status = "i" for informational.  Optionally, the SQL text font color was set to blue (or whatever color you prefer to standout when working thru test cases).<br>
+<br>
+To watch the "SQL and Images Tutorial" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/MA-BOUPk2oE">
+<img src="img/img_39_thumbnail_sql_img_in_tests.png">
+</a>
+<br>
+<br>
 
 
 #### 9.3 Sample Embedded Image Test Case

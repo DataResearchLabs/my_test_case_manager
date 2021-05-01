@@ -80,6 +80,9 @@ Decide whether you want to start with the standard template or the large templat
 |my_test_case_manager_large.xlsx|5,000|         8|      625|
 
 
+<a href="https://youtu.be/gV3CWC0f380">
+<img align="right" src="img/img_30_video_howtodownloadinstall.png">
+</a>
 #### 2.2 Download
 To download the "My Test Case Manager" tool (Excel spreadsheet) from this repository's /download folder,
 1. [Right-click here with Open in New Tab](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx) 

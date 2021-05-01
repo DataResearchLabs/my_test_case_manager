@@ -189,6 +189,10 @@ To watch the "How to Write Test Cases Tutorial" below, right-click it and select
 
 
 #### 4.5 Available Status Values
+To watch the "Exectuing Test Cases Tutorial" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/pVW02bJibps">
+<img src="img/img_34_thumbnail_how_to_exec_tests.png">
+</a>
 There are six possible status values available in the status dropdown show in the image on the left below.  Each status value has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>
 <img align="left" src="img/img_08_status_dropdown.png" width="58">
 <img src="img/img_07_status_values.png" width="792"><br>

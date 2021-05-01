@@ -24,6 +24,11 @@ To watch the "General Overview Tutorial" below, right-click it and select "open 
    <img src="img/img_30_thumbnail_overview.png">
 </a>
 <br>
+***If you like this tool, be sure to click the "Star" button above in GitHub.***
+<br>
+<br>
+***Also, be sure to visit or subscribe to our YouTube channel*** www.DataResearchLabs.com!<br>
+<br>
 <br>
 <kbd>
   <img src="img/img_25_best_screenshots.png" width="634">
@@ -32,14 +37,6 @@ To watch the "General Overview Tutorial" below, right-click it and select "open 
 <br>
 <br>
 
-
-***If you like this tool, be sure to click the "Star" button above in GitHub.***
-<br>
-
-
-***Also, be sure to visit or subscribe to our YouTube channel*** www.DataResearchLabs.com!<br>
-
-<br>
 
 
 ## Table of Contents

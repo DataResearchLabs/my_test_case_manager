@@ -24,6 +24,7 @@ To watch the "General Overview Tutorial" below, right-click it and select "open 
    <img src="img/img_30_thumbnail_overview.png">
 </a>
 <br>
+<br>
 ***If you like this tool, be sure to click the "Star" button above in GitHub.***
 <br>
 <br>

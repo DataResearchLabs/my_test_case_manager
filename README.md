@@ -25,12 +25,12 @@ To watch the "General Overview Tutorial" below, right-click it and select "open 
 </a>
 <br>
 <br>
-<!--kbd>
+<kbd>
   <img src="img/img_25_best_screenshots.png" width="634">
 </kbd>
 <br>
 <br>
-<br-->
+<br>
 
 
 ***If you like this tool, be sure to click the "Star" button above in GitHub.***

@@ -73,7 +73,8 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"> </a>
 ### 2. Installation
 #### 2.1 Watch This Section as a Video
-<a href="https://youtu.be/gV3CWC0f380" target="_blank">
+Right-click and open video in new tab to maintain your place here.
+<a href="https://youtu.be/gV3CWC0f380">
 <img src="img/img_30_video_howtodownloadinstallX.png">
 </a>
 

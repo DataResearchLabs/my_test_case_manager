@@ -19,9 +19,9 @@ Am happy if you find this tool useful and visit my [YouTube site](http://www.dat
 * **Basic Excel Tutorials**: [Basic Microsoft Excel Tutorial Playlist](https://www.youtube.com/playlist?list=PLVHoUDdbskUQXl0S6nS2QUMB69rrf1zcF)<br>
 
 
-Right-click the "General Overview Tutorial" below and click "open link in new tab" to maintain your position here.<br>
+   Right-click the "General Overview Tutorial" below and click "open link in new tab" to maintain your position here.<br>
 <a href="https://youtu.be/YiOwaKYaOrw">
-<img src="img/img_31_video_overview.png">
+   <img src="img/img_31_video_overview.png" width=243>
 </a>
 
 <!--kbd>

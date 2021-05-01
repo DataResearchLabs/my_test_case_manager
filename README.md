@@ -74,7 +74,7 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 ### 2. Installation
 #### 2.1 Watch This Section as a Video
 <a href="https://youtu.be/gV3CWC0f380">
-<img src="img/img_30_video_howtodownloadinstallX.png">
+<img target="_blank" src="img/img_30_video_howtodownloadinstallX.png">
 </a>
 
 

@@ -138,7 +138,7 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 <br>
 To watch the Project Properties Tutorial" below, right-click it and select "open link in new tab".<br>
 <a href="https://youtu.be/9975DrM7cqE">
-<img src="img/img_32_thumbnail_proj_props.png">
+<img src="img/img_32_thumbnail_proj_propsX.png">
 </a>
 <br>
 <br>

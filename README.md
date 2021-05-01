@@ -128,6 +128,13 @@ The first time you open a copy of the .xlsx file in a new folder, Microsoft Offi
 <br>
 
 #### 3.3 Setup "Project" Properties
+To watch the "Project Properties Tutorial" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/9975DrM7cqE">
+<img src="img/img_32_thumbnail_proj_propsX.png">
+</a>
+<br>
+
+
 Get started by opening the "my_test_case_manager.xlsm" file, then do the following actions where the numbers in the list below match to the numbered blue dots in the screenshot to the right.<br>
 <img align="right" src="img/img_02_enter_project_properties.png" width="524">
 1. Click the Properties tab, if not already opened<br>
@@ -135,11 +142,6 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 3. Then, type in the project or team name<br>
 4. Then, type in your name (or multiple analysts if appropriate)<br>
 ...and now your test project properties are setup.<br>
-<br>
-To watch the Project Properties Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/9975DrM7cqE">
-<img src="img/img_32_thumbnail_proj_propsX.png">
-</a>
 <br>
 <br>
 
@@ -161,11 +163,19 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 <br>
 
 #### 4.3 Writing Your First Test Case
+To watch the "How to Write Test Cases Tutorial" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/9OBddrShi5Y">
+<img src="img/img_33_thumbnail_how_to_write_tests.png">
+</a>
+
+
+
 **1. Test Steps:** First, write in your test steps (callout #1 in screenshot below).  Click the cell, type in your test case details, using Alt+Enter to force new blank lines and make the row taller.  In the screenshot  below, an example multi-line test case is written out (notice the formatting).<br>
 **2. Status:** Next, callout #2 shows where to set the Status drop down.  Go ahead and set it to "T" for "ToDo" if you are not actually executing the test case right now.  If you are executing the test case as you write it, then pick "P" if it passes, "F" if it Fails, etc.<br>
 **3. Execution Time:** Finally, callout #3 shows where to set the execution time to the number of minutes it took you to write and/or execute this test case depending on what you want to track.  For me, I tend to write and execute the test cases exploratory style for the first test cycle / test run so I combine both times.  Then during regression on subsequent re-runs of the test, I know this Exec Time column value will be substantially less, but at least I accurately captured the initial write + execute time of test run #1 as well as the execution only time of test run #2.  Now that you know how to write one test case, you can write many.<br>
 <img src="img/img_06_write_first_test_case.png" width="831"><br>
 <br>
+
 
 #### 4.4 Excel Formatting
 1. **AutoSize**: Since the "Test Steps" cell is truly just a single cell (no merging) then the auto-size height works.<br>

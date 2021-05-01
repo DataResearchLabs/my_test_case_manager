@@ -235,6 +235,13 @@ This then raises the question, "How do I reset the test case status from Pass or
 The answer is to use Excel's "Find and Replace" feature (Ctrl+H) to replace cells having an exact match on case and the entire contents.<br>  
 IMPORTANT! The first step is to highlight column "D" which contains the Status dropdown column, that way you ONLY change values in there (and do not accidentally change the Test Results table codes in column H rows 4-10).  In the screenshot to the right, item #1 is the find what set to "P" with item 2 replace with set to a "T".  Note that you have to click the Options button (item 3) so that you can see and check item #4 Match case and item #5 Match entire cell contents.  Then click Replace All to reset the passes to ToDo's.  Repeat for "F" to "T", "B" to "T", and "Q" to "T".  Leave the i's alone as they are just informational.  I optionally change all the "P"asses to "Q"ualifiedPasses and leave the "F"ails and "B"locks as a reminder of prior cycle high priority cases.  Then I can pick and choose which "Q"pass cases to regress (flipping to "P"ass typically); and then focusing remaining limited time on the "F"s and "B"s.<br>
 <br>
+To watch the "Bulk Status Reset Tutorial" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/xmnUm4pRFJU">
+<img src="img/img_37_thumbnail_bulk_stat_reset.png">
+</a>
+
+
+<br>
 <br>
 
 

@@ -72,7 +72,13 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"> </a>
 ### 2. Installation
-#### 2.1 Decision
+#### 2.1 Watch This Section as a Video
+<a href="https://youtu.be/gV3CWC0f380">
+<img align="right" src="img/img_30_video_howtodownloadinstallX.png">
+</a>
+
+
+#### 2.2 Decision
 Decide whether you want to start with the standard template or the large template:
 |<br><br>Template File Name     |Test<br>Case<br>Count|Number<br>Test Case<br>Worksheets|Test Casess<br>per<br>Worksheet|
 |:------------------------------|----:|---------:|--------:|
@@ -80,12 +86,7 @@ Decide whether you want to start with the standard template or the large templat
 |my_test_case_manager_large.xlsx|5,000|         8|      625|
 
 
-#### 2.2 Download
-<a href="https://youtu.be/gV3CWC0f380">
-<img align="right" src="img/img_30_video_howtodownloadinstall.png">
-</a>
-
-
+#### 2.3 Download
 To download the "My Test Case Manager" tool (Excel spreadsheet) from this repository's /download folder,
 1. [Right-click here with Open in New Tab](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx) 
 2. Then click the download button
@@ -94,7 +95,7 @@ To download the "My Test Case Manager" tool (Excel spreadsheet) from this reposi
 5. Then copy the appropriate XLSX file: standard template "my_test_case_manager.xlsx" or large template "my_test_case_manager_large.xlsx"<br>
 
 
-#### 2.3 Deploy
+#### 2.4 Deploy
 1. Identify or create a "parent" folder (referred to as "$" henceforth) somewhere on your computer that is the "root" to house all the test case data files.  For example: "c:\tools\my_test_case_maanger" could be your root folder
 2. Create a "$\original_template" folder somewhere on your computer.  Paste the original copy (or both) that you downloaded there. Never alter these files.
 3. Create a "$\projectX1" folder somewhere on your computer (or network if you are going to use it in shared mode as a team).
@@ -102,7 +103,7 @@ To download the "My Test Case Manager" tool (Excel spreadsheet) from this reposi
 6. Rename the template XLSX file accordingly (e.g.: "mtcm_projectX1.xlsx" or some equivalent).
 
 
-#### 2.4 Sample MTCM XLSC Files
+#### 2.5 Sample MTCM XLSC Files
 To download examples of the tool in use with sample data from this repository's /samples folder, [click here for samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples), then click the sample file you want, and finally click the download button.
 
 

@@ -512,4 +512,11 @@ If you like this tool, please visit and subscribe to my YouTube site at http://w
 * **Ver 4.x** - Over the next 10 years, I occasionally modified and used various incarnations of TCMLite for my day job.  In 2013, I used it fairly heavily for about a year at an insurance company to test software.  In 2019, I used it heavily for about two months to test on a project having lots of churn.  These version 4's were never publicly released anywhere.  I just chipped away at simplifying the implementation, keeping only the important high-use parts and discarding the rest.<br>
 * **Ver 5.x** - In early 2021, I started my third hobby site; this time not freeware focus but YouTube training focused.  DataResearchLabs.com is slowly growing and I'd like to run an experiment to test a hypothesis.  I believe I can generate more viewers by freshening up this old tool and re-releasing it to seed new viewers.  I've been using one version or another of it for 20+ years and it works pretty good.  Expanding and improving the documentation above and out on YouTube will help.  Another reason driving Version 5 is that I've recently switched jobs and will benefit from using this template (or the reporting parts of it) for UAT work.  Happy when hobby and work overlap.<br>
 <br>
+<br>
+To watch the "Leaning Out History" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/MA-BOUPk2oE">
+<img src="img/img_40_thumbnail_lean_out.png">
+</a>
+<br>
 
+          

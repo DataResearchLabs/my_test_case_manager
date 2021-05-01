@@ -19,13 +19,17 @@ Am happy if you find this tool useful and visit my [YouTube site](http://www.dat
 * **Basic Excel Tutorials**: [Basic Microsoft Excel Tutorial Playlist](https://www.youtube.com/playlist?list=PLVHoUDdbskUQXl0S6nS2QUMB69rrf1zcF)<br>
 
 
+Right-click the "General Overview Tutorial" below and click "open link in new tab" to maintain your position here.<br>
+<a href="https://youtu.be/YiOwaKYaOrw">
+<img src="img/img_31_video_overview.png">
+</a>
 
-<kbd>
+<!--kbd>
   <img src="img/img_25_best_screenshots.png" width="634">
 </kbd>
 <br>
 <br>
-<br>
+<br-->
 
 
 ***If you like this tool, be sure to click the "Star" button above in GitHub.***
@@ -73,7 +77,7 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"> </a>
 ### 2. Installation
 #### 2.1 Watch This Section as a Video
-Right-click the video below and "open link in new tab" to maintain your position here.<br>
+Right-click the "Download & Installation Tutorial" below and click "open link in new tab" to maintain your position here.<br>
 <a href="https://youtu.be/gV3CWC0f380">
 <img src="img/img_30_video_howtodownloadinstallX.png">
 </a>

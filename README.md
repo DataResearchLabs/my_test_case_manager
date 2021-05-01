@@ -21,7 +21,7 @@ Am happy if you find this tool useful and visit my [YouTube site](http://www.dat
 
 To watch the "General Overview Tutorial" below, right-click it and select "open link in new tab".<br>
 <a href="https://youtu.be/YiOwaKYaOrw">
-   <img src="img/img_31_video_overview.png" width=243>
+   <img src="img/img_30_thumbnail_overview.png">
 </a>
 <br>
 <br>
@@ -81,7 +81,7 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 #### 2.1 Watch This Section as a Video
 To watch the "Download & Install Tutorial" below, right-click it and select "open link in new tab".<br>
 <a href="https://youtu.be/gV3CWC0f380">
-<img src="img/img_30_video_howtodownloadinstallX.png">
+<img src="img/img_31_thumbnail_download_install.png">
 </a>
 
 

@@ -17,9 +17,7 @@ Am happy if you find this tool useful and visit my [YouTube site](http://www.dat
 * **Requires Microsoft Excel 365**.  Yep, it is just a spreadsheet, no code.  Watch [this video](https://youtu.be/uqlpZOOVbPA) explaining the leaning de-evolution from complex coded solution down to simple spreadsheet over the past 23 years.
 * **This Documentation As Videos**: ["My Test Case Manager" Training Video Playlist](https://www.youtube.com/playlist?list=PLVHoUDdbskUSZQsl0iexHwRGb8Z7_EjlS)<br>
 * **Basic Excel Tutorials**: [Basic Microsoft Excel Tutorial Playlist](https://www.youtube.com/playlist?list=PLVHoUDdbskUQXl0S6nS2QUMB69rrf1zcF)<br>
-
-
-   Right-click the "General Overview Tutorial" below and click "open link in new tab" to maintain your position here.<br>
+* To watch the "General Overview Tutorial" below, right-click it and select "open link in new tab".<br>
 <a href="https://youtu.be/YiOwaKYaOrw">
    <img src="img/img_31_video_overview.png" width=243>
 </a>
@@ -77,7 +75,7 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"> </a>
 ### 2. Installation
 #### 2.1 Watch This Section as a Video
-Right-click the "Download & Installation Tutorial" below and click "open link in new tab" to maintain your position here.<br>
+To watch the "Download & Install Tutorial" below, right-click it and select "open link in new tab".<br>
 <a href="https://youtu.be/gV3CWC0f380">
 <img src="img/img_30_video_howtodownloadinstallX.png">
 </a>

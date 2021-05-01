@@ -288,7 +288,7 @@ By properly naming and organizing your test cycles, you can help educate your te
 #### 6.1 Watch This Section as a Video
 To watch the "Report Interpertation Guide Tutorial" below, right-click it and select "open link in new tab".<br>
 <a href="https://youtu.be/3prFTVsvGQo">
-<img src="img/img_36_thumbnail_rpt_interp_guide.png">
+<img src="img/img_36_thumbnail_rpt_interp_guideX.png">
 </a>
 <br>
 

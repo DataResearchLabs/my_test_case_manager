@@ -189,7 +189,7 @@ To watch the "How to Write Test Cases Tutorial" below, right-click it and select
 
 
 #### 4.5 Available Status Values
-To watch the "Exectuing Test Cases Tutorial" below, right-click it and select "open link in new tab".<br>
+To watch the "How to Execute Test Cases Tutorial" below, right-click it and select "open link in new tab".<br>
 <a href="https://youtu.be/pVW02bJibps">
 <img src="img/img_34_thumbnail_how_to_exec_tests.png">
 </a>
@@ -206,6 +206,12 @@ To correct the validation erros (make them disappear), simply fill in all the bl
 
 
 #### 4.7 Current Test Results
+To watch the "How to Track Test Cycles Tutorial" below, right-click it and select "open link in new tab".<br>
+<a href="https://youtu.be/h-O4OGEQB1Y">
+<img src="img/img_35_thumbnail_how_to_track_test_cycles.png">
+</a>
+<br>
+
 The Test Cases worksheet is broken down into two sections:<br>
 1. Rows 1-16 are for "Test Results" - a nice summary of counts and test time in a table with a graph.<br>
 2. Rows 17-319 are for "Test Cases" - where all the details go.

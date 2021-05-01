@@ -208,7 +208,7 @@ To correct the validation erros (make them disappear), simply fill in all the bl
 #### 4.7 Current Test Results
 To watch the "How to Track Test Cycles Tutorial" below, right-click it and select "open link in new tab".<br>
 <a href="https://youtu.be/h-O4OGEQB1Y">
-<img src="img/img_35_thumbnail_how_to_track_test_cycles.png">
+<img src="img/img_35_thumbnail_how_to_track_test_cyclesX.png">
 </a>
 <br>
 

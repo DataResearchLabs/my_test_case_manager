@@ -415,8 +415,8 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 "Jump Stops" are just a name given for a usage trick.  In Excel, you can use the Ctrl+Up and Ctrl+Down keys to jump to the next cell up or down that has data.  Columns "A" and "F" are thin, always empty border spaces.  If you place single characters (like an "x") into important row along either column, then you could use Ctrl+Up and Ctrl+Down to quickly jump thru your 300-ish test cases.  I like to use the "▪" character to mark my jump points, but "x" or similar is fine too.  Tip: You can really have fun and use the Wingdings or Webdings fonts to come up with clever jump stops like a bomb icon for defects, or a skull and cross bones icon, etc.  I also like to put a mark at the first row (17) and the last row (319) so that I don't jump past them.   Then I use Column "A" for tagging section headers, so I can quickly jump to each section or block of test cases.  I use Column "F" for marking test cases that are either failing or blocked so I can quickly jump to the trouble spots.<br>
 <br>
 To watch the "Jump Stops Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/1wOlBL2LsDs">
-<img src="img/img_38_thumbnail_jump_stops.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1wOlBL2LsDs" target="_blank">
+ <img src="http://img.youtube.com/vi/1wOlBL2LsDs/0.jpg" alt="Jump Stops Video" width="200" />
 </a>
 <br>
 <br>
@@ -427,8 +427,8 @@ To watch the "Jump Stops Tutorial" below, right-click it and select "open link i
 If you have a test case that involves running a SQL command, then it is a good idea to embed the SQL statement right into the spreadsheet.  The example to the right depicts best practice where the test case details are on the upper row, and the SQL in a separate row below that.  Keeping the SQL separate and in its own row makes it really easy to click the cell, press Ctrl+C to copy the SQL command and then paste and run in your database management IDE.  If you were to place the SQL in the same test case cell as the description and repro text, then you'd have the disadvantage of having to click carefully into the cell and highlight just the SQL each time.  Also note that we don't want to double count the execution time so we set the lower SQL case to 0 minutes, and we don't want to double count the pass or fail so the SQL row is set to status = "i" for informational.  Optionally, the SQL text font color was set to blue (or whatever color you prefer to standout when working thru test cases).<br>
 <br>
 To watch the "SQL and Images Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/MA-BOUPk2oE">
-<img src="img/img_39_thumbnail_sql_img_in_tests.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=MA-BOUPk2oE" target="_blank">
+ <img src="http://img.youtube.com/vi/MA-BOUPk2oE/0.jpg" alt="Sample SQL Test Case Video" width="200" />
 </a>
 <br>
 <br>
@@ -512,8 +512,8 @@ If you like this tool, please visit and subscribe to my YouTube site at http://w
 * **Ver 5.x** - In early 2021, I started my third hobby site; this time not freeware focus but YouTube training focused.  DataResearchLabs.com is slowly growing and I'd like to run an experiment to test a hypothesis.  I believe I can generate more viewers by freshening up this old tool and re-releasing it to seed new viewers.  I've been using one version or another of it for 20+ years and it works pretty good.  Expanding and improving the documentation above and out on YouTube will help.  Another reason driving Version 5 is that I've recently switched jobs and will benefit from using this template (or the reporting parts of it) for UAT work.  Happy when hobby and work overlap.<br>
 <br>
 To watch the "Leaning Out History" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/MA-BOUPk2oE">
-<img src="img/img_40_thumbnail_lean_out.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=MA-BOUPk2oE" target="_blank">
+ <img src="http://img.youtube.com/vi/MA-BOUPk2oE/0.jpg" alt="MTCM History Video" width="200" />
 </a>
 <br>
 

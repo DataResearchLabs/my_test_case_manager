@@ -78,9 +78,10 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 ### 2. Installation
 #### 2.1 Watch This Section as a Video
 To watch the "Download & Install Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/gV3CWC0f380">
-<img src="img/img_31_thumbnail_download_install.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=gV3CWC0f380" target="_blank">
+ <img src="http://img.youtube.com/vi/gV3CWC0f380/0.jpg" alt="Download & Install Video" width="200" />
 </a>
+
 
 
 #### 2.2 Decision

@@ -20,8 +20,8 @@ Am happy if you find this tool useful and visit my [YouTube site](http://www.dat
 
 
 To watch the "General Overview Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/YiOwaKYaOrw">
-   <img src="img/img_30_thumbnail_overview.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YiOwaKYaOrw" target="_blank">
+ <img src="http://img.youtube.com/vi/YiOwaKYaOrw/0.jpg" alt="Overview Video" width="200" />
 </a>
 <br>
 <br>

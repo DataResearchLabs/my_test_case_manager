@@ -78,16 +78,7 @@ If **yes** to any of the "Do you need's" or **no** to any of the "Can you answer
 
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"> </a>
 ## 2. Installation
-### 2.1 Watch This Section as a Video
-***Video #2 "Download & Install Tutorial"***<br>
-<kbd>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=gV3CWC0f380" target="_blank">
- <img src="http://img.youtube.com/vi/gV3CWC0f380/0.jpg" alt="Download & Install Video" width="200" />
-</a>
-</kbd>
-
-
-### 2.2 Decision
+### 2.1 Decision
 Decide whether you want to start with the standard template or the large template:
 |<br><br>Template File Name     |Test<br>Case<br>Count|Number<br>Test Case<br>Worksheets|Test Casess<br>per<br>Worksheet|
 |:------------------------------|----:|---------:|--------:|
@@ -95,7 +86,7 @@ Decide whether you want to start with the standard template or the large templat
 |my_test_case_manager_large.xlsx|5,000|         8|      625|
 
 
-### 2.3 Download
+### 2.2 Download
 To download the "My Test Case Manager" tool (Excel spreadsheet) from this repository's /download folder,
 1. [Right-click here with Open in New Tab](https://github.com/DataResearchLabs/my_test_case_manager/blob/main/download/my_test_case_manager.xlsx) 
 2. Then click the download button
@@ -104,7 +95,7 @@ To download the "My Test Case Manager" tool (Excel spreadsheet) from this reposi
 5. Then copy the appropriate XLSX file: standard template "my_test_case_manager.xlsx" or large template "my_test_case_manager_large.xlsx"<br>
 
 
-### 2.4 Deploy
+### 2.3 Deploy
 1. Identify or create a "parent" folder (referred to as "$" henceforth) somewhere on your computer that is the "root" to house all the test case data files.  For example: "c:\tools\my_test_case_maanger" could be your root folder
 2. Create a "$\original_template" folder somewhere on your computer.  Paste the original copy (or both) that you downloaded there. Never alter these files.
 3. Create a "$\projectX1" folder somewhere on your computer (or network if you are going to use it in shared mode as a team).
@@ -112,8 +103,19 @@ To download the "My Test Case Manager" tool (Excel spreadsheet) from this reposi
 6. Rename the template XLSX file accordingly (e.g.: "mtcm_projectX1.xlsx" or some equivalent).
 
 
-### 2.5 Sample MTCM XLSC Files
+### 2.4 Sample MTCM XLSC Files
 To download examples of the tool in use with sample data from this repository's /samples folder, [click here for samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples), then click the sample file you want, and finally click the download button.
+
+
+### 2.5 Watch This Section as a Video
+***Video #2 "Download & Install Tutorial"***<br>
+<kbd>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=gV3CWC0f380" target="_blank">
+ <img src="http://img.youtube.com/vi/gV3CWC0f380/0.jpg" alt="Download & Install Video" width="200" />
+</a>
+</kbd>
+
+
 
 
 
@@ -124,21 +126,14 @@ To download examples of the tool in use with sample data from this repository's 
 * Avoid inserting or cutting rows and cells unless explicitly indicated to do so (i.e.: "Test Run Log" worksheet).
 * The dark background cell areas are unused
 
+
 ### 3.2 First Open / Security Notice
 The first time you open a copy of the .xlsx file in a new folder, Microsoft Office security is going to render the file read-only to protect you.  The screenshot below shows the "Protected View" message (#1).  Go ahead and click the "Enable Editing" button (#2) to open the file for your use.  Also note that there is *no* VBA code behind this spreadsheet / lightweight "application", so we do not need to worry about enabling macros or code.
 <img src="img/img_03_warning_on_first_open.png" width="996">
 <br>
 
+
 ### 3.3 Setup "Project" Properties
-***Video #3 "Project Properties Tutorial"***<br>
-<kbd>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=9975DrM7cqE" target="_blank">
- <img src="http://img.youtube.com/vi/9975DrM7cqE/0.jpg" alt="Project Properties Video" width="200" />
-</a>
-</kbd>
-<br>
-
-
 Get started by opening the "my_test_case_manager.xlsm" file, then do the following actions where the numbers in the list below match to the numbered blue dots in the screenshot to the right.<br>
 <img align="right" src="img/img_02_enter_project_properties.png" width="524">
 1. Click the Properties tab, if not already opened<br>
@@ -146,6 +141,14 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 3. Then, type in the project or team name<br>
 4. Then, type in your name (or multiple analysts if appropriate)<br>
 ...and now your test project properties are setup.<br>
+
+
+***Video #3 "Project Properties Tutorial"***<br>
+<kbd>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9975DrM7cqE" target="_blank">
+ <img src="http://img.youtube.com/vi/9975DrM7cqE/0.jpg" alt="Project Properties Video" width="200" />
+</a>
+</kbd>
 <br>
 <br>
 

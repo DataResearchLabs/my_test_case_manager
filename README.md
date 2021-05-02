@@ -197,16 +197,16 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 
 
 ### 4.5 Available Status Values
+There are six possible status values available in the status dropdown show in the image on the left below.  Each status value has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>
+<img align="left" src="img/img_08_status_dropdown.png" width="58">
+<img src="img/img_07_status_values.png" width="792"><br>
+<br>
 ***Video #5 "Execute Test Cases Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=pVW02bJibps" target="_blank">
  <img src="http://img.youtube.com/vi/pVW02bJibps/0.jpg" alt="Execute Tests Video" width="200" />
 </a>
 </kbd>
-<br>
-There are six possible status values available in the status dropdown show in the image on the left below.  Each status value has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>
-<img align="left" src="img/img_08_status_dropdown.png" width="58">
-<img src="img/img_07_status_values.png" width="792"><br>
 <br>
 
 
@@ -217,14 +217,6 @@ To correct the validation erros (make them disappear), simply fill in all the bl
 
 
 ### 4.7 Current Test Results
-***Video #6 "Test Cycles Tutorial"***<br>
-<kbd>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=h-O4OGEQB1Y" target="_blank">
- <img src="http://img.youtube.com/vi/h-O4OGEQB1Y/0.jpg" alt="Test Cycles Video" width="200" />
-</a>
-</kbd>
-<br>
-
 The Test Cases worksheet is broken down into two sections:<br>
 1. Rows 1-16 are for "Test Results" - a nice summary of counts and test time in a table with a graph.<br>
 2. Rows 17-319 are for "Test Cases" - where all the details go.
@@ -232,6 +224,14 @@ The Test Cases worksheet is broken down into two sections:<br>
 <img align="right" src="img/img_11_test_case_results.png" width="383">
 These metrics automatically update as you write and execute test cases below.  They summarize all the results on this worksheet.  If you copy-paste the worksheet to make a second or third instance, then each will have their own self-contained Test Results section.<br>
 I like to screenshot this section for status emails sometimes, to give a pretty summary of where the current Test Run / Test Cycle is at.  This is especially nice for when you are partially thru a test run and can show not only the actual time completed ("B"locked + "F"ailed + "Q"pass + "P"ass), but also the expected remaining time ("T"odo) because in theory you have the prior execution times still in place from your last run...or you've entered the expected time to execute in.<br>
+<br>
+***Video #6 "Test Cycles Tutorial"***<br>
+<kbd>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=h-O4OGEQB1Y" target="_blank">
+ <img src="http://img.youtube.com/vi/h-O4OGEQB1Y/0.jpg" alt="Test Cycles Video" width="200" />
+</a>
+</kbd>
+<br>
 
 
 ### 4.8 Deleting Test Cases

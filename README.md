@@ -189,8 +189,8 @@ To watch the "How to Write Test Cases Tutorial" below, right-click it and select
 
 #### 4.5 Available Status Values
 To watch the "How to Execute Test Cases Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/pVW02bJibps">
-<img src="img/img_34_thumbnail_how_to_exec_tests.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=pVW02bJibps" target="_blank">
+ <img src="http://img.youtube.com/vi/pVW02bJibps/0.jpg" alt="Execute Tests Video" width="200" />
 </a>
 There are six possible status values available in the status dropdown show in the image on the left below.  Each status value has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>
 <img align="left" src="img/img_08_status_dropdown.png" width="58">
@@ -206,8 +206,8 @@ To correct the validation erros (make them disappear), simply fill in all the bl
 
 #### 4.7 Current Test Results
 To watch the "How to Track Test Cycles Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/h-O4OGEQB1Y">
-<img src="img/img_35_thumbnail_how_to_track_test_cyclesX.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=h-O4OGEQB1Y" target="_blank">
+ <img src="http://img.youtube.com/vi/h-O4OGEQB1Y/0.jpg" alt="Test Cycles Video" width="200" />
 </a>
 <br>
 

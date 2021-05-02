@@ -167,7 +167,7 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 <br>
 
 ### 4.3 Writing Your First Test Case
-***Video #4 Writing Test Case Tutorial"***<br>
+***Video #4 "Writing Test Case Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9OBddrShi5Y" target="_blank">
  <img src="http://img.youtube.com/vi/9OBddrShi5Y/0.jpg" alt="Writing First Test Video" width="200" />
@@ -199,7 +199,8 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=pVW02bJibps" target="_blank">
  <img src="http://img.youtube.com/vi/pVW02bJibps/0.jpg" alt="Execute Tests Video" width="200" />
 </a>
- </kbd>
+</kbd>
+<br>
 There are six possible status values available in the status dropdown show in the image on the left below.  Each status value has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>
 <img align="left" src="img/img_08_status_dropdown.png" width="58">
 <img src="img/img_07_status_values.png" width="792"><br>

@@ -173,7 +173,7 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 **1. Test Steps:** First, write in your test steps (callout #1 in screenshot below).  Click the cell, type in your test case details, using Alt+Enter to force new blank lines and make the row taller.  In the screenshot  below, an example multi-line test case is written out (notice the formatting).<br>
 **2. Status:** Next, callout #2 shows where to set the Status drop down.  Go ahead and set it to "T" for "ToDo" if you are not actually executing the test case right now.  If you are executing the test case as you write it, then pick "P" if it passes, "F" if it Fails, etc.<br>
 **3. Execution Time:** Finally, callout #3 shows where to set the execution time to the number of minutes it took you to write and/or execute this test case depending on what you want to track.  For me, I tend to write and execute the test cases exploratory style for the first test cycle / test run so I combine both times.  Then during regression on subsequent re-runs of the test, I know this Exec Time column value will be substantially less, but at least I accurately captured the initial write + execute time of test run #1 as well as the execution only time of test run #2.  Now that you know how to write one test case, you can write many.<br>
-<img src="img/img_06_write_first_test_case.png" width="831"><br>
+<img src="img/img_06_write_first_test_case.png" width="831">
 <br>
 
 
@@ -183,6 +183,7 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
  <img src="http://img.youtube.com/vi/9OBddrShi5Y/0.jpg" alt="Writing First Test Video" width="200" />
 </a>
 </kdb>
+<br>
 
 
 ### 4.4 Excel Formatting
@@ -199,8 +200,10 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 ### 4.5 Available Status Values
 There are six possible status values available in the status dropdown show in the image on the left below.  Each status value has conditional formatting applied to set it to an appropriate color.  In the sample screenshot below, each value is displayed with a brief description of how to use each.<br>
 <img align="left" src="img/img_08_status_dropdown.png" width="58">
-<img src="img/img_07_status_values.png" width="792"><br>
+<img src="img/img_07_status_values.png" width="792">
 <br>
+
+
 ***Video #5 "Execute Test Cases Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=pVW02bJibps" target="_blank">
@@ -224,7 +227,8 @@ The Test Cases worksheet is broken down into two sections:<br>
 <img align="right" src="img/img_11_test_case_results.png" width="383">
 These metrics automatically update as you write and execute test cases below.  They summarize all the results on this worksheet.  If you copy-paste the worksheet to make a second or third instance, then each will have their own self-contained Test Results section.<br>
 I like to screenshot this section for status emails sometimes, to give a pretty summary of where the current Test Run / Test Cycle is at.  This is especially nice for when you are partially thru a test run and can show not only the actual time completed ("B"locked + "F"ailed + "Q"pass + "P"ass), but also the expected remaining time ("T"odo) because in theory you have the prior execution times still in place from your last run...or you've entered the expected time to execute in.<br>
-<br>
+
+
 ***Video #6 "Test Cycles Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=h-O4OGEQB1Y" target="_blank">
@@ -247,7 +251,8 @@ The design of My Test Case Manager is lean and simple.  As such, only one test c
 This then raises the question, "How do I reset the test case status from Pass or Fail or Block or QPass back to Todo at the start of each new test cycle?"<br<br>
 The answer is to use Excel's "Find and Replace" feature (Ctrl+H) to replace cells having an exact match on case and the entire contents.<br>  
 IMPORTANT! The first step is to highlight column "D" which contains the Status dropdown column, that way you ONLY change values in there (and do not accidentally change the Test Results table codes in column H rows 4-10).  In the screenshot to the right, item #1 is the find what set to "P" with item 2 replace with set to a "T".  Note that you have to click the Options button (item 3) so that you can see and check item #4 Match case and item #5 Match entire cell contents.  Then click Replace All to reset the passes to ToDo's.  Repeat for "F" to "T", "B" to "T", and "Q" to "T".  Leave the i's alone as they are just informational.  I optionally change all the "P"asses to "Q"ualifiedPasses and leave the "F"ails and "B"locks as a reminder of prior cycle high priority cases.  Then I can pick and choose which "Q"pass cases to regress (flipping to "P"ass typically); and then focusing remaining limited time on the "F"s and "B"s.<br>
-<br>
+
+
 ***Video #7 "Bulk Status Reset Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=xmnUm4pRFJU" target="_blank">

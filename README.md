@@ -105,18 +105,17 @@ To download the "My Test Case Manager" tool (Excel spreadsheet) from this reposi
 
 ### 2.4 Sample MTCM XLSC Files
 To download examples of the tool in use with sample data from this repository's /samples folder, [click here for samples](https://github.com/DataResearchLabs/my_test_case_manager/tree/main/samples), then click the sample file you want, and finally click the download button.
+<br>
 
 
-### 2.5 Watch This Section as a Video
 ***Video #2 "Download & Install Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=gV3CWC0f380" target="_blank">
  <img src="http://img.youtube.com/vi/gV3CWC0f380/0.jpg" alt="Download & Install Video" width="200" />
 </a>
 </kbd>
-
-
-
+<br>
+<br>
 
 
 <a id="gettingStarted" class="anchor" href="#gettingStarted" aria-hidden="true"> </a>
@@ -141,6 +140,7 @@ Get started by opening the "my_test_case_manager.xlsm" file, then do the followi
 3. Then, type in the project or team name<br>
 4. Then, type in your name (or multiple analysts if appropriate)<br>
 ...and now your test project properties are setup.<br>
+<br>
 
 
 ***Video #3 "Project Properties Tutorial"***<br>
@@ -170,19 +170,19 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 <br>
 
 ### 4.3 Writing Your First Test Case
+**1. Test Steps:** First, write in your test steps (callout #1 in screenshot below).  Click the cell, type in your test case details, using Alt+Enter to force new blank lines and make the row taller.  In the screenshot  below, an example multi-line test case is written out (notice the formatting).<br>
+**2. Status:** Next, callout #2 shows where to set the Status drop down.  Go ahead and set it to "T" for "ToDo" if you are not actually executing the test case right now.  If you are executing the test case as you write it, then pick "P" if it passes, "F" if it Fails, etc.<br>
+**3. Execution Time:** Finally, callout #3 shows where to set the execution time to the number of minutes it took you to write and/or execute this test case depending on what you want to track.  For me, I tend to write and execute the test cases exploratory style for the first test cycle / test run so I combine both times.  Then during regression on subsequent re-runs of the test, I know this Exec Time column value will be substantially less, but at least I accurately captured the initial write + execute time of test run #1 as well as the execution only time of test run #2.  Now that you know how to write one test case, you can write many.<br>
+<img src="img/img_06_write_first_test_case.png" width="831"><br>
+<br>
+
+
 ***Video #4 "Writing Test Case Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=9OBddrShi5Y" target="_blank">
  <img src="http://img.youtube.com/vi/9OBddrShi5Y/0.jpg" alt="Writing First Test Video" width="200" />
 </a>
 </kdb>
-
-
-**1. Test Steps:** First, write in your test steps (callout #1 in screenshot below).  Click the cell, type in your test case details, using Alt+Enter to force new blank lines and make the row taller.  In the screenshot  below, an example multi-line test case is written out (notice the formatting).<br>
-**2. Status:** Next, callout #2 shows where to set the Status drop down.  Go ahead and set it to "T" for "ToDo" if you are not actually executing the test case right now.  If you are executing the test case as you write it, then pick "P" if it passes, "F" if it Fails, etc.<br>
-**3. Execution Time:** Finally, callout #3 shows where to set the execution time to the number of minutes it took you to write and/or execute this test case depending on what you want to track.  For me, I tend to write and execute the test cases exploratory style for the first test cycle / test run so I combine both times.  Then during regression on subsequent re-runs of the test, I know this Exec Time column value will be substantially less, but at least I accurately captured the initial write + execute time of test run #1 as well as the execution only time of test run #2.  Now that you know how to write one test case, you can write many.<br>
-<img src="img/img_06_write_first_test_case.png" width="831"><br>
-<br>
 
 
 ### 4.4 Excel Formatting

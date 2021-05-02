@@ -128,8 +128,8 @@ The first time you open a copy of the .xlsx file in a new folder, Microsoft Offi
 
 #### 3.3 Setup "Project" Properties
 To watch the "Project Properties Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/9975DrM7cqE">
-<img src="img/img_32_thumbnail_proj_propsX.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9975DrM7cqE" target="_blank">
+ <img src="http://img.youtube.com/vi/9975DrM7cqE/0.jpg" alt="Project Properties Video" width="200" />
 </a>
 <br>
 
@@ -163,8 +163,8 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 
 #### 4.3 Writing Your First Test Case
 To watch the "How to Write Test Cases Tutorial" below, right-click it and select "open link in new tab".<br>
-<a href="https://youtu.be/9OBddrShi5Y">
-<img src="img/img_33_thumbnail_how_to_write_tests.png">
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9OBddrShi5Y" target="_blank">
+ <img src="http://img.youtube.com/vi/9OBddrShi5Y/0.jpg" alt="Writing First Test Video" width="200" />
 </a>
 
 

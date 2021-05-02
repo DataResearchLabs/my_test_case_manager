@@ -184,6 +184,7 @@ Optionally, set the backcolor of all three cells in the row to your preferred se
 </a>
 </kdb>
 <br>
+<br>
 
 
 ### 4.4 Excel Formatting
@@ -211,6 +212,7 @@ There are six possible status values available in the status dropdown show in th
 </a>
 </kbd>
 <br>
+<br>
 
 
 ### 4.6 Validation Errors
@@ -227,6 +229,7 @@ The Test Cases worksheet is broken down into two sections:<br>
 <img align="right" src="img/img_11_test_case_results.png" width="383">
 These metrics automatically update as you write and execute test cases below.  They summarize all the results on this worksheet.  If you copy-paste the worksheet to make a second or third instance, then each will have their own self-contained Test Results section.<br>
 I like to screenshot this section for status emails sometimes, to give a pretty summary of where the current Test Run / Test Cycle is at.  This is especially nice for when you are partially thru a test run and can show not only the actual time completed ("B"locked + "F"ailed + "Q"pass + "P"ass), but also the expected remaining time ("T"odo) because in theory you have the prior execution times still in place from your last run...or you've entered the expected time to execute in.<br>
+<br>
 
 
 ***Video #6 "Test Cycles Tutorial"***<br>
@@ -235,6 +238,7 @@ I like to screenshot this section for status emails sometimes, to give a pretty 
  <img src="http://img.youtube.com/vi/h-O4OGEQB1Y/0.jpg" alt="Test Cycles Video" width="200" />
 </a>
 </kbd>
+<br>
 <br>
 
 
@@ -251,6 +255,7 @@ The design of My Test Case Manager is lean and simple.  As such, only one test c
 This then raises the question, "How do I reset the test case status from Pass or Fail or Block or QPass back to Todo at the start of each new test cycle?"<br<br>
 The answer is to use Excel's "Find and Replace" feature (Ctrl+H) to replace cells having an exact match on case and the entire contents.<br>  
 IMPORTANT! The first step is to highlight column "D" which contains the Status dropdown column, that way you ONLY change values in there (and do not accidentally change the Test Results table codes in column H rows 4-10).  In the screenshot to the right, item #1 is the find what set to "P" with item 2 replace with set to a "T".  Note that you have to click the Options button (item 3) so that you can see and check item #4 Match case and item #5 Match entire cell contents.  Then click Replace All to reset the passes to ToDo's.  Repeat for "F" to "T", "B" to "T", and "Q" to "T".  Leave the i's alone as they are just informational.  I optionally change all the "P"asses to "Q"ualifiedPasses and leave the "F"ails and "B"locks as a reminder of prior cycle high priority cases.  Then I can pick and choose which "Q"pass cases to regress (flipping to "P"ass typically); and then focusing remaining limited time on the "F"s and "B"s.<br>
+<br>
 
 
 ***Video #7 "Bulk Status Reset Tutorial"***<br>
@@ -319,6 +324,7 @@ By properly naming and organizing your test cycles, you can help educate your te
  <img src="http://img.youtube.com/vi/3prFTVsvGQo/0.jpg" alt="Report Interpretation Guide Video" width="200" />
 </a>
  </kbd>
+<br>
 <br>
 
 
@@ -437,6 +443,8 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 <img align="right" src="img/img_20_jump_stops.png" width="284">
 "Jump Stops" are just a name given for a usage trick.  In Excel, you can use the Ctrl+Up and Ctrl+Down keys to jump to the next cell up or down that has data.  Columns "A" and "F" are thin, always empty border spaces.  If you place single characters (like an "x") into important row along either column, then you could use Ctrl+Up and Ctrl+Down to quickly jump thru your 300-ish test cases.  I like to use the "▪" character to mark my jump points, but "x" or similar is fine too.  Tip: You can really have fun and use the Wingdings or Webdings fonts to come up with clever jump stops like a bomb icon for defects, or a skull and cross bones icon, etc.  I also like to put a mark at the first row (17) and the last row (319) so that I don't jump past them.   Then I use Column "A" for tagging section headers, so I can quickly jump to each section or block of test cases.  I use Column "F" for marking test cases that are either failing or blocked so I can quickly jump to the trouble spots.<br>
 <br>
+
+
 ***Video #9 "Jump Stops Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1wOlBL2LsDs" target="_blank">
@@ -451,6 +459,8 @@ The list below includes the "Tour Name" in bold followed by a dash and then a br
 <img align="right" src="img/img_21_sample_test_case_sql.png" width="539">
 If you have a test case that involves running a SQL command, then it is a good idea to embed the SQL statement right into the spreadsheet.  The example to the right depicts best practice where the test case details are on the upper row, and the SQL in a separate row below that.  Keeping the SQL separate and in its own row makes it really easy to click the cell, press Ctrl+C to copy the SQL command and then paste and run in your database management IDE.  If you were to place the SQL in the same test case cell as the description and repro text, then you'd have the disadvantage of having to click carefully into the cell and highlight just the SQL each time.  Also note that we don't want to double count the execution time so we set the lower SQL case to 0 minutes, and we don't want to double count the pass or fail so the SQL row is set to status = "i" for informational.  Optionally, the SQL text font color was set to blue (or whatever color you prefer to standout when working thru test cases).<br>
 <br>
+
+
 ***Video #10 "SQL & Images Tutorial"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=MA-BOUPk2oE" target="_blank">
@@ -538,12 +548,14 @@ If you like this tool, please visit and subscribe to my YouTube site at http://w
 * **Ver 4.x** - Over the next 10 years, I occasionally modified and used various incarnations of TCMLite for my day job.  In 2013, I used it fairly heavily for about a year at an insurance company to test software.  In 2019, I used it heavily for about two months to test on a project having lots of churn.  These version 4's were never publicly released anywhere.  I just chipped away at simplifying the implementation, keeping only the important high-use parts and discarding the rest.<br>
 * **Ver 5.x** - In early 2021, I started my third hobby site; this time not freeware focus but YouTube training focused.  DataResearchLabs.com is slowly growing and I'd like to run an experiment to test a hypothesis.  I believe I can generate more viewers by freshening up this old tool and re-releasing it to seed new viewers.  I've been using one version or another of it for 20+ years and it works pretty good.  Expanding and improving the documentation above and out on YouTube will help.  Another reason driving Version 5 is that I've recently switched jobs and will benefit from using this template (or the reporting parts of it) for UAT work.  Happy when hobby and work overlap.<br>
 <br>
-***Video #12 "Leaning Out History"***<br>
+
+
+***Video #11 "Leaning Out History"***<br>
 <kbd>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=uqlpZOOVbPA" target="_blank">
  <img src="http://img.youtube.com/vi/uqlpZOOVbPA/0.jpg" alt="MTCM History Video" width="200" />
 </a>
  </kbd>
 <br>
-
+<br>
           
